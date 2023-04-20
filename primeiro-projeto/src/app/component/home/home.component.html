@@ -1,0 +1,21 @@
+
+<section>
+  <!-- Laço de repetição para criar cada uma das notícias de forma dinâmica -->
+  <div class="itemNoticia" *ngFor=" let noticia of arrayDeNoticias ">
+    <span class="dataPublicacao">
+      {{ noticia.data }}
+    </span>
+    <div class="textos">
+      <h2>
+        {{ noticia.titulo }}
+      </h2>
+      <h6>
+        {{ noticia.categoria }}
+      </h6>
+      <a href="#">
+        {{ noticia.autor }}
+      </a>
+    </div>
+  </div>
+</section>
+ 

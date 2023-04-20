@@ -1,0 +1,26 @@
+<div class="banner">
+  <span class="dataPublicao">
+    {{ noticia.data }}
+  </span>
+  <h1>
+    {{ noticia.titulo }}
+  </h1>
+  <h5>
+    {{ noticia.categoria }}
+  </h5>
+  <a href="#">
+    {{ noticia.autor }}
+  </a>
+</div>
+<section>
+  <p>
+    {{ noticia.texto }}
+  </p>
+  <div>
+    <h2>Comentários</h2>
+    <!-- Laço de repetição para um elemento HTML -->
+    <p *ngFor=" let comentario of noticia.comentarios "> 
+      {{ comentario }}
+    </p>
+  </div>
+</section>
