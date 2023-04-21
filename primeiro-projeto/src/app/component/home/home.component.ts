@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { Noticia } from 'src/app/model/noticia';
+import { Noticia } from 'src/app/model/noticia'; // Importa o modelo de nóticia
+import { Router } from '@angular/router'; // Importa o modulo de rotas
 
 @Component({
   selector: 'app-home',
@@ -54,5 +55,7 @@ export class HomeComponent {
       ]
     }
   ]
+
+  constructor( private router: Router ){}
 
 }

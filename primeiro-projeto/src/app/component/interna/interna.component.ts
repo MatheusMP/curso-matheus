@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Noticia } from 'src/app/model/noticia';
+import { Router } from '@angular/router'; // Importa o modulo de rotas
 
 @Component({
   selector: 'app-interna',
@@ -28,5 +29,7 @@ export class InternaComponent {
       'Lorem'
     ]
   }
+
+  constructor( private router: Router ){}
 
 }
