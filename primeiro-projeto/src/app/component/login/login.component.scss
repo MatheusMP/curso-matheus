@@ -1,3 +1,49 @@
 p{
   color: white;
 }
+.conteudoLogin{
+  background-color: #3A3535;
+  width: 80%;
+  margin: 50px auto; // Margin de 150px em cima e em baixo e auto esquerda e direita
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0;
+  border-radius: 12px;
+
+}
+.conteudoLogin input{
+  width: calc( 90% - 60px ); // Compensa os 30px de padding de cada lado
+  margin: auto;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.conteudoLogin button{
+  width: 90%;
+  text-align: center;
+  background-color: #AD0202;
+  border: none;
+  border-radius: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 54px;
+  color: #FFFFFF;
+  padding: 15px;
+  cursor: pointer; // Altera o tipo de cursor em cima de um item
+}
+.conteudoLogin button:disabled{
+  background-color: grey;
+}
+.conteudoLogin input.erro{
+  background-color: darkred;
+}

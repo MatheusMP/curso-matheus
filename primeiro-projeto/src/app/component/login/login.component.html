@@ -1,7 +1,23 @@
-<div>
-  <input type="text" placeholder="username" [(ngModel)]="username" />
-  <input type="password" placeholder="password" [(ngModel)]="password" />
-  <button type="button" (click)="alertaBotao()">
+<div class="conteudoLogin">
+  <input type="text" placeholder="username" [(ngModel)]="username" [class]="checaUsername()" />
+  <input type="password" placeholder="password" [(ngModel)]="password" [class]="checaPassword()" />
+  <button type="button" (click)="alertaBotao()" [disabled]="habilitaBotao()">
     LOGIN
   </button>
+  <span class="textoErro" *ngIf="habilitaBotao()">
+    <!-- 
+      Username inválido
+      Password inválido
+    -->
+  </span>
 </div>
+<!-- [()] será usado somente no ngModel -->
+<!-- () será usado para eventos que chamam funções -->
+<!-- [] será usado para dinamizar propriedades html -->
+
+<!-- 
+  Mostrar qual campo esta inválido de maneira separada e não de maneira geral
+  Checar se o username tem mais de 3 caracteres e menos de 16 caracteres
+  Checar se o password tem mais de 4 caracteres
+  Habilitar o botão somente quando as condições dos campos estiverem corretas
+ -->
