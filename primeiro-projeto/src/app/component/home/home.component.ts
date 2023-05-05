@@ -1,61 +1,31 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Noticia } from 'src/app/model/noticia'; // Importa o modelo de nóticia
 import { Router } from '@angular/router'; // Importa o modulo de rotas
+import { NoticiaService } from 'src/app/service/noticia.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
 
-  arrayDeNoticias: Noticia[] = [
-    {
-      titulo: 'Santos estreia com derrota',
-      categoria: 'Futebol',
-      autor: 'Matheus',
-      data: '17/04/2023',
-      texto: 'oin0iunf ioausfhb aoifuah sfiuhas fiausfhaoifubaoisfub asfoiuab foiuab faiubsfioasubf',
-      comentarios: [
-        'Lorem',
-        'Lorem'
-      ]
-    },
-    {
-      titulo: 'São Paulo estreia com derrota',
-      categoria: 'Futebol',
-      autor: 'Matheus',
-      data: '17/04/2023',
-      texto: 'oin0iunf ioausfhb aoifuah sfiuhas fiausfhaoifubaoisfub asfoiuab foiuab faiubsfioasubf',
-      comentarios: [
-        'Lorem',
-        'Lorem'
-      ]
-    },
-    {
-      titulo: 'Cruzeiro estreia com derrota',
-      categoria: 'Futebol',
-      autor: 'Matheus',
-      data: '17/04/2023',
-      texto: 'oin0iunf ioausfhb aoifuah sfiuhas fiausfhaoifubaoisfub asfoiuab foiuab faiubsfioasubf',
-      comentarios: [
-        'Lorem',
-        'Lorem'
-      ]
-    },
-    {
-      titulo: 'Atlético estreia com derrota',
-      categoria: 'Futebol',
-      autor: 'Matheus',
-      data: '17/04/2023',
-      texto: 'oin0iunf ioausfhb aoifuah sfiuhas fiausfhaoifubaoisfub asfoiuab foiuab faiubsfioasubf',
-      comentarios: [
-        'Lorem',
-        'Lorem'
-      ]
-    }
-  ]
+  arrayDeNoticias: Noticia[] = []
 
-  constructor( private router: Router ){}
+  constructor( 
+    private router: Router,
+    private apiNoticia: NoticiaService
+  ){}
+
+  // Função que roda quando a página é iniciada
+  ngOnInit(): void {
+    this.chamaTodasNoticias()
+  }
+  
+  chamaTodasNoticias(): void{
+    this.apiNoticia.getTodasNoticias().subscribe( (info) => {
+      this.arrayDeNoticias = info
+    })
+  }
 
 }

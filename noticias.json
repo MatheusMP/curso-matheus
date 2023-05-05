@@ -1,0 +1,28 @@
+{
+  "noticias": [
+    {
+      "titulo": "Palmeiras estreia com derrota",
+      "categoria": "Futebol",
+      "autor": "Matheus",
+      "data": "17/04/2023",
+      "texto": "oin0iunf ioausfhb aoifuah sfiuhas fiausfhaoifubaoisfub asfoiuab foiuab faiubsfioasubf",
+      "comentarios": [
+        "Lorem",
+        "Lorem"
+      ],
+      "id": 1
+    },
+    {
+      "titulo": "São Paulo estreia com derrota",
+      "categoria": "Futebol",
+      "autor": "Matheus",
+      "data": "18/04/2023",
+      "texto": "oin0iunf ioausfhb aoifuah sfiuhas fiausfhaoifubaoisfub asfoiuab foiuab faiubsfioasubf",
+      "comentarios": [
+        "Lorem",
+        "Lorem"
+      ],
+      "id": 2
+    }
+  ]
+}
