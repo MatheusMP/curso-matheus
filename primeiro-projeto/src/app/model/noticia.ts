@@ -4,5 +4,6 @@ export interface Noticia {
   autor: string,
   data: string,
   texto: string,
-  comentarios: string[]
+  comentarios: string[],
+  id: number
 }

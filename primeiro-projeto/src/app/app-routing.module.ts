@@ -8,7 +8,7 @@ import { LoginComponent } from './component/login/login.component';
 const routes: Routes = [
   // Configura cada roda de componente
   { path: '', component: HomeComponent },
-  { path: 'interna', component: InternaComponent },
+  { path: 'interna/:id', component: InternaComponent },
   { path: 'login', component: LoginComponent }
 ];
 

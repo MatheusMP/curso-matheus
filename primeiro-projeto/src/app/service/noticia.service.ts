@@ -18,4 +18,8 @@ export class NoticiaService {
     return this.http.get<Noticia[]>(this.baseDaApi + 'noticias') // http://localhost:3000/noticias
   }
 
+  getNoticiaPeloId( id:number ): Observable<Noticia>{
+    return this.http.get<Noticia>(this.baseDaApi + 'noticias/' + id) // http://localhost:3000/noticias/1
+  }
+
 }

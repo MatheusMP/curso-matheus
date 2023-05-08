@@ -1,7 +1,7 @@
 
 <section>
   <!-- Laço de repetição para criar cada uma das notícias de forma dinâmica -->
-  <div class="itemNoticia" *ngFor=" let noticia of arrayDeNoticias " routerLink="/interna">
+  <div class="itemNoticia" *ngFor=" let noticia of arrayDeNoticias " routerLink="/interna/{{ noticia.id }}">
     <span class="dataPublicacao">
       {{ noticia.data }}
     </span>
