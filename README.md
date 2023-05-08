@@ -7,5 +7,7 @@ Comandos do angular
  - ng generate service CAMINHO/NOME | cria um novo arquivo de serviço no caminho informado
 
 **CRTL+C FAZ PARAR DE RODAR O ANGULAR**
+
+json-server --w receitas.json
  
 ---------------
