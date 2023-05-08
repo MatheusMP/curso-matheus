@@ -1,0 +1,16 @@
+Desafio Angular
+
+Link Figma - https://www.figma.com/file/ojupW08sRAaVPeBrPVEZGA/Proj-Culin%C3%A1ria?node-id=0%3A1&t=JZ7hotRhUpfHXxLn-1
+
+HOME
+  Mostrar somente as receitas marcadas como Destaque
+  Botão “Ver mais receitas” ir para página Interna mostrando todas as receitas
+  Categorias serem geradas automaticamente pela API
+  Ao clicar em uma categoria ir para a página Interna mostrando as receitas daquela categoria clicada
+INTERNA
+  Por padrão, carregar todas as receitas em ordem alfabética
+  Caso o usuário chegou na página ao clicar em uma categoria na Home, carregar receitas da categoria clicada
+  Filtro de dificuldade da receita mostrar receitas somente da Dificuldade selecionada
+DETALHES RECEITA
+  Carregar a receita clicada pelo usuário nas outras páginas
+  Mostrar até 3 receitas aleatórias da mesma categoria da receita selecionada ( Math.random )
