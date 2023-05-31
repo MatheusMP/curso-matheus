@@ -1,0 +1,101 @@
+<section class="sectionPrincipal">
+
+  <div class="conteudo">
+    <div class="informacoes">
+      <img src="/assets/moqueca_de_peixe.webp" alt="">
+      <div class="textos">
+        <h1>
+          {{ receitaSelecionada.titulo }}
+        </h1>
+        <p>
+          {{ receitaSelecionada.resumo }}
+        </p>
+        <div class="numeros">
+          <div class="rendimento">
+            Rendimento:
+            <br />
+            {{ receitaSelecionada.rendimento }} Porção
+          </div>
+          <div class="preparo">
+            Preparo:
+            <br />
+            {{ receitaSelecionada.tempoPreparo }} MIN
+          </div>
+          <div class="dificuldade">
+            Dificuldade:
+            <br />
+            <ng-container *ngIf="receitaSelecionada.dificuldade == 1">
+              Fácil
+            </ng-container>
+            <ng-container *ngIf="receitaSelecionada.dificuldade == 2">
+              Médio
+            </ng-container>
+            <ng-container *ngIf="receitaSelecionada.dificuldade == 3">
+              Difícil
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ingredientes">
+      <h3>
+        Ingredientes
+      </h3>
+      <div class="container">
+        <span *ngFor="let ingrediente of receitaSelecionada.ingredientes">
+          {{ ingrediente.quantidade }} {{ ingrediente.ingrediente }}
+        </span>
+        <!-- <span>
+          1 Lorem ipsum
+        </span>
+        <span>
+          1 Lorem ipsum
+        </span>
+        <span>
+          1 Lorem ipsum
+        </span>
+        <span>
+          1 Lorem ipsum
+        </span>
+        <span>
+          1 Lorem ipsum
+        </span>
+        <span>
+          1 Lorem ipsum
+        </span> -->
+      </div>
+    </div>
+    <div class="preparo">
+      <h3>
+        Modo de Preparo
+      </h3>
+      <div class="container">
+        <div class="passo" *ngFor="let passo of receitaSelecionada.modoPreparo">
+          <b>{{ passo.passo }}</b> {{ passo.texto }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="receitasDireita">
+    <div class="receita">
+      <img src="/assets/macarrao_com_ovo.webp" alt="">
+      <span>
+        Macarrão com ovo
+      </span>
+    </div>
+    <div class="receita">
+      <img src="/assets/macarrao_com_ovo.webp" alt="">
+      <span>
+        Macarrão com ovo
+      </span>
+    </div>
+    <div class="receita">
+      <img src="/assets/macarrao_com_ovo.webp" alt="">
+      <span>
+        Macarrão com ovo
+      </span>
+    </div>
+  </div>
+
+</section>

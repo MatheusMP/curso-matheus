@@ -21,7 +21,8 @@
   <!-- Caixa do Angular -->
   <!-- Onde fazemos condições ou funções angular, como *ngFor ou *ngIf -->
   <ng-container *ngFor="let receita of arrayDeReceitas">
-    <div class="itemReceita" *ngIf="dificuldadeSelecionada === 0 || receita.dificuldade === dificuldadeSelecionada">
+    <div class="itemReceita" *ngIf="dificuldadeSelecionada === 0 || receita.dificuldade === dificuldadeSelecionada"
+    routerLink="/detalhes/{{receita.id}}">
       <img [src]="receita.imagem" alt="">
       <span>
         {{ receita.titulo }}

@@ -9,19 +9,19 @@ import { Categoria } from '../model/categoria';
 })
 export class ReceitaService {
 
-  constructor( private http: HttpClient ) { }
+  constructor(private http: HttpClient) { }
 
   apiUrl: string = 'http://localhost:3000/';
 
-  getAllReceitas(): Observable<Receita[]>{
+  getAllReceitas(): Observable<Receita[]> {
     return this.http.get<Receita[]>(this.apiUrl + 'receitas')
   }
 
-  getReceitaById(id: string): Observable<Receita>{
+  getReceitaById(id: string): Observable<Receita> {
     return this.http.get<Receita>(this.apiUrl + 'receitas/' + id)
   }
 
-  getAllCategorias(): Observable<Categoria[]>{
+  getAllCategorias(): Observable<Categoria[]> {
     return this.http.get<Categoria[]>(this.apiUrl + 'categorias')
   }
 
