@@ -1,0 +1,17 @@
+.conteudoPrincipal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-height: 100vh; // vh = viewport height = altura do dispositivo
+  height: 100vh;
+}
+.conteudoPrincipal .sideNav{
+  width: 200px;
+  height: 100%;
+  position: fixed;
+}
+.conteudoPrincipal .componente{
+  width: calc(100% - 200px);
+  padding: 10px;
+  margin-left: 200px;
+}
