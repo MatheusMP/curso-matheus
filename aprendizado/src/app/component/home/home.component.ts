@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Produto } from 'src/app/model/produto';
+import { ProdutosService } from 'src/app/service/produtos.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  produtos: Produto[] = [];
+  // mousepad: Produto = new Produto
+
+  constructor(
+    private apiProduto: ProdutosService
+  ) { }
 
   ngOnInit(): void {
+    this.pegaProdutos()
+  }
+
+  pegaProdutos(): void{
+    this.apiProduto.getTodosProdutos().subscribe( (respApi) => {
+      this.produtos = respApi
+    })
   }
 
 }

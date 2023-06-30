@@ -1,1 +1,38 @@
-<p>home works!</p>
+<!-- 
+  CRUD
+
+  C = Create - Criar - POST
+  R = Read - Ler - GET
+  U = Update - Atualizar - PUT
+  D = Delete - Remover - DELETE
+
+-->
+
+<h1>
+  Tabela de Produtos
+</h1>
+
+<table>
+  <tr>
+    <th>
+      Produto
+    </th>
+    <th>
+      Preço
+    </th>
+    <th>
+      Estoque
+    </th>
+  </tr>
+  <tr *ngFor="let prod of produtos">
+    <td>
+      {{ prod.nomeProduto }}
+    </td>
+    <td>
+      {{ prod.precoProduto }}
+    </td>
+    <td>
+      {{ prod.estoqueProduto }}
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,22 @@
+{
+  "produtos": [
+    {
+      "nomeProduto": "Mouse",
+      "precoProduto": 200,
+      "estoqueProduto": 4000,
+      "id": 1
+    },
+    {
+      "nomeProduto": "Teclado",
+      "precoProduto": 300,
+      "estoqueProduto": 3000,
+      "id": 2
+    },
+    {
+      "nomeProduto": "Mousepad",
+      "precoProduto": 150,
+      "estoqueProduto": 2000,
+      "id": 3
+    }
+  ]
+}
