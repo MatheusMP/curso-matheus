@@ -23,6 +23,8 @@
     <th>
       Estoque
     </th>
+    <th style="width: 100px;"></th>
+    <th style="width: 100px;"></th>
   </tr>
   <tr *ngFor="let prod of produtos">
     <td>
@@ -34,5 +36,48 @@
     <td>
       {{ prod.estoqueProduto }}
     </td>
+    <td>
+      <button type="button">
+        Editar
+      </button>
+    </td>
+    <td>
+      <button type="button" (click)="deletarProduto( prod.id )">
+        Deletar
+      </button>
+    </td>
   </tr>
 </table>
+
+<button type="button" (click)="abreModal()">
+  Criar Produto
+</button>
+
+<div class="modal"  *ngIf="modalAberto">
+
+  <div class="modal-content">
+    <span class="close" (click)="fechaModal()">&times;</span>
+
+    <form [formGroup]="formularioProduto">
+
+      <div>
+        <input type="text" formControlName="nome" placeholder="Nome do Produto">
+      </div>
+
+      <div>
+        <input type="number" formControlName="preco" placeholder="Preço do Produto">
+      </div>
+
+      <div>
+        <input type="number" formControlName="estoque" placeholder="Estoque do Produto">
+      </div>
+
+      <button type="button" [disabled]="formularioProduto.status === 'INVALID'">
+        Criar Produto
+      </button>
+
+    </form>
+
+  </div>
+
+</div>

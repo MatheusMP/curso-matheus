@@ -18,4 +18,8 @@ export class ProdutosService {
     return this.http.get<Produto[]>(`${this.urlDaApi}/produtos`) // http://localhost:3000/produtos
   }
 
+  deleteProduto( idDoProduto: number ): Observable<Produto>{
+    return this.http.delete<Produto>(`${this.urlDaApi}/produtos/${idDoProduto}`) // http://localhost:3000/produtos/ID-DO-PRODUTO
+  }
+
 }

@@ -4,6 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 // MODULO DE API
 import { HttpClientModule } from '@angular/common/http';
 
+// MODULE DO FORMS
+import { ReactiveFormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
@@ -18,7 +21,8 @@ import { SidenavComponent } from './shared/sidenav/sidenav.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
