@@ -11,12 +11,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { SidenavComponent } from './shared/sidenav/sidenav.component';
+import { DepartamentoComponent } from './component/departamento/departamento.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SidenavComponent
+    SidenavComponent,
+    DepartamentoComponent
   ],
   imports: [
     BrowserModule,

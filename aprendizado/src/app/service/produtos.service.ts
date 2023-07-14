@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Produto } from '../model/produto';
+import { Departamento } from '../model/departamento';
 
 @Injectable({
   providedIn: 'root'
@@ -33,6 +34,10 @@ export class ProdutosService {
   putEditaProduto( produtoAlterado: Produto ): Observable<Produto>{
     // Precisa do Id do produto e o objeto do produto alterado
     return this.http.put<Produto>(`${this.urlDaApi}/produtos/${produtoAlterado.id}`, produtoAlterado)
+  }
+
+  getTodosDepartamentos(): Observable<Departamento[]>{
+    return this.http.get<Departamento[]>(`${this.urlDaApi}/departamentos`) // http://localhost:3000/departamentos
   }
 
 }

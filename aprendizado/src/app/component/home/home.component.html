@@ -79,6 +79,14 @@
         <input type="number" formControlName="estoque" placeholder="Estoque do Produto">
       </div>
 
+      <div>
+        <select formControlName="departamento">
+          <option *ngFor="let dpto of departamentos" value="{{dpto.id}}">
+            {{ dpto.departamento }}
+          </option>
+        </select>
+      </div>
+
       <button type="button" [disabled]="formularioProduto.status === 'INVALID'" (click)="finalizarFormulario()">
         <!-- Se edicaoProduto for true aparece Editar e se for falso aparece Criar -->
         {{ ( (edicaoProduto == true) ? 'Editar' : 'Criar' ) }} Produto

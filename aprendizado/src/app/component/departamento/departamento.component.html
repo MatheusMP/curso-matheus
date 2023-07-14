@@ -1,0 +1,49 @@
+<h1>
+  Tabela de Departamentos
+</h1>
+
+<table>
+  <tr>
+    <th>
+      ID
+    </th>
+    <th>
+      Nome do Departamento
+    </th>
+    <th style="width: 100px;"></th>
+    <th style="width: 100px;"></th>
+  </tr>
+  <tr *ngFor="let dpto of departamentos">
+    <td>
+      {{ dpto.id }}
+    </td>
+    <td>
+      {{ dpto.departamento }}
+    </td>
+    <td>
+      <button type="button">
+        Editar
+      </button>
+    </td>
+    <td>
+      <button type="button">
+        Deletar
+      </button>
+    </td>
+  </tr>
+</table>
+
+<button type="button" (click)="abreModal()">
+  Criar Produto
+</button>
+
+<div class="modal"  *ngIf="modalAberto">
+
+  <div class="modal-content">
+    <span class="close" (click)="fechaModal()">&times;</span>
+
+    
+
+  </div>
+
+</div>

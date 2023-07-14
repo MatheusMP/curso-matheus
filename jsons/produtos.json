@@ -4,19 +4,39 @@
       "nomeProduto": "Mouse",
       "precoProduto": 200,
       "estoqueProduto": 4000,
+      "departamento": 1,
       "id": 1
     },
     {
       "nomeProduto": "Teclado",
       "precoProduto": 300,
       "estoqueProduto": 3000,
+      "departamento": 1,
       "id": 2
     },
     {
       "nomeProduto": "Mousepad",
       "precoProduto": 150,
       "estoqueProduto": 2000,
+      "departamento": 1,
       "id": 3
+    },
+    {
+      "nomeProduto": "LG 22`Wide",
+      "precoProduto": 1900,
+      "estoqueProduto": 1000,
+      "id": 4,
+      "departamento": 2
+    }
+  ],
+  "departamentos": [
+    {
+      "id": 1,
+      "departamento": "Periféricos"
+    },
+    {
+      "id": 2,
+      "departamento": "Monitores"
     }
   ]
 }

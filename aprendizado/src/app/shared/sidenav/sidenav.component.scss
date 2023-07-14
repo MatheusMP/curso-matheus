@@ -22,3 +22,7 @@ ul li{
   cursor: pointer;
   margin-bottom: 15px;
 }
+
+ul li.ativo{
+  background-color: rgb(255, 104, 104);
+}

@@ -1,10 +1,10 @@
 <nav>
   <ul>
-    <li>
-      Exemplo 1
+    <li routerLink="/" [ngClass]="{ 'ativo': (router.url == '/') }">
+      CRUD - Produtos
     </li>
-    <li>
-      Exemplo 2
+    <li routerLink="/departamento" [ngClass]="{ 'ativo': (router.url == '/departamento') }">
+      CRUD - Departamentos
     </li>
   </ul>
 </nav>

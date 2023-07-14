@@ -3,6 +3,7 @@ import { Produto } from 'src/app/model/produto';
 import { ProdutosService } from 'src/app/service/produtos.service';
 // IMPORTS DE FORMULARIO
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Departamento } from 'src/app/model/departamento';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ export class HomeComponent implements OnInit {
   formularioProduto: FormGroup;
   edicaoProduto: boolean = false;
   idDaEdicao: number = 0;
+  departamentos: Departamento[] = []
 
   constructor(
     private apiProduto: ProdutosService
@@ -23,7 +25,8 @@ export class HomeComponent implements OnInit {
     this.formularioProduto = new FormGroup({
       nome: new FormControl('', [Validators.required, Validators.minLength(10)]),
       preco: new FormControl('', [Validators.required, Validators.min(100)]),
-      estoque: new FormControl('', [Validators.required, Validators.min(1000)])
+      estoque: new FormControl('', [Validators.required, Validators.min(1000)]),
+      departamento: new FormControl('', [Validators.required])
     })
   }
 
@@ -58,6 +61,9 @@ export class HomeComponent implements OnInit {
     this.apiProduto.getTodosProdutos().subscribe((respApi) => {
       this.produtos = respApi
     })
+    this.apiProduto.getTodosDepartamentos().subscribe((respApi) => {
+      this.departamentos = respApi
+    })
   }
 
   deletarProduto(id: number): void {
@@ -72,6 +78,7 @@ export class HomeComponent implements OnInit {
     produtoParaEnviar.nomeProduto = this.formularioProduto.value.nome
     produtoParaEnviar.precoProduto = this.formularioProduto.value.preco
     produtoParaEnviar.estoqueProduto = this.formularioProduto.value.estoque
+    produtoParaEnviar.departamento = Number(this.formularioProduto.value.departamento)
     if( this.edicaoProduto == true ){
       // Vai entrar aqui quando for a edição de um produto
       produtoParaEnviar.id = this.idDaEdicao
