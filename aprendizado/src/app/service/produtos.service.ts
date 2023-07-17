@@ -40,4 +40,8 @@ export class ProdutosService {
     return this.http.get<Departamento[]>(`${this.urlDaApi}/departamentos`) // http://localhost:3000/departamentos
   }
 
+  postCriarNovoDepartamento( dptoNovo: Departamento ): Observable<Departamento>{
+    return this.http.post<Departamento>(`${this.urlDaApi}/departamentos`, dptoNovo)
+  }
+
 }

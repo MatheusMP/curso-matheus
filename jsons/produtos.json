@@ -1,18 +1,18 @@
 {
   "produtos": [
     {
-      "nomeProduto": "Mouse",
+      "nomeProduto": "Mouse Logitech",
       "precoProduto": 200,
       "estoqueProduto": 4000,
-      "departamento": 1,
-      "id": 1
+      "id": 1,
+      "departamento": 3
     },
     {
-      "nomeProduto": "Teclado",
+      "nomeProduto": "Teclado Razer",
       "precoProduto": 300,
       "estoqueProduto": 3000,
-      "departamento": 1,
-      "id": 2
+      "id": 2,
+      "departamento": 4
     },
     {
       "nomeProduto": "Mousepad",
@@ -22,7 +22,7 @@
       "id": 3
     },
     {
-      "nomeProduto": "LG 22`Wide",
+      "nomeProduto": "LG 23`Wide",
       "precoProduto": 1900,
       "estoqueProduto": 1000,
       "id": 4,
@@ -37,6 +37,14 @@
     {
       "id": 2,
       "departamento": "Monitores"
+    },
+    {
+      "id": 3,
+      "departamento": "Mouse"
+    },
+    {
+      "id": 4,
+      "departamento": "Teclado"
     }
   ]
 }

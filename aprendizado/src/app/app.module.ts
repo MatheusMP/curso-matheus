@@ -12,13 +12,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { SidenavComponent } from './shared/sidenav/sidenav.component';
 import { DepartamentoComponent } from './component/departamento/departamento.component';
+import { PostComponent } from './component/blog/post/post.component';
+import { BlogComponent } from './component/blog/blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SidenavComponent,
-    DepartamentoComponent
+    DepartamentoComponent,
+    PostComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

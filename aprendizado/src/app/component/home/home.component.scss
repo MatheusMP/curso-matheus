@@ -55,7 +55,8 @@ tr:nth-child(even) {
   margin-bottom: 15px;
 }
 
-.modal input {
+.modal input,
+.modal select {
   border: 1px solid black;
   border-radius: 12px;
   padding: 6px 12px;

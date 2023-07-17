@@ -51,6 +51,7 @@ export class HomeComponent implements OnInit {
       this.formularioProduto.controls['nome'].setValue(respApi.nomeProduto)
       this.formularioProduto.controls['preco'].setValue(respApi.precoProduto)
       this.formularioProduto.controls['estoque'].setValue(respApi.estoqueProduto)
+      this.formularioProduto.controls['departamento'].setValue(String(respApi.departamento))
       this.idDaEdicao = idDoProduto
       this.edicaoProduto = true
       this.modalAberto = true

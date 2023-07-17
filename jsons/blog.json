@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "titulo": "Lorem ipsum",
+      "data": "2023-05-10T19:04:35.686Z",
+      "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in mi id nisl porttitor faucibus quis vitae velit. Donec nunc ligula, malesuada ac est at, molestie tempus turpis. Pellentesque mollis nulla eget risus varius, sit amet dignissim nibh tempus. Praesent consequat dui eget quam aliquam maximus. Nunc ultricies tellus eu sem cursus dapibus. Suspendisse mattis maximus mattis. Integer feugiat ipsum laoreet, porttitor ante ut, hendrerit eros. Aliquam at nulla elementum risus lacinia interdum. Nam non nulla eu diam euismod euismod sed vitae diam. Suspendisse varius ultrices turpis id tempor. Proin.",
+      "imagem": "https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg",
+      "autorId": 1,
+      "comentarios": [
+        {
+          "texto": "lorem ipsum dolor",
+          "autor": 2,
+          "curtidas": [
+            1,
+            2
+          ],
+          "data": "2023-05-10T19:04:35.686Z",
+          "id": 1
+        },
+        {
+          "texto": "123456789v 12334556789 123345",
+          "autor": 2,
+          "curtidas": [
+            2,
+            3
+          ],
+          "data": "2023-05-18T17:21:21.849Z",
+          "id": 2
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "usuarios": [
+    {
+      "username": "Matheus",
+      "pfp": "https://w7.pngwing.com/pngs/182/4/png-transparent-fire-emblem-awakening-fire-emblem-fates-decal-brand-brandsoftheworld-emblem-dragon-logo.png",
+      "resumo": "Lorem ipsum dolor sit amet",
+      "postagens": [1],
+      "id": 1,
+      "login": "matheus",
+      "senha": "123"
+    },
+    {
+      "username": "Pinheiro",
+      "pfp": "https://art.ngfiles.com/images/812000/812916_ico-non_icon-fire-emblem-heroes.png?f1549498076",
+      "resumo": "Lorem ipsum dolor sit amet",
+      "postagens": [],
+      "id": 2,
+      "login": "pinheiro",
+      "senha": "123"
+    },
+    {
+      "username": "Martins",
+      "pfp": "https://cdn-icons-png.flaticon.com/512/5987/5987462.png",
+      "resumo": "Lorem ipsum dolor sit amet",
+      "postagens": [],
+      "id": 3,
+      "login": "martins",
+      "senha": "123"
+    }
+  ]
+}
