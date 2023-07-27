@@ -1,0 +1,26 @@
+.contPost{
+
+  margin-top: 40px;
+  position: relative;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  h3{
+    font-size: 30px;
+  }
+
+  h6{
+    font-size: 18px;
+  }
+
+  span{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+}

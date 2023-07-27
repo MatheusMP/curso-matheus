@@ -8,7 +8,7 @@ export class Usuario {
   public login: String
   public senha: String
 
-  constructor(){
+  constructor() {
     this.username = ''
     this.pfp = ''
     this.resumo = ''

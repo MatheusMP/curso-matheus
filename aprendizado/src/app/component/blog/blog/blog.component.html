@@ -1,1 +1,17 @@
-<p>blog works!</p>
+<section>
+
+  <h1>Blog</h1>
+
+  <div class="contPost" *ngFor="let post of posts" routerLink="/blog/post/{{ post.id }}">
+    <h3>
+      {{ post.titulo }}
+    </h3>
+    <h6>
+      {{ converteUsuario( post.autorId ) }}
+    </h6>
+    <span>
+      {{ converteData(post.data) }}
+    </span>
+  </div>
+
+</section>
