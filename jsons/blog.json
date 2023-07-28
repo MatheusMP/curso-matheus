@@ -19,7 +19,7 @@
         },
         {
           "texto": "123456789v 12334556789 123345",
-          "autor": 2,
+          "autor": 3,
           "curtidas": [
             2,
             3
@@ -61,7 +61,7 @@
     },
     {
       "username": "Martins",
-      "pfp": "https://cdn-icons-png.flaticon.com/512/5987/5987462.png",
+      "pfp": "/assets/imagensBlog/pfp.png",
       "resumo": "Lorem ipsum dolor sit amet",
       "postagens": [],
       "id": 3,

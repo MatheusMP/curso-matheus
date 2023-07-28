@@ -34,4 +34,22 @@ export class PostComponent implements OnInit {
     })
   }
 
+  converteUsuario( id:number ): String{
+    for( let user of this.autores ){
+      if( user.id == id){
+        return user.username
+      }
+    }
+    return ''
+  }
+
+  converteUsuarioPfp( id:number ): String{
+    for( let user of this.autores ){
+      if( user.id == id){
+        return user.pfp
+      }
+    }
+    return ''
+  }
+
 }

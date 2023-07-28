@@ -1,0 +1,39 @@
+<section>
+
+  <h1>
+    Criar novo post
+  </h1>
+
+  <form [formGroup]="formPost">
+    
+      <div class="contInput">
+        <label>
+          Título
+        </label>
+        <input type="text" formControlName="titulo"
+        [ngClass]="{ 'invalid': (formPost.controls['titulo'].status == 'INVALID' && formPost.controls['titulo'].touched) }">
+      </div>
+    
+      <div class="contInput">
+        <label>
+          Texto do post
+        </label>
+        <input type="text">
+      </div>
+    
+      <div class="contInput">
+        <label>
+          URL da imagem
+        </label>
+        <input type="text">
+      </div>
+    
+      <hr style="margin: 20px 0;">
+    
+      <button>
+        Adicionar POST
+      </button>
+
+  </form>
+
+</section>

@@ -18,5 +18,21 @@
   <h3>
     Comentários
   </h3>
+  <div class="contComents">
+    <div class="itemComentario" *ngFor="let coment of postAtual.comentarios">
+      <div class="contInfosUser">
+        <img [src]="converteUsuarioPfp(coment.autor)">
+        <h6>
+          {{ converteUsuario(coment.autor) }}
+        </h6>
+      </div>
+      <p>
+        {{ coment.texto }}
+      </p>
+      <button type="button" class="btnCurtida">
+        sz
+      </button>
+    </div>
+  </div>
 
 </section>

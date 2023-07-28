@@ -1,0 +1,15 @@
+.contInput{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  input,
+  textarea{
+    width: 100%;
+    outline: none;
+  }
+  input.invalid,
+  textarea.invalid{
+    border: 1px solid red;
+  }
+}
