@@ -12,25 +12,32 @@
         </label>
         <input type="text" formControlName="titulo"
         [ngClass]="{ 'invalid': (formPost.controls['titulo'].status == 'INVALID' && formPost.controls['titulo'].touched) }">
+        <p *ngIf="formPost.controls['titulo'].status == 'INVALID' && formPost.controls['titulo'].touched">
+          Campo inválido
+        </p>
       </div>
     
-      <div class="contInput">
+      <div class="contInput"
+      [ngClass]="{ 'invalid': (formPost.controls['texto'].status == 'INVALID' && formPost.controls['texto'].touched) }">
         <label>
           Texto do post
         </label>
-        <input type="text">
+        <input type="text" formControlName="texto">
+        <span>Campo inválido</span>
       </div>
     
-      <div class="contInput">
+      <div class="contInput"
+      [ngClass]="{ 'invalid': (formPost.controls['imagem'].status == 'INVALID' && formPost.controls['imagem'].touched) }">
         <label>
           URL da imagem
         </label>
-        <input type="text">
+        <input type="text" formControlName="imagem">
+        <span>Campo inválido</span>
       </div>
     
       <hr style="margin: 20px 0;">
     
-      <button [disabled]="true">
+      <button [disabled]="formPost.status === 'INVALID'" (click)="criarPost()">
         Adicionar POST
       </button>
 

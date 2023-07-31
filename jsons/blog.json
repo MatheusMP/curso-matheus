@@ -38,6 +38,24 @@
       "autorId": 1,
       "comentarios": [],
       "id": 2
+    },
+    {
+      "titulo": "Teste 31 do 07",
+      "data": "2023-07-31T23:41:12.088Z",
+      "texto": "Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.",
+      "imagem": "/assets/imagensBlog/Picture1.png",
+      "autorId": 2,
+      "comentarios": [],
+      "id": 3
+    },
+    {
+      "titulo": "Teste paisagem",
+      "data": "2023-07-31T23:42:37.953Z",
+      "texto": "Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.Angular is running in development mode. Call enableProdMode() to enable production mode.",
+      "imagem": "https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg",
+      "autorId": 2,
+      "comentarios": [],
+      "id": 4
     }
   ],
   "usuarios": [
@@ -45,7 +63,9 @@
       "username": "Matheus",
       "pfp": "https://w7.pngwing.com/pngs/182/4/png-transparent-fire-emblem-awakening-fire-emblem-fates-decal-brand-brandsoftheworld-emblem-dragon-logo.png",
       "resumo": "Lorem ipsum dolor sit amet",
-      "postagens": [1],
+      "postagens": [
+        1
+      ],
       "id": 1,
       "login": "matheus",
       "senha": "123"

@@ -23,6 +23,10 @@ export class BlogService {
     return this.http.get<Post>(`${this.urlDaApi}/posts/${id}`)
   }
 
+  postCriaNovaPostagem( novoPost: Post ): Observable<Post>{
+    return this.http.post<Post>(`${this.urlDaApi}/posts`, novoPost)
+  }
+
 
   // USUARIOS
   getTodosUsuarios(): Observable<Usuario[]>{

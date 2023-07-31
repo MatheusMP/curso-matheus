@@ -13,3 +13,13 @@
     border: 1px solid red;
   }
 }
+
+.contInput.invalid input{
+  border: 1px solid red;
+}
+.contInput span{
+  display: none;
+}
+.contInput.invalid span{
+  display: block;
+}

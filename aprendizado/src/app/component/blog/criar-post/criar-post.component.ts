@@ -35,4 +35,21 @@ export class CriarPostComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  criarPost(): void{
+    let postParaEnviar = new Post()
+    postParaEnviar.titulo = this.formPost.value.titulo
+    postParaEnviar.texto = this.formPost.value.texto
+    postParaEnviar.imagem = this.formPost.value.imagem
+    postParaEnviar.autorId = 2
+    postParaEnviar.data = this.dataEmISOString()
+    this.apiBlog.postCriaNovaPostagem( postParaEnviar ).subscribe( (data) => {
+      alert('Postagem criada!')
+    })
+  }
+
+  dataEmISOString(): string {
+    let agora =  new Date()
+    return agora.toISOString()
+  }
+
 }
