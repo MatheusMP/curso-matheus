@@ -3,6 +3,8 @@ import { ActivatedRoute } from '@angular/router';
 import { BlogService } from 'src/app/service/blog.service';
 import { Usuario } from 'src/app/model/blog/usuario';
 import { Post } from 'src/app/model/blog/post';
+import { Comentario } from 'src/app/model/blog/comentario';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-post',
@@ -14,11 +16,19 @@ export class PostComponent implements OnInit {
   idDaUrl: number = 0
   postAtual: Post = new Post()
   autores: Usuario[] = []
+  formComentario: FormGroup
 
   constructor(
     private rotaAtiva: ActivatedRoute,
     private apiBlog: BlogService
-  ) { }
+  ) {
+    this.formComentario =  new FormGroup({
+      texto: new FormControl('', [
+        Validators.required,
+        Validators.maxLength(255)
+      ])
+    })
+  }
 
   ngOnInit(): void {
     this.idDaUrl = Number(this.rotaAtiva.snapshot.params['id'])
@@ -50,6 +60,38 @@ export class PostComponent implements OnInit {
       }
     }
     return ''
+  }
+
+  fazerComentario(): void{
+
+    let novoId: number = 1
+    if( this.postAtual.comentarios.length > 0 ){
+      // So entra aqui se ja existir um comentário
+      novoId = this.postAtual.comentarios.length + 1
+    }
+
+    let novoComentario = new Comentario
+    novoComentario.texto = this.formComentario.value.texto
+    novoComentario.autor = 2 // ESTATICO POR ENQUANTO
+    novoComentario.data = this.dataEmISOString()
+    novoComentario.id = novoId
+
+    let postAlterado: Post = this.postAtual
+    postAlterado.comentarios.push( novoComentario )
+    this.apiBlog.putEditaPostagem( postAlterado ).subscribe( (respApi) => {
+      this.pegarInformacoes()
+      alert('Comentário feito')
+    })
+
+  }
+
+  dataEmISOString(): string{
+    let agora = new Date()
+    return agora.toISOString()
+  }
+
+  checkLike(comentario:Comentario): boolean{
+    return comentario.curtidas.includes( 3 )
   }
 
 }

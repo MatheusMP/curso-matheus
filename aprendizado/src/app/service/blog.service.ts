@@ -27,6 +27,10 @@ export class BlogService {
     return this.http.post<Post>(`${this.urlDaApi}/posts`, novoPost)
   }
 
+  putEditaPostagem( novoPost: Post ): Observable<Post>{
+    return this.http.put<Post>(`${this.urlDaApi}/posts/${novoPost.id}`, novoPost) // http://localhost:3000/posts/ID -> POST
+  }
+
 
   // USUARIOS
   getTodosUsuarios(): Observable<Usuario[]>{
