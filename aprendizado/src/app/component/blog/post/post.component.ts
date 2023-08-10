@@ -94,4 +94,23 @@ export class PostComponent implements OnInit {
     return comentario.curtidas.includes( 3 )
   }
 
+  funcaoLike(comentario: Comentario): void{
+    console.log(comentario)
+    let comentarioAlterado = comentario
+    let postAlterado = this.postAtual
+    if( comentario.curtidas.includes( 3 ) ){
+      // Retirar o like
+      comentarioAlterado.curtidas.splice(comentario.curtidas.indexOf(3), 1) // Retida o id baseado no index dele
+    } else {
+      // Coloco o like
+      comentarioAlterado.curtidas.push(3)
+    }
+    // Procuro o comentario no post e altero ele com base na curtida que alteramos
+    postAlterado.comentarios[ comentario.id - 1 ] = comentarioAlterado
+    this.apiBlog.putEditaPostagem( postAlterado ).subscribe( (data) => {
+      console.log('Comentario curtido ou descurtido')
+      this.pegarInformacoes()
+    })
+  }
+
 }
