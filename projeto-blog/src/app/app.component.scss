@@ -1,0 +1,21 @@
+.main{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+  .sidenav{
+    width: 280px;
+    height: 100vh;
+    max-height: 100vh;
+    background: #FFF;
+    box-shadow: 0px 4px 13px 1px rgba(0, 0, 0, 0.30);
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  .content{
+    width: calc( 100% - 300px );
+    padding: 10px;
+    margin-left: 280px;
+  }
+}
