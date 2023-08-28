@@ -10,7 +10,7 @@ import { Posts } from 'src/app/models/posts';
 export class HomeComponent implements OnInit {
   
   posts: Posts[] = []
-  
+  numeroCurtidas: number[] = []
   constructor(
     private api: GeralService
   ){}
@@ -22,6 +22,17 @@ export class HomeComponent implements OnInit {
   pegarInfos(): void{
     this.api.getTodosPosts().subscribe( (respApi) => {
       this.posts = respApi
+      this.api.getTodosComentarios().subscribe( (comentarios) => {
+        for( let post of this.posts ){
+          let contagem = 0
+          for( let coment of comentarios){
+            if( coment.postId == post.id ){
+              contagem++
+            }
+          }
+          this.numeroCurtidas.push(contagem)
+        }
+      })
     })
   }
 

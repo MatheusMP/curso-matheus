@@ -41,7 +41,15 @@ export class PostComponent implements OnInit {
       })
       
     })
+  }
 
+  achaUsuario(id:number): string{
+    for(let user of this.usuarios){
+      if(user.id == id){
+        return user.name
+      }
+    }
+    return ''
   }
 
 }

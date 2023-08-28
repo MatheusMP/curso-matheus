@@ -1,7 +1,39 @@
 <section *ngIf="post.id != 0">
   
   <h1>
-    {{ idDoPostNaUrl }}
+    {{ post.title }}
   </h1>
+  <hr style="margin: 5px 0;">
+  <!-- Usando ngFor e ngIf -->
+  <ng-container *ngFor="let user of usuarios">
+    <h6 *ngIf="user.id == post.userId">
+      {{ user.name }}
+    </h6>
+  </ng-container>
+  <!-- Chamando uma função do .ts -->
+  <h6>
+    {{ achaUsuario(post.userId) }}
+  </h6>
+  <hr style="margin: 5px 0;">
+  <p>
+    {{ post.body }}
+  </p>
+  <hr style="margin: 15px 0;">
+  <h2>
+    Comentarios
+  </h2>
+  <ng-container *ngFor="let coment of comentarios">
+    <div *ngIf="coment.postId == idDoPostNaUrl">
+      <h4>
+        {{ coment.email }}
+      </h4>
+      <h6>
+        {{ coment.name }}
+      </h6>
+      <p>
+        {{ coment.body }}
+      </p>
+    </div>
+  </ng-container>
 
 </section>
