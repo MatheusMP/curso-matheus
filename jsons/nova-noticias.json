@@ -1,0 +1,236 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "manchete": "Golpistas já distribuem links falsos do Desenrola Brasil no Facebook e WhatsApp",
+      "subtitulo": "Biblioteca de anúncios do Facebook retorna centenas de opções para o termo 'Desenrola', parte deles com links fraudulentos",
+      "dataPublicacao": "2023-07-10T10:45:50.523Z",
+      "imagemPrincipal": "https://f.i.uol.com.br/fotografia/2023/07/18/168971485464b700a6ba130_1689714854_3x2_lg.jpg",
+      "corpo": [
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://f.i.uol.com.br/fotografia/2023/07/18/168971485464b700a6ba130_1689714854_3x2_lg.jpg",
+          "tipo": "imagem"
+        },
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://youtu.be/U2XELiosoWw",
+          "tipo": "youtube"
+        }
+      ],
+      "autor": 2,
+      "categoria": 1
+    },
+    {
+      "id": 2,
+      "manchete": "Final da copa do Brasil entre Flamengo e São Paulo",
+      "subtitulo": "A final da copa do Brasil sera entre os times de Flamengo e São Paulo",
+      "dataPublicacao": "2023-07-10T10:45:50.523Z",
+      "imagemPrincipal": "https://f.i.uol.com.br/fotografia/2023/07/18/168971485464b700a6ba130_1689714854_3x2_lg.jpg",
+      "corpo": [
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://f.i.uol.com.br/fotografia/2023/07/18/168971485464b700a6ba130_1689714854_3x2_lg.jpg",
+          "tipo": "imagem"
+        },
+        {
+          "informacao": "https://youtu.be/U2XELiosoWw",
+          "tipo": "youtube"
+        }
+      ],
+      "autor": 2,
+      "categoria": 2
+    },
+    {
+      "id": 3,
+      "manchete": "Com base em material genético, PGR denuncia 31 pessoas por atos de vandalismo no 8/1",
+      "subtitulo": "Foram coletadas 1.388 amostras biológicas de homens e mulheres que estavam presos no DF",
+      "dataPublicacao": "2023-09-11T10:45:50.523Z",
+      "imagemPrincipal": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/04/18/1099052378-wixwv3ekw5mtpmkd2m6snf37ku.jpg",
+      "corpo": [
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/04/18/1099052378-wixwv3ekw5mtpmkd2m6snf37ku.jpg",
+          "tipo": "imagem"
+        },
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://youtu.be/U2XELiosoWw",
+          "tipo": "youtube"
+        }
+      ],
+      "autor": 2,
+      "categoria": 4
+    },
+    {
+      "id": 4,
+      "manchete": "Sampaoli é suspenso e multado em R$ 98 mil pela Conmebol",
+      "subtitulo": "Na segunda partida das oitavas de final da Libertadores, Jorge Sampaoli recebeu dois cartões amarelos no Defensores del Chaco, no dia 10",
+      "dataPublicacao": "2023-09-12T10:45:50.523Z",
+      "imagemPrincipal": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/11/1539823789-atleticomg-x-flamengo-campeonato-brasieliro-arena-independencia-29-07-2023-79.jpg",
+      "corpo": [
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/11/1539823789-atleticomg-x-flamengo-campeonato-brasieliro-arena-independencia-29-07-2023-79.jpg",
+          "tipo": "imagem"
+        },
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://youtu.be/U2XELiosoWw",
+          "tipo": "youtube"
+        }
+      ],
+      "autor": 2,
+      "categoria": 2
+    },
+    {
+      "id": 5,
+      "manchete": "Fluminense divulga informações de ingressos da semifinal da Libertadores contra o Internacional, no Maracanã",
+      "subtitulo": "O jogo contra o Inter será na quarta-feira (27)",
+      "dataPublicacao": "2023-09-14T10:45:50.523Z",
+      "imagemPrincipal": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/11/997184403-00033tj29w-aspect-ratio-512-320.jpg",
+      "corpo": [
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/11/997184403-00033tj29w-aspect-ratio-512-320.jpg",
+          "tipo": "imagem"
+        },
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://youtu.be/U2XELiosoWw",
+          "tipo": "youtube"
+        }
+      ],
+      "autor": 1,
+      "categoria": 2
+    },
+    {
+      "id": 6,
+      "manchete": "Diniz mantém escalação da estreia e define Seleção para jogo contra o Peru pelas Eliminatórias",
+      "subtitulo": "",
+      "dataPublicacao": "2023-09-15T10:45:50.523Z",
+      "imagemPrincipal": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/11/599833969-53179484730cc0a4f01a6k.jpg",
+      "corpo": [
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/11/599833969-53179484730cc0a4f01a6k.jpg",
+          "tipo": "imagem"
+        },
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://youtu.be/U2XELiosoWw",
+          "tipo": "youtube"
+        }
+      ],
+      "autor": 1,
+      "categoria": 2
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 1,
+      "texto": "Lorem ipsum dolor sit amet",
+      "postId": 1,
+      "autor": 1,
+      "data": "2023-07-13T10:45:50.523Z",
+      "like": [1]
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Cotidiano",
+      "corTexto": "#2E48FF"
+    },
+    {
+      "id": 2,
+      "categoria": "Futebol",
+      "corTexto": "#FF2E2E"
+    },
+    {
+      "id": 3,
+      "categoria": "Automobilismo",
+      "corTexto": "#2E48FF"
+    },
+    {
+      "id": 4,
+      "categoria": "Política",
+      "corTexto": "#2E48FF"
+    },
+    {
+      "id": 5,
+      "categoria": "Economia",
+      "corTexto": "#2E48FF"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "Matheus M. Pinheiro",
+      "username": "matheusmp",
+      "tipo": "cliente"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Anderson Dias",
+      "username": "andersonDias",
+      "tipo": "admin"
+    }
+  ],
+  "fazerLogin": [
+    {
+      "id": 1,
+      "username": "matheusmp",
+      "senha": "123abc",
+      "idUsuario": 1
+    },
+    {
+      "id": 2,
+      "username": "andersonDias",
+      "senha": "123abc",
+      "idUsuario": 2
+    }
+  ],
+  "conteudoSite": {
+    "home": {
+      "destaqueNoticias": "Últimas notícias",
+      "categoriasHome": [1]
+    },
+    "internaNoticia": {
+      "outras": "Outras notícias"
+    }
+  }
+}
