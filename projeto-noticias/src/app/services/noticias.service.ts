@@ -6,7 +6,7 @@ import { Noticia } from '../models/noticia';
 @Injectable({
   providedIn: 'root'
 })
-export class ProdutosService {
+export class NoticiasService {
 
   constructor( private http: HttpClient ) { }
 
@@ -15,6 +15,15 @@ export class ProdutosService {
   getTodasNoticias(): Observable<Noticia[]>{
     return this.http.get<Noticia[]>(`${this.urlDaApi}/noticias`)
   }
+
+  getUltimas3Noticias(): Observable<Noticia[]>{
+    return this.http.get<Noticia[]>(`${this.urlDaApi}/noticias?_sort=dataPublicacao&_order=desc&_limit=3`)
+  }
+
+  // http://localhost:3000/noticias?_sort=dataPublicacao&_order=desc&_limit=3&categoria=2
+  // _sort=PROPRIEDADE | para ordenar os itens pela propriedade informada
+  // _order=asc ou _order=desc | para ordenar por ascendente ou decrescente
+  // _limit=NUMERO | para colocar um limite máxima de itens que voltarão
 
   getNoticiaPeloId(id: number): Observable<Noticia>{
     return this.http.get<Noticia>(`${this.urlDaApi}/noticias${id}`)
