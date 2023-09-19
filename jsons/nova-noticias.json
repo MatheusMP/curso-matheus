@@ -157,6 +157,33 @@
       ],
       "autor": 1,
       "categoria": 2
+    },
+    {
+      "id": 7,
+      "manchete": "Dólar engata 4ª queda seguida e fecha a R$ 4,85, com otimismo no PIB e espera por nova taxa de juros",
+      "subtitulo": "A moeda norte-americana recuou 0,31%, vendida a R$ 4,8556.",
+      "dataPublicacao": "2023-09-18T10:45:50.523Z",
+      "imagemPrincipal": "https://s2-g1.glbimg.com/EbM7KPzn2DFDIurWqZi8xYn9xz8=/0x0:2000x1335/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/e/S/rSoZ5kSP2MM3ZAOVtAAA/billie-dollar-with-business-chart-1-.jpg",
+      "corpo": [
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/11/599833969-53179484730cc0a4f01a6k.jpg",
+          "tipo": "imagem"
+        },
+        {
+          "informacao": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipiscing elit</a>. Nulla aliquam, est vestibulum <b>gravida<b> laoreet, augue dolor pretium risus, ac finibus mauris arcu suscipit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce mattis consequat mi, id laoreet sem feugiat eu. Aenean nec tincidunt dui. Cras consequat orci at tincidunt interdum. Aliquam id venenatis urna. Praesent eget accumsan mi, id euismod nunc. Aenean et finibus enim, ut varius felis.",
+          "tipo": "html"
+        },
+        {
+          "informacao": "https://youtu.be/U2XELiosoWw",
+          "tipo": "youtube"
+        }
+      ],
+      "autor": 1,
+      "categoria": 5
     }
   ],
   "comentarios": [

@@ -47,6 +47,20 @@
   </div>
 </div>
 
+<ng-container *ngFor="let item of noticiaPorCategoria">
+  <div class="categoria" *ngIf="item.noticias.length > 0">
+    <h4>
+      {{ item.categoria.categoria }}
+    </h4>
+    <div class="noticias">
+      <div class="noticia" *ngFor="let noticia of item.noticias">
+        <div class="imagem" [style.backgroundImage]="'url(' + noticia.imagemPrincipal + ')'"></div>
+        <h5>{{ noticia.manchete }}</h5>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
 <div>
   <br>
   <br>
