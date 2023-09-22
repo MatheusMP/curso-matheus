@@ -31,7 +31,7 @@ export class NoticiasService {
   // categoria | para filtrar as noticias somente pela categoria enviada
 
   getNoticiaPeloId(id: number): Observable<Noticia>{
-    return this.http.get<Noticia>(`${this.urlDaApi}/noticias${id}`)
+    return this.http.get<Noticia>(`${this.urlDaApi}/noticias/${id}`)
   }
 
   getNoticiaPorCategoria(idCategoria: number): Observable<Noticia[]>{
@@ -48,6 +48,10 @@ export class NoticiasService {
 
   getCategorias(): Observable<Categoria[]>{
     return this.http.get<Categoria[]>(`${this.urlDaApi}/categorias`) 
+  }
+
+  getCategoriaPeloId(id:number): Observable<Categoria>{
+    return this.http.get<Categoria>(`${this.urlDaApi}/categorias/${id}`)
   }
 
 }

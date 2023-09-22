@@ -49,11 +49,11 @@
 
 <ng-container *ngFor="let item of noticiaPorCategoria">
   <div class="categoria" *ngIf="item.noticias.length > 0">
-    <h4>
+    <h4 routerLink="/categoria/{{ item.categoria.id }}">
       {{ item.categoria.categoria }}
     </h4>
     <div class="noticias">
-      <div class="noticia" *ngFor="let noticia of item.noticias">
+      <div class="noticia" *ngFor="let noticia of item.noticias" routerLink="/noticia/{{noticia.id}}">
         <div class="imagem" [style.backgroundImage]="'url(' + noticia.imagemPrincipal + ')'"></div>
         <h5>{{ noticia.manchete }}</h5>
       </div>
