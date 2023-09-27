@@ -3,6 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Noticia } from '../models/noticia';
 import { Categoria } from '../models/categoria';
+import { Usuario } from '../models/usuario';
+import { Comentario } from '../models/comentario';
 
 @Injectable({
   providedIn: 'root'
@@ -46,12 +48,23 @@ export class NoticiasService {
     return this.http.get<Noticia[]>(`${this.urlDaApi}/noticias?autor=${idAutor}&categoria=${idCategoria}`) 
   }
 
+  // API CATEGORIAS
   getCategorias(): Observable<Categoria[]>{
     return this.http.get<Categoria[]>(`${this.urlDaApi}/categorias`) 
   }
 
   getCategoriaPeloId(id:number): Observable<Categoria>{
     return this.http.get<Categoria>(`${this.urlDaApi}/categorias/${id}`)
+  }
+
+  // API AUTORES / USUARIOS
+  getUsuarios(): Observable<Usuario[]>{
+    return this.http.get<Usuario[]>(`${this.urlDaApi}/usuarios`)
+  }
+
+  // API COMENTARIOS
+  getComentarioPorPost(postId: number): Observable<Comentario[]>{
+    return this.http.get<Comentario[]>(`${this.urlDaApi}/comentarios?postId=${postId}`)
   }
 
 }

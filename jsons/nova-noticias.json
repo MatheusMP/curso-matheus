@@ -194,6 +194,30 @@
       "autor": 1,
       "data": "2023-07-13T10:45:50.523Z",
       "like": [1]
+    },
+    {
+      "id": 2,
+      "texto": "Lorem ipsum dolor sit amet",
+      "postId": 2,
+      "autor": 1,
+      "data": "2023-07-13T10:45:50.523Z",
+      "like": []
+    },
+    {
+      "id": 3,
+      "texto": "Lorem ipsum dolor sit amet",
+      "postId": 2,
+      "autor": 1,
+      "data": "2023-07-13T10:45:50.523Z",
+      "like": []
+    },
+    {
+      "id": 4,
+      "texto": "Lorem ipsum dolor sit amet",
+      "postId": 3,
+      "autor": 1,
+      "data": "2023-07-13T10:45:50.523Z",
+      "like": []
     }
   ],
   "categorias": [

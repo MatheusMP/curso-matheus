@@ -1,3 +1,17 @@
+<h2 class="categoria">
+  {{ findCategoria( noticia.categoria ) }}
+</h2>
+
+<div class="informacoes">
+  <h1>
+    {{ noticia.manchete }}
+  </h1>
+  <h3>
+    {{ noticia.subtitulo }}
+  </h3>
+  <span> {{ findAutor( noticia.autor ) }} </span><b> - {{ converteHoras(noticia.dataPublicacao) }}</b>
+</div>
+
 <div class="corpoDaNoticia">
 
   <ng-container *ngFor="let corpo of noticia.corpo">
@@ -16,4 +30,22 @@
     </div> -->
   </ng-container>
 
+</div>
+
+<div class="comentarios">
+  <h3>
+    Comentarios
+  </h3>
+
+  <div class="comentario" *ngFor="let coment of comentarios">
+    <span>
+      <b>
+        {{ findAutor(coment.autor) }}
+      </b>
+        {{ converteHoras(coment.data) }}
+    </span>
+    <p>
+      {{ coment.texto }}
+    </p>
+  </div>
 </div>
