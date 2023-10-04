@@ -1,0 +1,28 @@
+header{
+  background-color: #14181A;
+  padding: 20px 40px;
+
+  nav{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+      display: block;
+    }
+    ul{
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      gap: 10px;
+
+      li{
+        color: white;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+      }
+    }
+  }
+}

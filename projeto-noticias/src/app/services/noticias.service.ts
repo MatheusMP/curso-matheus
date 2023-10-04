@@ -5,6 +5,7 @@ import { Noticia } from '../models/noticia';
 import { Categoria } from '../models/categoria';
 import { Usuario } from '../models/usuario';
 import { Comentario } from '../models/comentario';
+import { Login } from '../models/login';
 
 @Injectable({
   providedIn: 'root'
@@ -62,9 +63,18 @@ export class NoticiasService {
     return this.http.get<Usuario[]>(`${this.urlDaApi}/usuarios`)
   }
 
+  getUsuarioPorId(id: number): Observable<Usuario>{
+    return this.http.get<Usuario>(`${this.urlDaApi}/usuarios/${id}`)
+  }
+
   // API COMENTARIOS
   getComentarioPorPost(postId: number): Observable<Comentario[]>{
     return this.http.get<Comentario[]>(`${this.urlDaApi}/comentarios?postId=${postId}`)
+  }
+
+  // API LOGIN
+  fazerLogin(username: string, senha: string): Observable<Login[]>{
+    return this.http.get<Login[]>(`${this.urlDaApi}/fazerLogin?username=${username}&senha=${senha}`) // http://localhost:3000/fazerLogin?username=andersonDias&senha=123abc
   }
 
 }
