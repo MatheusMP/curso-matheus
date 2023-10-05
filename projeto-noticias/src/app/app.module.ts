@@ -11,6 +11,7 @@ import { HomeComponent } from './component/home/home.component';
 import { CategoriaComponent } from './component/categoria/categoria.component';
 import { NoticiaComponent } from './component/noticia/noticia.component';
 import { LoginComponent } from './component/login/login.component';
+import { CrudComponent } from './component/crud/crud.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginComponent } from './component/login/login.component';
     HomeComponent,
     CategoriaComponent,
     NoticiaComponent,
-    LoginComponent
+    LoginComponent,
+    CrudComponent
   ],
   imports: [
     BrowserModule,

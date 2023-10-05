@@ -4,12 +4,15 @@ import { HomeComponent } from './component/home/home.component';
 import { CategoriaComponent } from './component/categoria/categoria.component';
 import { NoticiaComponent } from './component/noticia/noticia.component';
 import { LoginComponent } from './component/login/login.component';
+import { CrudComponent } from './component/crud/crud.component';
+import { crudGuard } from './guard/crud.guard';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'categoria/:id', component: CategoriaComponent },
   { path: 'noticia/:id', component: NoticiaComponent },
-  { path: 'login', component: LoginComponent }
+  { path: 'login', component: LoginComponent },
+  { path: 'crud', component: CrudComponent, canActivate: [crudGuard] }
 ];
 
 @NgModule({

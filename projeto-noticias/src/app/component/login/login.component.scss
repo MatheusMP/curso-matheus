@@ -6,7 +6,8 @@ section {
   align-items: center;
   justify-content: center;
 
-  .contLogin {
+  .contLogin,
+  .contSignup {
     background-color: #FFFFFF;
     width: 60%;
     border-radius: 30px;
@@ -77,6 +78,35 @@ section {
     }
     button:disabled{
       opacity: 0.3;
+    }
+    h6{
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0em;
+      text-align: center;
+      span{
+        color: #D22730;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .contSignup{
+    width: 90%;
+    form{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .linhaInputs{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        .contInput{
+          width: calc((100% - 30px) / 2);
+        }
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 <header>
   <nav>
-    <img src="../assets/itlean-logo-white 1.png" alt="">
+    <img src="../assets/itlean-logo-white 1.png" routerLink="/" alt="">
     <ul>
       <li>
         {{ checkLogin() }}
@@ -12,3 +12,8 @@
   </nav>
 </header>
 <router-outlet></router-outlet>
+<footer>
+  <a routerLink="/crud">
+    Acessar sistema de administração
+  </a>
+</footer>

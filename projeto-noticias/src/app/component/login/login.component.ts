@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Validators, FormGroup, FormControl } from '@angular/forms';
 import { NoticiasService } from 'src/app/services/noticias.service';
+import { Usuario } from 'src/app/models/usuario';
+import { Login } from 'src/app/models/login';
 
 @Component({
   selector: 'app-login',
@@ -12,6 +14,13 @@ export class LoginComponent implements OnInit {
   formLogin = new FormGroup({
     user: new FormControl('', [Validators.required]),
     pass: new FormControl('', [Validators.required])
+  })
+  isSignUp: boolean = false;
+  formSignUp = new FormGroup({
+    user: new FormControl('', [Validators.required]),
+    nomeCompleto: new FormControl('', [Validators.required]),
+    pass: new FormControl('', [Validators.required]),
+    confirmPass: new FormControl('', [Validators.required]),
   })
 
   constructor(
@@ -30,11 +39,47 @@ export class LoginComponent implements OnInit {
           localStorage.setItem('idUser', String(respLogin[0].idUsuario))
           this.apiNoticia.getUsuarioPorId(respLogin[0].idUsuario).subscribe((respUsuario) => {
             localStorage.setItem('nameUser', String(respUsuario.nomeCompleto))
+            localStorage.setItem('typeUser', respUsuario.tipo)
           })
         } else {
           console.log('FALHA NO LOGIN')
         }
       })
+    }
+  }
+
+  mudaSignUp(): void{
+    if(this.isSignUp){
+      this.isSignUp = false
+    } else {
+      this.isSignUp = true
+    }
+  }
+
+  criaLogin(): void{
+    if(this.formSignUp.value.user && this.formSignUp.value.nomeCompleto){
+      let usuarioToSend: Usuario = {
+        id: 0,
+        username: this.formSignUp.value.user,
+        nomeCompleto: this.formSignUp.value.nomeCompleto,
+        tipo: 'cliente'
+      }
+      this.apiNoticia.postCriaUsuario(usuarioToSend).subscribe((usuario) => {
+        if(this.formSignUp.value.user && this.formSignUp.value.pass){
+          let loginToSend: Login = {
+            id: 0,
+            username: this.formSignUp.value.user,
+            senha: this.formSignUp.value.pass,
+            idUsuario: usuario.id
+          }
+          this.apiNoticia.postCriaLogin(loginToSend).subscribe((login) => {
+            alert('Usuário criado!')
+            this.isSignUp = false
+          })
+        }
+      })
+    } else {
+      alert('Preencha o formulário corretamente!')
     }
   }
 

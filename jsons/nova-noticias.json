@@ -193,7 +193,9 @@
       "postId": 1,
       "autor": 1,
       "data": "2023-07-13T10:45:50.523Z",
-      "like": [1]
+      "like": [
+        1
+      ]
     },
     {
       "id": 2,
@@ -259,6 +261,12 @@
       "nomeCompleto": "Anderson Dias",
       "username": "andersonDias",
       "tipo": "admin"
+    },
+    {
+      "id": 3,
+      "username": "pinheiro",
+      "nomeCompleto": "Matheus Pinheiro",
+      "tipo": "cliente"
     }
   ],
   "fazerLogin": [
@@ -273,12 +281,20 @@
       "username": "andersonDias",
       "senha": "123abc",
       "idUsuario": 2
+    },
+    {
+      "id": 3,
+      "username": "pinheiro",
+      "senha": "123",
+      "idUsuario": 3
     }
   ],
   "conteudoSite": {
     "home": {
       "destaqueNoticias": "Últimas notícias",
-      "categoriasHome": [1]
+      "categoriasHome": [
+        1
+      ]
     },
     "internaNoticia": {
       "outras": "Outras notícias"

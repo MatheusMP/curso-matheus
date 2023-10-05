@@ -67,6 +67,10 @@ export class NoticiasService {
     return this.http.get<Usuario>(`${this.urlDaApi}/usuarios/${id}`)
   }
 
+  postCriaUsuario(usuario: Usuario): Observable<Usuario>{
+    return this.http.post<Usuario>(`${this.urlDaApi}/usuarios`, usuario)
+  }
+
   // API COMENTARIOS
   getComentarioPorPost(postId: number): Observable<Comentario[]>{
     return this.http.get<Comentario[]>(`${this.urlDaApi}/comentarios?postId=${postId}`)
@@ -75,6 +79,10 @@ export class NoticiasService {
   // API LOGIN
   fazerLogin(username: string, senha: string): Observable<Login[]>{
     return this.http.get<Login[]>(`${this.urlDaApi}/fazerLogin?username=${username}&senha=${senha}`) // http://localhost:3000/fazerLogin?username=andersonDias&senha=123abc
+  }
+
+  postCriaLogin(login: Login): Observable<Login>{
+    return this.http.post<Login>(`${this.urlDaApi}/fazerLogin`, login)
   }
 
 }
