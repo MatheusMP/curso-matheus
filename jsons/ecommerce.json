@@ -1,0 +1,2220 @@
+{
+  "roupas": [
+    {
+      "id": 1,
+      "produto": "Camiseta Relaxed Em Algodão Com Gola Média",
+      "descricao": "Camiseta relaxed masculina, confeccionada em algodão mais sustentável, com gola média, mangas curtas, cavas deslocadas e sem estampa.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 100
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://img.lojasrenner.com.br/item/780046130/large/12.jpg",
+          "destaque": true
+        },
+        {
+          "caminho": "https://img.lojasrenner.com.br/item/780046130/large/13.jpg",
+          "destaque": false
+        }
+      ],
+      "preco": 49.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 1,
+          "comentario": "Tecido excelente e ótimo caimento",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "produto": "Camiseta Adidas Logo Adidas Masculina - Marinho+Dourado",
+      "descricao": "Perfeita para acompanhar o seu lifestyle a Camiseta Masculina Adidas Logo Linear é um verdadeiro curinga no armário de todo homem moderno e de bom gosto.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 30
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 140
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 20
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-adidas-logo-adidas-masculina/90/FB8-3925-090/FB8-3925-090_zoom1.jpg?ts=1669730522",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-adidas-logo-adidas-masculina/90/FB8-3925-090/FB8-3925-090_zoom2.jpg?ts=1669730522&?ims=544xhttps://static.netshoes.com.br/produtos/camiseta-adidas-logo-adidas-masculina/90/FB8-3925-090/FB8-3925-090_zoom2.jpg?ts=1669730522&?ims=1088x",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-adidas-logo-adidas-masculina/90/FB8-3925-090/FB8-3925-090_zoom3.jpg?ts=1669730522&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-adidas-logo-adidas-masculina/90/FB8-3925-090/FB8-3925-090_zoom4.jpg?ts=1669730522&",
+          "destaque": false
+        }
+      ],
+      "preco": 99.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 2,
+          "comentario": "Original e confiavel, só achei meio cara",
+          "estrelas": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "produto": "Camiseta Oakley O-Bark Masculina - Preto",
+      "descricao": "Abuse do estilo com a Camiseta Oakley O-Bark Masculina! Confeccionada em material leve e confortável, essa camiseta masculina possui estampa despojada que dá um up no visual, ideal para um rolê com os amigos! Não deixe para depois e compre já essa camiseta Oakley masculina!",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 100
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 150
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-oakley-o-bark-masculina/40/D63-4582-040/D63-4582-040_zoom1.jpg?ts=1600200919&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-oakley-o-bark-masculina/40/D63-4582-040/D63-4582-040_zoom2.jpg?ts=1600200919&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-oakley-o-bark-masculina/40/D63-4582-040/D63-4582-040_zoom3.jpg?ts=1600200920&",
+          "destaque": false
+        }
+      ],
+      "preco": 79.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 3,
+          "comentario": "Curti muito",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "produto": "Camiseta Lacoste Logo Masculina - Preto",
+      "descricao": "Aposte em conforto, e no estilo despretensioso do casualwear, com a camiseta masculina Lacoste. Perfeita para o dia a dia, traz gola careca, shape solto e caimento reto.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-lacoste-logo-masculina/06/D66-8254-006/D66-8254-006_zoom1.jpg?ts=1684159023&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-lacoste-logo-masculina/06/D66-8254-006/D66-8254-006_zoom2.jpg?ts=1684159023&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-lacoste-logo-masculina/06/D66-8254-006/D66-8254-006_zoom3.jpg?ts=1684159023&?ims=544xhttps://static.netshoes.com.br/produtos/camiseta-lacoste-logo-masculina/06/D66-8254-006/D66-8254-006_zoom3.jpg?ts=1684159023&?ims=1088x",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-lacoste-logo-masculina/06/D66-8254-006/D66-8254-006_zoom3.jpg?ts=1684159023&?ims=544xhttps://static.netshoes.com.br/produtos/camiseta-lacoste-logo-masculina/06/D66-8254-006/D66-8254-006_zoom3.jpg?ts=1684159023&?ims=1088x",
+          "destaque": false
+        }
+      ],
+      "preco": 294.49,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "To de lala fiii, aiiii brota bebelas",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "produto": "Camiseta Puma Logo Feminina - Preto",
+      "descricao": "Renove o seu guarda-roupa com a Camiseta Puma Logo Feminina! Ideal para o dia a dia, a peça apresenta tecido leve que promove conforto na hora de usar.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 250
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-puma-logo-feminina/06/2I3-7654-006/2I3-7654-006_zoom1.jpg?ts=1687456033&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-puma-logo-feminina/06/2I3-7654-006/2I3-7654-006_zoom2.jpg?ts=1687456034&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-puma-logo-feminina/06/2I3-7654-006/2I3-7654-006_zoom3.jpg?ts=1687456034&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-puma-logo-feminina/06/2I3-7654-006/2I3-7654-006_zoom4.jpg?ts=1687456034&",
+          "destaque": false
+        }
+      ],
+      "preco": 74.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 1,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 5,
+          "comentario": "Adoreiiii, mto fofaa",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "produto": "Camiseta Under Armour Tech 2.0 Masculina - Preto+Azul",
+      "descricao": "Para se dedicar aos treinos com conforto total. A Camiseta Under Armour Tech 2.0 Masculina é a sua aliada durante os exercícios físicos. O tecido leve garante toque ultra macio e secagem rápida que amplia a sensação de frescor.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-under-armour-tech-20-masculina/18/B78-5173-118/B78-5173-118_zoom1.jpg?ts=1684360045&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-under-armour-tech-20-masculina/18/B78-5173-118/B78-5173-118_zoom2.jpg?ts=1684360045&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-under-armour-tech-20-masculina/18/B78-5173-118/B78-5173-118_zoom3.jpg?ts=1684360046&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camiseta-under-armour-tech-20-masculina/18/B78-5173-118/B78-5173-118_zoom4.jpg?ts=1684360046&",
+          "destaque": false
+        }
+      ],
+      "preco": 129.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "bom tecido",
+          "estrelas": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "produto": "Jaqueta Corinthians 23/24 Nike Masculina - Preto+Branco",
+      "descricao": "Apoie o Timão em todos os momentos com a Jaqueta Corinthians 23/24 Nike Masculina! Aliada dos torcedores em dias frios e chuvosos, essa jaqueta do Corinthians te mantém aquecido em temperaturas amenas para você continuar torcendo e cantando. O fechamento em zíper permite um ajuste preciso na hora de usar, enquanto os bolsos laterais comportam pequenos objetos. O acabamento repele a água e ajuda a te manter seco.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 250
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 200
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corinthians-2324-nike-masculina/26/JD8-2743-026/JD8-2743-026_zoom1.jpg?ts=1685720225&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corinthians-2324-nike-masculina/26/JD8-2743-026/JD8-2743-026_zoom2.jpg?ts=1685720226&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corinthians-2324-nike-masculina/26/JD8-2743-026/JD8-2743-026_zoom3.jpg?ts=1685720226&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corinthians-2324-nike-masculina/26/JD8-2743-026/JD8-2743-026_zoom4.jpg?ts=1685720226&",
+          "destaque": false
+        }
+      ],
+      "preco": 474.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "genero": "Masculino",
+      "categoria": 3,
+      "colecao": 3,
+      "avaliacoes": [
+        {
+          "idUsuario": 3,
+          "comentario": "VAI CURINTIAAAAAAAA",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "produto": "Jaqueta Corta Vento New Balance Accelerate Masculina - Azul Royal",
+      "descricao": "Saia para correr com conforto e liberdade usando a Jaqueta Corta Vento New Balance Accelerate Masculina. Essa jaqueta esportiva é ideal para atividades ao ar livre, já que é confeccionada em material macio ao toque da pele e tecnologia que afasta vento e água, com ótimo ajuste ao corpo, gola alta, bolso lateral e fechamento em zíper.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-masculina/10/39U-5660-310/39U-5660-310_zoom1.jpg?ts=1685041896&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-masculina/10/39U-5660-310/39U-5660-310_zoom2.jpg?ts=1685041896&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-masculina/10/39U-5660-310/39U-5660-310_zoom3.jpg?ts=1685041896&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-masculina/10/39U-5660-310/39U-5660-310_zoom4.jpg?ts=1685041897&",
+          "destaque": false
+        }
+      ],
+      "preco": 179.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 3,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "Achei muito fininha e com mau acabamento, mas justifica o valor",
+          "estrelas": 2
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "produto": "Jaqueta Corta Vento New Balance Accelerate Feminina - Pink",
+      "descricao": "Saia para correr com conforto e liberdade usando a Jaqueta Corta Vento New Balance Accelerate Feminina. Essa jaqueta esportiva é ideal para atividades ao ar livre, já que é confeccionada em material macio ao toque da pele e tecnologia que afasta vento e água, com ótimo ajuste ao corpo, gola alta, bolso lateral e fechamento em zíper. ",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 250
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 500
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 150
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-feminina/38/39U-5537-338/39U-5537-338_zoom1.jpg?ts=1686689049&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-feminina/38/39U-5537-338/39U-5537-338_zoom2.jpg?ts=1686689049&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-feminina/38/39U-5537-338/39U-5537-338_zoom3.jpg?ts=1686689050&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-feminina/38/39U-5537-338/39U-5537-338_zoom4.jpg?ts=1686689050&?ims=544xhttps://static.netshoes.com.br/produtos/jaqueta-corta-vento-new-balance-accelerate-feminina/38/39U-5537-338/39U-5537-338_zoom4.jpg?ts=1686689050&?ims=1088x",
+          "destaque": false
+        }
+      ],
+      "preco": 189.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 3,
+      "colecao": 2,
+      "avaliacoes": []
+    },
+    {
+      "id": 10,
+      "produto": "Short Nike 10K 2 em 1 Feminino - Preto+Cinza",
+      "descricao": "Eleve os seu tempo com o Short Nike 10K 2 em 1 Feminino! É confeccionado em material leve e macio ao toque da pele, para impulsionar seus resultados e superar limites.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 25
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-nike-10k-2-em-1-feminino/72/HZM-3580-172/HZM-3580-172_zoom1.jpg?ts=1630604990&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-nike-10k-2-em-1-feminino/72/HZM-3580-172/HZM-3580-172_zoom2.jpg?ts=1630604990&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-nike-10k-2-em-1-feminino/72/HZM-3580-172/HZM-3580-172_zoom3.jpg?ts=1630604990&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-nike-10k-2-em-1-feminino/72/HZM-3580-172/HZM-3580-172_zoom4.jpg?ts=1630604990&",
+          "destaque": false
+        }
+      ],
+      "preco": 149.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 6,
+      "colecao": 3,
+      "avaliacoes": [
+        {
+          "idUsuario": 6,
+          "comentario": "Maior chiquezaa",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "produto": "Camisa Flamengo I 23/24 s/n° Torcedor Adidas Masculina - Vermelho+Preto",
+      "descricao": "Alô, torcedor do Mengão! Chegou a hora de atualizar o seu manto com a Camisa Flamengo I 23/24 s/n° Torcedor Adidas Masculina! Com as tradicionais cores que representam o gigante carioca, essa Camisa Flamengo 23/24 masculina apresenta listras horizontais em preto e vermelho, além de listras brancas nos ombros.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 5
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 80
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1689779972&?ims=544xhttps://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1689779972&?ims=1088x",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom2.jpg?ts=1689779972&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom3.jpg?ts=1689779972&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom4.jpg?ts=1689779972&",
+          "destaque": false
+        }
+      ],
+      "preco": 299.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 3,
+      "avaliacoes": [
+        {
+          "idUsuario": 5,
+          "comentario": "Essa do mengao e um nojo",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "produto": "Camisa Corinthians I 23/24 s/n° Torcedor Nike Masculina - Branco",
+      "descricao": "Celebre os 40 anos de um movimento que ajudou a moldar a trajetória política do Brasil com a Camisa Corinthians I 23/24 s/n° Torcedor Nike Masculina! Encabeçado por jogadores como Wladimir, Sócrates e Casagrande, a Democracia Corinthiana deu voz de escolha para todos do clube, desde roupeiro, jogadores, comissão técnica e diretoria.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 150
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-corinthians-i-2324-sn-torcedor-nike-masculina/14/JD8-2748-014/JD8-2748-014_zoom1.jpg?ts=1685634765&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-corinthians-i-2324-sn-torcedor-nike-masculina/14/JD8-2748-014/JD8-2748-014_zoom2.jpg?ts=1685634765&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-corinthians-i-2324-sn-torcedor-nike-masculina/14/JD8-2748-014/JD8-2748-014_zoom3.jpg?ts=1685634765&",
+          "destaque": false
+        }
+      ],
+      "preco": 229.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 3,
+      "avaliacoes": [
+        {
+          "idUsuario": 1,
+          "comentario": "Otimo tecido, totalmente original",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "produto": "Camisa Real Madrid Away 22/23 s/n° Torcedor Adidas Masculina - Roxo",
+      "descricao": "Na hora de escolher o manto para torcer pelo Real, escolha a Camisa Real Madrid Away 22/23 s/n° Torcedor Adidas! Confeccionada em tecido poliéster de alta qualidade, a camiseta Real Madrid da Adidas possui modelagem padrão, gola redonda, mangas curtas e tecido com tecnologia AEROREADY antissuor, que mantém você seco e confortável em dias mais quentes, garantindo bem-estar, segurança e comodidade na hora da partida.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 70
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-real-madrid-away-2223-sn-torcedor-adidas-masculina/98/3ZP-7261-198/3ZP-7261-198_zoom1.jpg?ts=1657726039&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-real-madrid-away-2223-sn-torcedor-adidas-masculina/98/3ZP-7261-198/3ZP-7261-198_zoom2.jpg?ts=1657726039&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-real-madrid-away-2223-sn-torcedor-adidas-masculina/98/3ZP-7261-198/3ZP-7261-198_zoom3.jpg?ts=1657726040&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-real-madrid-away-2223-sn-torcedor-adidas-masculina/98/3ZP-7261-198/3ZP-7261-198_zoom4.jpg?ts=1657726042&",
+          "destaque": false
+        }
+      ],
+      "preco": 189.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 1,
+      "colecao": 3,
+      "avaliacoes": [
+        {
+          "idUsuario": 6,
+          "comentario": "Chavosa",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "produto": "Calça de moletom algodãp WIDE LEG - Preto",
+      "descricao": "CALÇA DE MOLETOM ALGODÃO FELPADO , TECIDO QUENTINHO, PERFEITO PARA DIAS FRIOS DE OUTONO/INVERNO.<p> TAMANHO P VESTE MANEQUIM 34/36<p> TAMANHO M VESTE MANEQUIM 38/40<p> TAMANHO G VESTE MANEQUIM 42/44<p> TAMANHO GG VESTE MANEQUIM 46/48<p> COMPOSIÇÃO: 92% ALGODÃO 8% POLIÉSTER",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-de-moletom-algodao-felpado-peluciado-quentinha-wide-leg/06/NCS-0291-006/NCS-0291-006_zoom1.jpg?ts=1654796202&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-de-moletom-algodao-felpado-peluciado-quentinha-wide-leg/06/NCS-0291-006/NCS-0291-006_zoom2.jpg?ts=1654796202&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-de-moletom-algodao-felpado-peluciado-quentinha-wide-leg/06/NCS-0291-006/NCS-0291-006_zoom3.jpg?ts=1654796202&",
+          "destaque": false
+        }
+      ],
+      "preco": 56.9,
+      "parcelas": [
+        1,
+        2
+      ],
+      "genero": "Feminino",
+      "categoria": 2,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 5,
+          "comentario": "Muito quentinha e estilosa",
+          "estrelas": 4
+        },
+        {
+          "idUsuario": 14,
+          "comentario": "111111111111111111111111111",
+          "estrelas": 2
+        },
+        {
+          "idUsuario": 1,
+          "comentario": "22222222222222222222222222222222222222",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "produto": "Calça Legging Fila Flat Life II Feminina - Preto",
+      "descricao": "Pegue pesado nos treinos de perna ou corrida usando a Calça Legging Feminina da Fila. Fabricado com tecido leve, o modelo cintura alta veste rente ao corpo e garante liberdade para executar agachamentos ou afundos com máxima amplitude. Combine com tênis e top e esteja pronta para encarar as séries mais insanas em grande estilo.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 250
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 80
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-legging-fila-flat-life-ii-feminina/06/2FT-9552-006/2FT-9552-006_zoom1.jpg?ts=1647894230&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-legging-fila-flat-life-ii-feminina/06/2FT-9552-006/2FT-9552-006_zoom2.jpg?ts=1647894231&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-legging-fila-flat-life-ii-feminina/06/2FT-9552-006/2FT-9552-006_zoom3.jpg?ts=1647894231&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-legging-fila-flat-life-ii-feminina/06/2FT-9552-006/2FT-9552-006_zoom4.jpg?ts=1647894231&",
+          "destaque": false
+        }
+      ],
+      "preco": 99.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 2,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 6,
+          "comentario": "esperava mais",
+          "estrelas": 2
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "produto": "Calça de moletom algodãp WIDE LEG WIDE LEG - Cinza",
+      "descricao": "CALÇA DE MOLETOM ALGODÃO FELPADO , TECIDO QUENTINHO, PERFEITO PARA DIAS FRIOS DE OUTONO/INVERNO.<p> TAMANHO P VESTE MANEQUIM 34/36<p> TAMANHO M VESTE MANEQUIM 38/40<p> TAMANHO G VESTE MANEQUIM 42/44<p> TAMANHO GG VESTE MANEQUIM 46/48<p> COMPOSIÇÃO: 92% ALGODÃO 8% POLIÉSTER",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-de-moletom-algodao-felpado-peluciado-quentinha-wide-leg/10/NCS-0291-010/NCS-0291-010_zoom1.jpg?ts=1654796234&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-de-moletom-algodao-felpado-peluciado-quentinha-wide-leg/10/NCS-0291-010/NCS-0291-010_zoom2.jpg?ts=1654796234&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-de-moletom-algodao-felpado-peluciado-quentinha-wide-leg/10/NCS-0291-010/NCS-0291-010_zoom3.jpg?ts=1654796234&",
+          "destaque": false
+        }
+      ],
+      "preco": 56.9,
+      "parcelas": [
+        1,
+        2
+      ],
+      "genero": "Feminino",
+      "categoria": 2,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "Minha mulher adorou",
+          "estrelas": 4
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "produto": "Calça Super Skinny Délavé Fashion Azul Claro - Jeans",
+      "descricao": "Seja Bem Vindo a Tempo HabilEssa Calça Super Skinny Délavê é o ideal para arrebentar onde chega, seja na balada ou no trabalho, ela conserva o estilo casual moderno! Tipo Tecido.: Jeans Claro Delave Composição Algodão e Elastano",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-super-skinny-delave-fashion-azul-claro/25/GT5-0007-325/GT5-0007-325_zoom1.jpg?ts=1660412770&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-super-skinny-delave-fashion-azul-claro/25/GT5-0007-325/GT5-0007-325_zoom2.jpg?ts=1660412770&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-super-skinny-delave-fashion-azul-claro/25/GT5-0007-325/GT5-0007-325_zoom3.jpg?ts=1660412770&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-super-skinny-delave-fashion-azul-claro/25/GT5-0007-325/GT5-0007-325_zoom4.jpg?ts=1660412770&",
+          "destaque": false
+        }
+      ],
+      "preco": 69.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 2,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "e barata pq nao presta",
+          "estrelas": 0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "produto": "Calça Moletom Nike NSW Club JSY Masculina - Preto+Branco",
+      "descricao": "Calça Moletom Nike NSW Club JSY Masculina, perfeita para pratica de esportes e ainda para o frio com seu tecido acolchoado",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 100
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-moletom-nike-nsw-club-jsy-masculina/26/HZM-1929-026/HZM-1929-026_zoom1.jpg?ts=1689766354&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-moletom-nike-nsw-club-jsy-masculina/26/HZM-1929-026/HZM-1929-026_zoom2.jpg?ts=1689766354&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-moletom-nike-nsw-club-jsy-masculina/26/HZM-1929-026/HZM-1929-026_zoom3.jpg?ts=1689766354&",
+          "destaque": false
+        }
+      ],
+      "preco": 199.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 2,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 2,
+          "comentario": "Boa calça mais preço mto salgado nao justifica e a minha veio com defeito",
+          "estrelas": 1
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "produto": "Calça Adidas 3 Listras Masculina - Preto+Off White",
+      "descricao": "Estilo atlético com o conforto ideal para o dia a dia! A calça masculina adidas 3 Listras é peça essencial e versátil, ideal para descomplicar o outfit e aproveitar diferentes momentos com comodidade.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 110
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 10
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-adidas-3-listras-masculina/09/FB8-3875-309/FB8-3875-309_zoom1.jpg?ts=1683827803&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-adidas-3-listras-masculina/09/FB8-3875-309/FB8-3875-309_zoom2.jpg?ts=1683827803&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-adidas-3-listras-masculina/09/FB8-3875-309/FB8-3875-309_zoom3.jpg?ts=1683827804&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-adidas-3-listras-masculina/09/FB8-3875-309/FB8-3875-309_zoom4.jpg?ts=1683827804&",
+          "destaque": false
+        }
+      ],
+      "preco": 189.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 2,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 1,
+          "comentario": "",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "produto": "Calça Moletom Kappa Masculina - Marinho",
+      "descricao": "Aposte em um visual despojado e esportivo com a Calça Moletom Kappa Masculina! Confeccionada em material leve e confortável, a peça apresenta cós em cordão que permite um ajuste prático e personalizado. Os bolsos laterais comportam pequenos objetos, já o tecido macio te mantém aquecido em dias gelados. Adquira já essa calça moletom masculina!",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-moletom-kappa-masculina/12/D24-5375-012/D24-5375-012_zoom1.jpg?ts=1683207807&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-moletom-kappa-masculina/12/D24-5375-012/D24-5375-012_zoom2.jpg?ts=1683207807&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-moletom-kappa-masculina/12/D24-5375-012/D24-5375-012_zoom3.jpg?ts=1683207807&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-moletom-kappa-masculina/12/D24-5375-012/D24-5375-012_zoom4.jpg?ts=1683207808&",
+          "destaque": false
+        }
+      ],
+      "preco": 144.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 2,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 3,
+          "comentario": "Top ficou mto boa achei muito boa",
+          "estrelas": 4
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "produto": "Calça Cargo Masculina 6 Bolsos Skate Militar - Preto",
+      "descricao": "A calça que foi o Hit dos anos 90 voltou com tudo ; inicialmente criada para os militares durante a decada de 40 ganhou destaque pelo exercito britânico e norte americano.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 150
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-cargo-masculina-6-bolsos-skate-militar/06/3B3-0001-006/3B3-0001-006_zoom1.jpg?ts=1684247418&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-cargo-masculina-6-bolsos-skate-militar/06/3B3-0001-006/3B3-0001-006_zoom2.jpg?ts=1684247418&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/calca-cargo-masculina-6-bolsos-skate-militar/06/3B3-0001-006/3B3-0001-006_zoom3.jpg?ts=1684247418&",
+          "destaque": false
+        }
+      ],
+      "preco": 119.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 2,
+      "colecao": 1,
+      "avaliacoes": []
+    },
+    {
+      "id": 22,
+      "produto": "Jaqueta Juvenil Juventus Trilobal - Preto+Cinza",
+      "descricao": "Tecido de poliester, produto oficial do club Juventus da italia time de maior tradição no pais!",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/jaqueta-juvenil-juventus-trilobal/72/D65-3174-172/D65-3174-172_zoom1.jpg?ts=1605521207&",
+          "destaque": true
+        }
+      ],
+      "preco": 163.55,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 3,
+      "colecao": 3,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "ficou muito linda no corpo só achei que nao esquenta",
+          "estrelas": 3
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "produto": "Camisa Internacional I 20/21 s/nº Torcedor Adidas Feminina - Vermelho",
+      "descricao": "O Colorado das Glórias e da Luta está de manto novo: chegou a Camisa Feminina do Internacional I 20/21 s/nº Torcedor Adidas. Duas décadas depois de uma era vitoriosa, a Adidas reencontra o Inter com um manto regado de tradição e mais pesado do que nunca. A peça que compõe o uniforme titular do clube possui gola careca com contorno em branco, que contrasta com as icônicas Três Listras nos ombros, e o tom de vermelho que faz o coração bater forte",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 250
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-internacional-i-2021-sn-torcedor-adidas-feminina/16/NQQ-1033-016/NQQ-1033-016_zoom1.jpg?ts=1584470836&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-internacional-i-2021-sn-torcedor-adidas-feminina/16/NQQ-1033-016/NQQ-1033-016_zoom2.jpg?ts=1584470836&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/camisa-internacional-i-2021-sn-torcedor-adidas-feminina/16/NQQ-1033-016/NQQ-1033-016_zoom3.jpg?ts=1584470836&",
+          "destaque": false
+        }
+      ],
+      "preco": 299.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 1,
+      "colecao": 3,
+      "avaliacoes": [
+        {
+          "idUsuario": 3,
+          "comentario": "presentao de dia das maes",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "produto": "Short Adidas Tactel Colorblock Masculino - Preto+Cinza",
+      "descricao": "Complete seu visual esportivo e esteja pronto para pegar pesado nas séries usando o Short Masculino da Adidas. Fabricado com tecido leve e caimento solto, o modelo garante liberdade para você executar os movimentos do treino de perna ou corrida com máxima amplitude, além da tecnologia Aeroready que afasta o suor e mantém a pele seca por mais tempo.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 80
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-adidas-tactel-colorblock-masculino/72/3ZP-7410-172/3ZP-7410-172_zoom1.jpg?ts=1665522666&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-adidas-tactel-colorblock-masculino/72/3ZP-7410-172/3ZP-7410-172_zoom2.jpg?ts=1665522666&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-adidas-tactel-colorblock-masculino/72/3ZP-7410-172/3ZP-7410-172_zoom3.jpg?ts=1665522667&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-adidas-tactel-colorblock-masculino/72/3ZP-7410-172/3ZP-7410-172_zoom4.jpg?ts=1665522667&",
+          "destaque": false
+        }
+      ],
+      "preco": 119.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 6,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 2,
+          "comentario": "Pessimo custo beneficio mas pelomenos e confortavel",
+          "estrelas": 3
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "produto": "Short Fila Train 5 Masculino - Grafite",
+      "descricao": "O Short Fila Train 5 Masculino é a escolha perfeita para os exercícios na academia ou ao ar livre! O material leve fornece toque extra em maciez, enquanto a regulagem em cordão permite um ajuste personalizado na cintura. Os bolsos laterais comportam pequenos objetos. Compre já esse short masculino!",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 110
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 10
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 30
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-fila-train-5-masculino/66/2FU-1422-266/2FU-1422-266_zoom1.jpg?ts=1661980089&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-fila-train-5-masculino/66/2FU-1422-266/2FU-1422-266_zoom2.jpg?ts=1661980091&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-fila-train-5-masculino/66/2FU-1422-266/2FU-1422-266_zoom3.jpg?ts=1661980089&ims=120x",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-fila-train-5-masculino/66/2FU-1422-266/2FU-1422-266_zoom4.jpg?ts=1661980090&",
+          "destaque": false
+        }
+      ],
+      "preco": 69.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 6,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 1,
+          "comentario": "Confortavel",
+          "estrelas": 4
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "produto": "Shorts Nike Dri-FIT Challenger 2-in-1 Masculino - Preto+Branco",
+      "descricao": "Feito para corrida, treino e yoga, nosso Shorts Challenger que absorve o suor mantém a leveza com uma camada externa relaxada e uma camada interna justa para suporte que ajuda você a aproveitar ao máximo seus movimentos. Nós o equipamos para mais do que correr, com um bolso confortável que não vai irritar quando você passar da pista para a academia.Mantenha-se Seco, Permaneça FrescoTecnologia Nike Dri-FIT absorve o suor da sua pele para evaporação mais rápida, ajudando a manter você seco e confortável. Um camada interna justa ajuda a oferecer suporte.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/shorts-nike-dri-fit-challenger-2-in-1-masculino/26/JD8-1945-026/JD8-1945-026_zoom1.jpg?ts=1684172555&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/shorts-nike-dri-fit-challenger-2-in-1-masculino/26/JD8-1945-026/JD8-1945-026_zoom3.jpg?ts=1684172555&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/shorts-nike-dri-fit-challenger-2-in-1-masculino/26/JD8-1945-026/JD8-1945-026_zoom4.jpg?ts=1684172555&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/shorts-nike-dri-fit-challenger-2-in-1-masculino/26/JD8-1945-026/JD8-1945-026_zoom5.jpg?ts=1684172555&",
+          "destaque": false
+        }
+      ],
+      "preco": 139.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 6,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "Bom produto, porem caro",
+          "estrelas": 4
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "produto": "Bermuda Adidas 3S Masculina - Bordô",
+      "descricao": "Versátil, o Short Adidas Masculino é aquela peça que você pode usar no dia a dia ou na hora do treino. Extremamente confortável, o modelo possui cós elástico, além de bolsos laterais para manter seus itens pessoais próximos e em segurança. As listras tradicionais do jeito Adidas de ser aparecem nas laterais e deixam seu sportwear autêntico e descolado.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bermuda-adidas-3s-masculina/88/2FW-5549-788/2FW-5549-788_zoom1.jpg?ts=1673465558&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bermuda-adidas-3s-masculina/88/2FW-5549-788/2FW-5549-788_zoom2.jpg?ts=1673465558&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bermuda-adidas-3s-masculina/88/2FW-5549-788/2FW-5549-788_zoom3.jpg?ts=1673465558&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bermuda-adidas-3s-masculina/88/2FW-5549-788/2FW-5549-788_zoom4.jpg?ts=1673465558&",
+          "destaque": false
+        }
+      ],
+      "preco": 99.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 6,
+      "colecao": 2,
+      "avaliacoes": []
+    },
+    {
+      "id": 28,
+      "produto": "BERMUDA FITNESS BOLSO PLAY - Preto",
+      "descricao": "BERMUDA COM 1 BOLSO LATERAL PLAY( PARA CELULAR), TECIDO SUPLEX 330 GRAMATURA, TECIDO GROSSO COM EXCELENTE ELASTICIDADE, NÃO TEM TRANSPARÊNCIA! TAMANHO P VESTE MANEQUIM 34 TAMANHO M VESTE MANEQUIM 36/38 TAMANHO G VESTE MANEQUIM 40/42 TAMANHO GG VESTE MANEQUIM 44/46 COMPOSIÇÃO: 90% POLIÉSTER 10% ELASTANO",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 250
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 150
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 100
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bermuda-fitness-bolso-play/06/NCS-0183-006/NCS-0183-006_zoom1.jpg?ts=1619640796&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bermuda-fitness-bolso-play/06/NCS-0183-006/NCS-0183-006_zoom2.jpg?ts=1619640796&",
+          "destaque": false
+        }
+      ],
+      "preco": 37.9,
+      "parcelas": [
+        1,
+        2
+      ],
+      "genero": "Feminino",
+      "categoria": 6,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 6,
+          "comentario": "Muito confortavel para treinar",
+          "estrelas": 4
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "produto": "Short Adidas 3 Barras PCR Feminino - Prata+Branco",
+      "descricao": "Aposte no Short Adidas 3 Barras PCR Feminino, e faça as suas atividades ao ar livre com o máximo de conforto.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-adidas-pacer-made-for-training-feminino/28/FB8-0779-028/FB8-0779-028_zoom1.jpg?ts=1661209909&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-adidas-pacer-made-for-training-feminino/28/FB8-0779-028/FB8-0779-028_zoom2.jpg?ts=1661209909&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-adidas-pacer-made-for-training-feminino/28/FB8-0779-028/FB8-0779-028_zoom4.jpg?ts=1661209910&",
+          "destaque": false
+        }
+      ],
+      "preco": 149.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 6,
+      "colecao": 2,
+      "avaliacoes": []
+    },
+    {
+      "id": 30,
+      "produto": "Short Sunquini Hot Pants Suplex Insanity Proud Cor:Vermelho;Tamanho:GG - Preto",
+      "descricao": "Short prático e confortável. Escolha perfeita perfeita para seu treino. Confeccionado em material Suplex super confortável. Cós alto anatômico para maior ajuste e segurança, evita que a peça fique descendo.",
+      "estoque": [
+        {
+          "tamanho": "P",
+          "quantidade": 250
+        },
+        {
+          "tamanho": "M",
+          "quantidade": 250
+        },
+        {
+          "tamanho": "G",
+          "quantidade": 150
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-sunquini-hot-pants-suplex-insanity-proud-cor:vermelho;tamanho:gg/06/LOI-0086-006/LOI-0086-006_zoom2.jpg?ts=1631004470&?ims=544xhttps://static.netshoes.com.br/produtos/short-sunquini-hot-pants-suplex-insanity-proud-cor:vermelho;tamanho:gg/06/LOI-0086-006/LOI-0086-006_zoom2.jpg?ts=1631004470&?ims=1088x",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-sunquini-hot-pants-suplex-insanity-proud-cor:vermelho;tamanho:gg/06/LOI-0086-006/LOI-0086-006_zoom1.jpg?ts=1631004470&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-sunquini-hot-pants-suplex-insanity-proud-cor:vermelho;tamanho:gg/06/LOI-0086-006/LOI-0086-006_zoom3.jpg?ts=1631004470&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/short-sunquini-hot-pants-suplex-insanity-proud-cor:vermelho;tamanho:gg/06/LOI-0086-006/LOI-0086-006_zoom4.jpg?ts=1631004470&",
+          "destaque": false
+        }
+      ],
+      "preco": 37.9,
+      "parcelas": [
+        1,
+        2
+      ],
+      "genero": "Masculino",
+      "categoria": 6,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "Tudo de bom!!!",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "produto": "Boné Puma Aba Curva Sportswear - Preto",
+      "descricao": "Complete o visual com o Boné Puma Aba Curva Sportswear! Confeccionado em material leve e resistente, apresenta fechamento em fecho de contato que permite um ajuste prático e personalizado na hora de usar.",
+      "estoque": [
+        {
+          "tamanho": "Tamanho unico",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-puma-aba-curva-sportswear/06/2I3-5927-006/2I3-5927-006_zoom1.jpg?ts=1690168560&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-puma-aba-curva-sportswear/06/2I3-5927-006/2I3-5927-006_zoom3.jpg?ts=1690168560&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-puma-aba-curva-sportswear/06/2I3-5927-006/2I3-5927-006_zoom2.jpg?ts=1690168560&",
+          "destaque": false
+        }
+      ],
+      "preco": 54.99,
+      "parcelas": [
+        1,
+        2
+      ],
+      "genero": "Masculino",
+      "categoria": 5,
+      "colecao": 2,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "daora a bonbeta",
+          "estrelas": 3
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "produto": "Boné New Era 9Forty New York Aba Curva Bege - Bege",
+      "descricao": "Descrição do Boné New Era 9Forty New York Aba Curva Bege A New Era foi fundada em 1920 nos Estados Unidos, é especializada em bonés, confecções e artigos esportivos, é a fornecedora oficial dos bonés para MLB",
+      "estoque": [
+        {
+          "tamanho": "Tamanho unico",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-new-era-9forty-new-york-aba-curva-bege/04/IJX-0457-004/IJX-0457-004_zoom1.jpg?ts=1664561479&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-new-era-9forty-new-york-aba-curva-bege/04/IJX-0457-004/IJX-0457-004_zoom2.jpg?ts=1664561479&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-new-era-9forty-new-york-aba-curva-bege/04/IJX-0457-004/IJX-0457-004_zoom3.jpg?ts=1664561479&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-new-era-9forty-new-york-aba-curva-bege/04/IJX-0457-004/IJX-0457-004_zoom4.jpg?ts=1664561479&",
+          "destaque": false
+        }
+      ],
+      "preco": 159.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Masculino",
+      "categoria": 5,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 6,
+          "comentario": "Adorei mozaoooooo",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "produto": "Boné Nike Air Classic99 Unissex - Branco",
+      "descricao": "O boné Nike Air Classic99 é o acompanhamento perfeito para os seus estilos Nike Air favoritos. O tecido woven leve proporciona uma sensação fresca e confortável, enquanto um remendo Nike Air clássico mostra o seu amor pela marca.Formato Classic99Este caimento clássico e estruturado tem uma coroa inclinada e uma aba curva para um look casual e aconchegante.Remendo Nike AirA estampa no painel frontal mostra o seu amor pelo Swoosh.",
+      "estoque": [
+        {
+          "tamanho": "Tamanho unico",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-nike-air-classic99-unissex/14/JD8-2044-014/JD8-2044-014_zoom1.jpg?ts=1684154427&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-nike-air-classic99-unissex/14/JD8-2044-014/JD8-2044-014_zoom2.jpg?ts=1684154427&",
+          "destaque": false
+        }
+      ],
+      "preco": 139.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Unissex",
+      "categoria": 5,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 4,
+          "comentario": "muito loco adorei",
+          "estrelas": 5
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "produto": "Boné Nike Sportswear H86 Feminino - Rosa",
+      "descricao": "ESTILO TRADICIONAL COM UMA ABA CURVADA.Clássico e confortável, o boné Nike Sportswear Heritage Heritage86 apresenta um design de seis painéis feito com tecido de sarja e um fechamento ajustável para um caimento firme e confortável.Formato Heritage86Este design de seis painéis apresenta uma coroa de perfil baixo não estruturado, aba curva e fivela ajustável.Estilo exclusivoO logo Futura bordado na coroa acrescenta textura e um visual elevado",
+      "estoque": [
+        {
+          "tamanho": "Tamanho unico",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-nike-sportswear-h86-feminino/18/JD8-2050-018/JD8-2050-018_zoom1.jpg?ts=1684154467&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/bone-nike-sportswear-h86-feminino/18/JD8-2050-018/JD8-2050-018_zoom2.jpg?ts=1684154467&?ims=544xhttps://static.netshoes.com.br/produtos/bone-nike-sportswear-h86-feminino/18/JD8-2050-018/JD8-2050-018_zoom2.jpg?ts=1684154467&?ims=1088x",
+          "destaque": false
+        }
+      ],
+      "preco": 109.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 5,
+      "colecao": 1,
+      "avaliacoes": [
+        {
+          "idUsuario": 6,
+          "comentario": "Uiiiii rosinha zikaaa",
+          "estrelas": 4
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "produto": "Tênis Nike Air Max AP Masculino - Branco",
+      "descricao": "Com design elegante e esportivo. o Nike Air Max AP reúne o passado e o presente em um conforto de primeira. Detalhes da herança remetem ao Air Max 97. enquanto a parte de cima simplificada e a entressola mais macia garantem um toque moderno. Com design de perfil baixo. gola de felpa acolchoada. tela ventilada e palmilha confortável. esse tênis é perfeito para usar com qualquer outfit.BenefíciosO couro premium e a tela ventilada na parte de cima dão um toque de estilo retrô. mantendo o tênis leve e confortável.Desenvolvida originalmente para corridas de desempenho. a inovadora unidade Air de comprimento total exibe um perfil mais baixo para criar um look elegante e adicionar uma nova sensação que você precisa experimentar.",
+      "estoque": [
+        {
+          "tamanho": "37",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "38",
+          "quantidade": 80
+        },
+        {
+          "tamanho": "39",
+          "quantidade": 10
+        },
+        {
+          "tamanho": "40",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "41",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "42",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-masculino/14/2IC-4721-014/2IC-4721-014_zoom1.jpg?ts=1681304811&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-masculino/14/2IC-4721-014/2IC-4721-014_zoom2.jpg?ts=1681304811&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-masculino/14/2IC-4721-014/2IC-4721-014_zoom3.jpg?ts=1681304811&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-masculino/14/2IC-4721-014/2IC-4721-014_zoom4.jpg?ts=1681304811&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-masculino/14/2IC-4721-014/2IC-4721-014_zoom5.jpg?ts=1681304811&",
+          "destaque": false
+        }
+      ],
+      "preco": 899.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "genero": "Masculino",
+      "categoria": 4,
+      "colecao": 1,
+      "avaliacoes": []
+    },
+    {
+      "id": 36,
+      "produto": "Tênis NikeCourt Zoom NXT Masculino - Branco",
+      "descricao": "VÁ MAIS LONGE COM O AIR.Aproveite ao máximo cada passo com o NikeCourt Zoom NXT. Utilizamos as ideias de nossos melhores atletas para acrescentar o amortecimento do antepé para um impulso extra na hora de calçar. Depois de remover o máximo de peso possível sem comprometer a durabilidade, garantimos também que esse design superleve fosse extremamente confortável.",
+      "estoque": [
+        {
+          "tamanho": "37",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "38",
+          "quantidade": 80
+        },
+        {
+          "tamanho": "39",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "40",
+          "quantidade": 10
+        },
+        {
+          "tamanho": "41",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "42",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nikecourt-zoom-nxt-masculino/14/JD8-4619-014/JD8-4619-014_zoom1.jpg?ts=1690050031&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nikecourt-zoom-nxt-masculino/14/JD8-4619-014/JD8-4619-014_zoom2.jpg?ts=1690050031&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nikecourt-zoom-nxt-masculino/14/JD8-4619-014/JD8-4619-014_zoom3.jpg?ts=1690050031&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nikecourt-zoom-nxt-masculino/14/JD8-4619-014/JD8-4619-014_zoom4.jpg?ts=1690050031&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nikecourt-zoom-nxt-masculino/14/JD8-4619-014/JD8-4619-014_zoom5.jpg?ts=1690050031&",
+          "destaque": false
+        }
+      ],
+      "preco": 959.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "genero": "Masculino",
+      "categoria": 4,
+      "colecao": 1,
+      "avaliacoes": []
+    },
+    {
+      "id": 37,
+      "produto": "Tênis Nike Metcon 8 Feminino - Preto",
+      "descricao": "Você corre contra o tempo, desafiando e incentivando uns aos outros, tudo isso para alcançar metas e vitórias. Nosso modelo para treinamento conta com uma parte superior mais leve e respirável do que nossa edição anterior para complementar nossos padrões de durabilidade e conforto, para que você possa flutuar em seu cardio, forçar seus levantamentos e dominar seus treinos.",
+      "estoque": [
+        {
+          "tamanho": "34",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "35",
+          "quantidade": 80
+        },
+        {
+          "tamanho": "36",
+          "quantidade": 100
+        },
+        {
+          "tamanho": "37",
+          "quantidade": 14
+        },
+        {
+          "tamanho": "38",
+          "quantidade": 30
+        },
+        {
+          "tamanho": "39",
+          "quantidade": 0
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-metcon-8-feminino/06/JD8-3890-006/JD8-3890-006_zoom1.jpg?ts=1686152886&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-metcon-8-feminino/06/JD8-3890-006/JD8-3890-006_zoom2.jpg?ts=1686152886&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-metcon-8-feminino/06/JD8-3890-006/JD8-3890-006_zoom3.jpg?ts=1686152886&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-metcon-8-feminino/06/JD8-3890-006/JD8-3890-006_zoom4.jpg?ts=1686152886&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-nike-metcon-8-feminino/06/JD8-3890-006/JD8-3890-006_zoom5.jpg?ts=1686152886&",
+          "destaque": false
+        }
+      ],
+      "preco": 1079.9,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "genero": "Feminino",
+      "categoria": 4,
+      "colecao": 1,
+      "avaliacoes": []
+    },
+    {
+      "id": 38,
+      "produto": "Tênis Olympikus Angel 3 Feminino - Marinho",
+      "descricao": "Com amortecimento macio em Evasense, que proporciona flexibilidade a cada passada. o tênis feminino Olypikus Angel 3, é perfeito para te acompanhar nas atividades fisícas ou naquela simples caminhada diária. Ideal para quem busca conforto e durabilidade, aliado ao design moderno e calce fácil.",
+      "estoque": [
+        {
+          "tamanho": "34",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "35",
+          "quantidade": 80
+        },
+        {
+          "tamanho": "36",
+          "quantidade": 100
+        },
+        {
+          "tamanho": "37",
+          "quantidade": 14
+        },
+        {
+          "tamanho": "38",
+          "quantidade": 30
+        },
+        {
+          "tamanho": "39",
+          "quantidade": 100
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-olympikus-angel-3-feminino/12/2I2-7542-012/2I2-7542-012_zoom1.jpg?ts=1683559046&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-olympikus-angel-3-feminino/12/2I2-7542-012/2I2-7542-012_zoom2.jpg?ts=1683559046&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-olympikus-angel-3-feminino/12/2I2-7542-012/2I2-7542-012_zoom3.jpg?ts=1683559046&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-olympikus-angel-3-feminino/12/2I2-7542-012/2I2-7542-012_zoom4.jpg?ts=1683559046&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-olympikus-angel-3-feminino/12/2I2-7542-012/2I2-7542-012_zoom5.jpg?ts=1683559047&",
+          "destaque": false
+        }
+      ],
+      "preco": 129.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "genero": "Feminino",
+      "categoria": 4,
+      "colecao": 1,
+      "avaliacoes": []
+    },
+    {
+      "id": 39,
+      "produto": "Tênis Oakley Stratus - Camuflado Preto",
+      "descricao": "O Tênis Oakley Stratus é a escolha ideal para quem busca um tênis robusto para o dia a dia. O cabedal é confeccionado em material resistente para firmeza e durabilidade, forro levemente acolchoado, tira de fácil calce e palmilha macia que fornece conforto.",
+      "estoque": [
+        {
+          "tamanho": "37",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "38",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "39",
+          "quantidade": 10
+        },
+        {
+          "tamanho": "40",
+          "quantidade": 40
+        },
+        {
+          "tamanho": "41",
+          "quantidade": 0
+        },
+        {
+          "tamanho": "42",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-oakley-stratus/63/PFN-1494-C63/PFN-1494-C63_zoom1.jpg?ts=1685553329&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-oakley-stratus/63/PFN-1494-C63/PFN-1494-C63_zoom2.jpg?ts=1685553330&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-oakley-stratus/63/PFN-1494-C63/PFN-1494-C63_zoom3.jpg?ts=1685553330&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-oakley-stratus/63/PFN-1494-C63/PFN-1494-C63_zoom4.jpg?ts=1685553330&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-oakley-stratus/63/PFN-1494-C63/PFN-1494-C63_zoom5.jpg?ts=1685553330&",
+          "destaque": false
+        }
+      ],
+      "preco": 427.49,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "genero": "Masculino",
+      "categoria": 4,
+      "colecao": 1,
+      "avaliacoes": []
+    },
+    {
+      "id": 40,
+      "produto": "Tênis Couro Lacoste Europa Masculino - Preto+Branco",
+      "descricao": "Sintonize em estilo com o Tênis Couro Lacoste Europa Masculino, aposta certa para todos os momentos. Confeccionado em couro, tem solado de borracha, cadarço ajustável, detalhe de listras e aplique do clássico jacaré na lateral. Conforto e estilo garantido!",
+      "estoque": [
+        {
+          "tamanho": "37",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "38",
+          "quantidade": 80
+        },
+        {
+          "tamanho": "39",
+          "quantidade": 10
+        },
+        {
+          "tamanho": "40",
+          "quantidade": 30
+        },
+        {
+          "tamanho": "41",
+          "quantidade": 50
+        },
+        {
+          "tamanho": "42",
+          "quantidade": 50
+        }
+      ],
+      "imagem": [
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-couro-lacoste-europa-masculino/26/D66-3463-026/D66-3463-026_zoom1.jpg?ts=1687866761&",
+          "destaque": true
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-couro-lacoste-europa-masculino/26/D66-3463-026/D66-3463-026_zoom2.jpg?ts=1687866761&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-couro-lacoste-europa-masculino/26/D66-3463-026/D66-3463-026_zoom3.jpg?ts=1687866761&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-couro-lacoste-europa-masculino/26/D66-3463-026/D66-3463-026_zoom4.jpg?ts=1687866761&",
+          "destaque": false
+        },
+        {
+          "caminho": "https://static.netshoes.com.br/produtos/tenis-couro-lacoste-europa-masculino/26/D66-3463-026/D66-3463-026_zoom5.jpg?ts=1687866761&",
+          "destaque": false
+        }
+      ],
+      "preco": 341.99,
+      "parcelas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "genero": "Masculino",
+      "categoria": 4,
+      "colecao": 1,
+      "avaliacoes": []
+    }
+  ],
+  "colecoes": [
+    {
+      "id": 1,
+      "nome": "Outono/Inverno 2022",
+      "imagem": "https://img.freepik.com/fotos-premium/senhora-em-roupas-da-moda-fica-na-rua-contra-uma-casa-de-campo-e-paisagem-de-outono_245974-10842.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Primavera/Verão 2023",
+      "imagem": "https://img.freepik.com/fotos-gratis/jovem-mulher-elegante-em-pe-no-cais-caminhando-ouvindo-musica-em-fones-de-ouvido-roupas-de-verao-saia-branca-bolsa-agua-azul-plano-de-fundo-de-paisagem-lagoa-tropical-ferias-viajando-na-asia_285396-5941.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Outono/Inverno 2023",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs6rT5Kp7jm9BN1PjsaEhMpCObbh5wVUXbIYsw3X8Mu3dNDlrhngTtXjw6RpuzOCdLJ9o&usqp=CAU"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Camisetas",
+      "imagem": "https://cea.vtexassets.com/assets/vtex.file-manager-graphql/images/7c20fce5-2c59-4ba7-a046-177b64f60610___25a8c0cb6c49aa72ea7f5accf457e0b5.jpg"
+    },
+    {
+      "id": 2,
+      "categoria": "Calças",
+      "imagem": "https://img.freepik.com/fotos-premium/catalogo-estudio-de-moda-atirar-pernas-de-homem-em-calcas-cargo-roupa-bege-moderna_279525-28273.jpg"
+    },
+    {
+      "id": 3,
+      "categoria": "Blusas",
+      "imagem": "https://lojaspompeia.vtexassets.com/arquivos/ids/718441/109634-casaco-adulto-bivik-preto2.jpg?v=1777099798"
+    },
+    {
+      "id": 4,
+      "categoria": "Tenis",
+      "imagem": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/usereise/media/uploads/produtos/foto/bf79dc3b19a83tenis-masculino-branco-rs6-couro-01.jpg"
+    },
+    {
+      "id": 5,
+      "categoria": "Acessórios",
+      "imagem": "https://damyller.vteximg.com.br/arquivos/ids/600803-475-713/Bone-Trucker-Unissex-Costas--.jpg?v=637515274307570000"
+    },
+    {
+      "id": 6,
+      "categoria": "Bermudas",
+      "imagem": "https://digaspi.vtexassets.com/arquivos/ids/1835822-450-450/image-833feb40f71341b7902943de0b21bd1a.jpg?v=638126747507230000"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "Matheus M. Pinheiro",
+      "username": "matheusmp",
+      "carrinho": [
+        {
+          "produto": 1,
+          "tamanho": "P",
+          "quantidade": 3
+        }
+      ],
+      "tipo": "cliente"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Anderson Dias",
+      "username": "andersonDias",
+      "carrinho": [],
+      "tipo": "admin"
+    }
+  ],
+  "fazerLogin": [
+    {
+      "id": 1,
+      "username": "matheusmp",
+      "senha": "123abc",
+      "idUsuario": 1
+    },
+    {
+      "id": 2,
+      "username": "andersonDias",
+      "senha": "123abcc",
+      "idUsuario": 2
+    }
+  ],
+  "conteudoSite": {
+    "home": {
+      "textoCategorias": "Explore nossas categorias",
+      "produtosDestaque": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        15,
+        18,
+        24,
+        32,
+        35,
+        37,
+        40
+      ],
+      "textoDestaque": "Nossos produtos em destaque"
+    },
+    "internaProduto": {
+      "sugestao": "Outros produtos que possa gostar"
+    }
+  }
+}
