@@ -1,0 +1,22 @@
+<div class="inicio" *ngIf="roupa.id > 0">
+  
+  <div class="imagens">
+    
+    <img [src]="caminhoImagemDestaque" alt="">
+  
+    <div class="mini">
+      <ng-container *ngFor="let image of roupa.imagem">
+        <img [src]="image.caminho" alt="" (click)="mudaImagemDestaque( image.caminho )"
+        [ngClass]="( (image.caminho == caminhoImagemDestaque) ? 'ativo' : '' )">
+      </ng-container>
+    </div>
+
+  </div>
+
+  <div class="texto">
+    <h1>
+      {{ roupa.produto }}
+    </h1>
+  </div>
+
+</div>
