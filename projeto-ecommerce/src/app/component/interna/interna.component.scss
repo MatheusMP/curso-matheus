@@ -31,5 +31,36 @@
   }
   .texto{
     width: 60%;
+
+    .tamanhos{
+      display: flex;
+      flex-direction: row;
+
+      .tamanho{
+        padding: 20px;
+        background-color: gray;
+        margin-right: 20px;
+        position: relative;
+
+        span{
+          position: absolute;
+          background-color: red;
+          padding: 5px;
+          top: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+          opacity: 0;
+          transition: 0.25s all;
+        }
+      }
+      .tamanho:hover{
+        span{
+          opacity: 1;
+        }
+      }
+      .tamanho.indisp{
+        opacity: 0.3;
+      }
+    }
   }
 }

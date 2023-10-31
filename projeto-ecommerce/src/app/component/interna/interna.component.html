@@ -17,6 +17,12 @@
     <h1>
       {{ roupa.produto }}
     </h1>
+    <div class="tamanhos">
+      <div *ngFor="let estoque of roupa.estoque" class="tamanho" [ngClass]="((estoque.quantidade == 0) ? 'indisp' : '')">
+        {{ estoque.tamanho }}
+        <span>{{estoque.quantidade}}</span>
+      </div>
+    </div>
   </div>
 
 </div>
