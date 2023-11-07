@@ -18,11 +18,43 @@
       {{ roupa.produto }}
     </h1>
     <div class="tamanhos">
-      <div *ngFor="let estoque of roupa.estoque" class="tamanho" [ngClass]="((estoque.quantidade == 0) ? 'indisp' : '')">
+      <div *ngFor="let estoque of roupa.estoque" class="tamanho" [ngClass]="((estoque.quantidade == 0) ? 'indisp' : '')"
+        (click)="mudaTamanho(estoque.tamanho)">
         {{ estoque.tamanho }}
         <span>{{estoque.quantidade}}</span>
       </div>
     </div>
+    <button type="button" [disabled]="tamanhoSelecionado == ''" (click)="adicionarAoCarrinho()">
+      <ng-container *ngIf="tamanhoSelecionado != ''">
+        Adicionar ao carrinho o tamanho {{ tamanhoSelecionado }}
+      </ng-container>
+      <ng-container *ngIf="tamanhoSelecionado == ''">
+        Informe o tamanho que deseja
+      </ng-container>
+    </button>
   </div>
+  
+</div>
 
+<div class="avaliacoes">
+  <h3>
+    Avaliações
+  </h3>
+  <div class="avaliacao" *ngFor="let avaliacao of roupa.avaliacoes">
+    <p>
+      <ng-container *ngFor="let numero of arrayNumeros">
+
+        <ng-container *ngIf="numero < avaliacao.estrelas">
+          <img src="https://cdn-icons-png.flaticon.com/512/541/541415.png" />
+        </ng-container>
+        <ng-container *ngIf="numero >= avaliacao.estrelas">
+          <img src="https://cdn-icons-png.flaticon.com/512/149/149220.png" />
+        </ng-container>
+
+      </ng-container>
+    </p>
+    <h4>
+      {{ avaliacao.comentario }}
+    </h4>
+  </div>
 </div>

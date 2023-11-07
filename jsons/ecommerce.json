@@ -42,7 +42,22 @@
         {
           "idUsuario": 1,
           "comentario": "Tecido excelente e ótimo caimento",
+          "estrelas": 4
+        },
+        {
+          "idUsuario": 1,
+          "comentario": "Tecido excelente e ótimo caimento",
           "estrelas": 5
+        },
+        {
+          "idUsuario": 1,
+          "comentario": "Tecido excelente e ótimo caimento",
+          "estrelas": 3
+        },
+        {
+          "idUsuario": 1,
+          "comentario": "Tecido excelente e ótimo caimento",
+          "estrelas": 2
         }
       ]
     },
@@ -2176,7 +2191,23 @@
       "id": 2,
       "nomeCompleto": "Anderson Dias",
       "username": "andersonDias",
-      "carrinho": [],
+      "carrinho": [
+        {
+          "produto": 1,
+          "tamanho": "M",
+          "quantidade": 1
+        },
+        {
+          "produto": 3,
+          "tamanho": "G",
+          "quantidade": 1
+        },
+        {
+          "produto": 2,
+          "tamanho": "M",
+          "quantidade": 1
+        }
+      ],
       "tipo": "admin"
     }
   ],
