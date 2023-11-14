@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { InternaComponent } from './component/interna/interna.component';
+import { CarrinhoComponent } from './component/carrinho/carrinho.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    InternaComponent
+    InternaComponent,
+    CarrinhoComponent,
   ],
   imports: [
     BrowserModule,

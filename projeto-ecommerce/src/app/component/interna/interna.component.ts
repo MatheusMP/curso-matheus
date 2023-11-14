@@ -52,11 +52,24 @@ export class InternaComponent implements OnInit {
       // Faz uma copia dele para uma variavel
       let usuarioAlteracao = respUser
 
-      // Cria um novo item do carrinho
+      let prodJaExiste = false
       let novoItem = new Carrinho()
-      novoItem.produto = this.idDaUrl
-      novoItem.quantidade = 1
-      novoItem.tamanho = this.tamanhoSelecionado
+
+      for(let item of respUser.carrinho){
+        if(item.produto == this.idDaUrl && item.tamanho == this.tamanhoSelecionado){
+          prodJaExiste = true
+          novoItem = item
+        }
+      }
+
+      if(prodJaExiste){
+        novoItem.quantidade++
+      } else {
+        // Cria um novo item do carrinho
+        novoItem.produto = this.idDaUrl
+        novoItem.quantidade = 1
+        novoItem.tamanho = this.tamanhoSelecionado
+      }
 
       // Adiciona o novo item sem apagar os anteriores
       usuarioAlteracao.carrinho.push(novoItem)

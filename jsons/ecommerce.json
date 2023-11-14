@@ -2195,12 +2195,12 @@
         {
           "produto": 1,
           "tamanho": "M",
-          "quantidade": 1
+          "quantidade": 2
         },
         {
           "produto": 3,
           "tamanho": "G",
-          "quantidade": 1
+          "quantidade": 3
         },
         {
           "produto": 2,
