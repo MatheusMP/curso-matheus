@@ -43,6 +43,37 @@ h1{
       h3{
         font-weight: bolder;
       }
+      .btnsMaisMenos{
+        display: flex;
+        flex-direction: row;
+
+        button{
+          border: 1px solid gray;
+          cursor: pointer;
+          width: 20px;
+        }
+        span{
+          border: 1px solid gray;
+          width: 20px;
+          text-align: center;
+          border-left: none;
+          border-right: none;
+        }
+        .btnMenos{
+          background-color: red;
+          color: white;
+          border-right: none;
+          border-top-left-radius: 12px;
+          border-bottom-left-radius: 12px;
+        }
+        .btnMais{
+          background-color: greenyellow;
+          color: black;
+          border-left: none;
+          border-top-right-radius: 12px;
+          border-bottom-right-radius: 12px;
+        }
+      }
     }
   }
 }
