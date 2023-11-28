@@ -2,12 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms'; // Importo o Modulo de Formulário do Angular (ngModel)
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { InternaComponent } from './component/interna/interna.component';
 import { CarrinhoComponent } from './component/carrinho/carrinho.component';
+import { RoupaComponent } from './component/crud/roupa/roupa.component';
+import { CreateRoupaComponent } from './component/crud/create-roupa/create-roupa.component';
 
 @NgModule({
   declarations: [
@@ -15,11 +18,14 @@ import { CarrinhoComponent } from './component/carrinho/carrinho.component';
     HomeComponent,
     InternaComponent,
     CarrinhoComponent,
+    RoupaComponent,
+    CreateRoupaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

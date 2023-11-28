@@ -3,6 +3,7 @@ import { Roupa } from '../models/roupa';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Usuario } from '../models/usuario';
+import { Categoria } from '../models/categoria';
 
 
 @Injectable({
@@ -30,6 +31,11 @@ export class EcommerceService {
   }
   putEditaUsuario(id: number, mudanca: Usuario): Observable<Usuario>{
     return this.http.put<Usuario>(`${this.apiUrl}/usuarios/${id}`, mudanca)
+  }
+
+  // Categoria
+  getTodasCategorias(): Observable<Categoria[]>{
+    return this.http.get<Categoria[]>(`${this.apiUrl}/categorias`)
   }
 
 }
