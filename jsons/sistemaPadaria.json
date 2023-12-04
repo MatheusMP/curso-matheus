@@ -1,0 +1,41 @@
+{
+  "comandasAbertas": [
+    {
+      "id": 1,
+      "produtos": [
+        {
+          "idProduto": 1,
+          "quantidade": 2
+        },
+        {
+          "idProduto": 2,
+          "quantidade": 2
+        }
+      ]
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Misto quente",
+      "categoria": 1,
+      "preco": 9.90
+    },
+    {
+      "id": 2,
+      "produto": "Coca-Cola Lata",
+      "categoria": 2,
+      "preco": 6.90
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Lanches"
+    },
+    {
+      "id": 2,
+      "categoria": "Bebidas"
+    }
+  ]
+}
