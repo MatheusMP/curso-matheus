@@ -5,13 +5,30 @@
       "produtos": [
         {
           "idProduto": 1,
-          "quantidade": 2
+          "quantidade": 3
         },
         {
           "idProduto": 2,
           "quantidade": 2
         }
       ]
+    },
+    {
+      "id": 2,
+      "produtos": []
+    },
+    {
+      "id": 3,
+      "produtos": [
+        {
+          "idProduto": 1,
+          "quantidade": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "produtos": []
     }
   ],
   "produtos": [
@@ -19,13 +36,13 @@
       "id": 1,
       "produto": "Misto quente",
       "categoria": 1,
-      "preco": 9.90
+      "preco": 9.9
     },
     {
       "id": 2,
       "produto": "Coca-Cola Lata",
       "categoria": 2,
-      "preco": 6.90
+      "preco": 6.9
     }
   ],
   "categorias": [

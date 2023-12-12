@@ -1,0 +1,74 @@
+<section>
+  <div class="contComandas">
+    <ng-container *ngFor="let comanda of arrayComandas">
+      <h2 (click)="abriModalAdicionar(comanda.id)">
+        {{ comanda.id }}
+      </h2>
+    </ng-container>
+  </div>
+  <div class="contBotoes">
+    <button type="button" class="fechar" (click)="abrirModalFecharComanda()">
+      Fechar comanda
+    </button>
+    <button type="button" class="abrir" (click)="criarComanda()">
+      Abrir comanda
+    </button>
+  </div>
+</section>
+
+<div class="modal" *ngIf="modalAberto">
+
+  <!-- Modal de adicionar produto -->
+  <div class="modal-content" *ngIf="modalAdicionar">
+    <span class="close" (click)="fecharModal()">&times;</span>
+    <h1>
+      Adicionar na comanda
+    </h1>
+
+    <form [formGroup]="formComanda">
+      <div class="contInput">
+        <label>
+          Produto
+          <select formControlName="idProduto">
+            <option value=""></option>
+            <option *ngFor="let prod of arrayProdutos" value="{{ prod.id }}">
+              {{ prod.produto }}
+            </option>
+          </select>
+        </label>
+      </div>
+      <div class="contInput">
+        <label>
+          Quantidade
+          <input type="number" formControlName="quantidade" />
+        </label>
+      </div>
+    </form>
+
+    <button type="button" [disabled]="formComanda.status == 'INVALID'" (click)="adicionaProduto()">
+      Adicionar
+    </button>
+  </div>
+
+  <!-- Modal de fechar comanda -->
+  <div class="modal-content" *ngIf="!modalAdicionar">
+    <span class="close" (click)="fecharModal()">&times;</span>
+    <h1>
+      Fechar na comanda
+    </h1>
+
+    <form [formGroup]="formFechar">
+      <div class="contInput">
+        <label>
+          Número da Comanda
+          <input type="number" formControlName="numComanda" />
+        </label>
+      </div>
+    </form>
+
+    <button type="button" [disabled]="formFechar.status == 'INVALID'" (click)="fecharComanda()">
+      Fechar
+    </button>
+  </div>
+
+</div>
