@@ -29,6 +29,9 @@ export class GeralService {
   putEditaComanda(comandaAlterada: ComandaAberta): Observable<ComandaAberta>{
     return this.http.put<ComandaAberta>(`${this.urlDaApi}/comandasAbertas/${comandaAlterada.id}`, comandaAlterada)
   }
+  deletarComanda(idDaComanda: number): Observable<ComandaAberta>{
+    return this.http.delete<ComandaAberta>(`${this.urlDaApi}/comandasAbertas/${idDaComanda}`)
+  }
 
   // Pega todos os produtos
   getTodosProdutos(): Observable<Produto[]>{

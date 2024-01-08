@@ -10,25 +10,30 @@
         {
           "idProduto": 2,
           "quantidade": 2
+        },
+        {
+          "idProduto": 4,
+          "quantidade": 5
         }
       ]
     },
     {
       "id": 2,
-      "produtos": []
-    },
-    {
-      "id": 3,
       "produtos": [
         {
           "idProduto": 1,
-          "quantidade": 3
+          "quantidade": 2
         }
       ]
     },
     {
       "id": 4,
-      "produtos": []
+      "produtos": [
+        {
+          "idProduto": 2,
+          "quantidade": 3
+        }
+      ]
     }
   ],
   "produtos": [
@@ -43,6 +48,18 @@
       "produto": "Coca-Cola Lata",
       "categoria": 2,
       "preco": 6.9
+    },
+    {
+      "id": 3,
+      "produto": "Suco de laranja",
+      "categoria": 2,
+      "preco": 10.9
+    },
+    {
+      "id": 4,
+      "produto": "Pão na chapa",
+      "categoria": 1,
+      "preco": 5.9
     }
   ],
   "categorias": [
