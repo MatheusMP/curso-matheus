@@ -26,7 +26,7 @@
     </h1>
 
     <form [formGroup]="formComanda">
-      <div class="contInput">
+      <!-- <div class="contInput">
         <label>
           Produto
           <select formControlName="idProduto">
@@ -36,16 +36,42 @@
             </option>
           </select>
         </label>
+      </div> -->
+      <div>
+        <mat-form-field>
+          <mat-label>
+            Produto
+          </mat-label>
+          <mat-select formControlName="idProduto">
+            <ng-container *ngFor="let prod of arrayProdutos">
+              <mat-option [value]="prod.id">
+                {{ prod.produto }}
+              </mat-option>
+            </ng-container>
+          </mat-select>
+        </mat-form-field>
       </div>
-      <div class="contInput">
+      <!-- <div class="contInput">
         <label>
           Quantidade
           <input type="number" formControlName="quantidade" />
         </label>
+      </div> -->
+      <div>
+        <mat-form-field>
+          <mat-label>
+            Quantidade
+          </mat-label>
+          <input matInput type="number" formControlName="quantidade" placeholder="Informe a quantidade de itens" />
+        </mat-form-field>
       </div>
     </form>
 
-    <button type="button" [disabled]="formComanda.status == 'INVALID'" (click)="adicionaProduto()">
+    <!-- <button type="button" [disabled]="formComanda.status == 'INVALID'" (click)="adicionaProduto()">
+      Adicionar
+    </button> -->
+    <button mat-raised-button color="primary" [disabled]="formComanda.status == 'INVALID'"
+      (click)="adicionaProduto()">
       Adicionar
     </button>
   </div>

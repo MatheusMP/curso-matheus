@@ -9,6 +9,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComandasComponent } from './component/comandas/comandas.component';
 import { FecharComandaComponent } from './component/fechar-comanda/fechar-comanda.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// ANGULAR MATERIAL
+import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -20,7 +27,12 @@ import { FecharComandaComponent } from './component/fechar-comanda/fechar-comand
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatSelectModule,
+    MatFormFieldModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

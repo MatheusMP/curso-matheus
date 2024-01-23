@@ -36,6 +36,10 @@
         {
           "idProduto": 2,
           "quantidade": 3
+        },
+        {
+          "idProduto": 4,
+          "quantidade": 8
         }
       ]
     },
@@ -45,11 +49,25 @@
     },
     {
       "id": 6,
-      "produtos": []
+      "produtos": [
+        {
+          "idProduto": 3,
+          "quantidade": "4"
+        }
+      ]
     },
     {
       "id": 7,
-      "produtos": []
+      "produtos": [
+        {
+          "idProduto": 1,
+          "quantidade": 2
+        },
+        {
+          "idProduto": 2,
+          "quantidade": 2
+        }
+      ]
     }
   ],
   "produtos": [
