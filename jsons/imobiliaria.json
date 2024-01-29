@@ -1,0 +1,115 @@
+{
+  "imoveis": [
+    {
+      "id": 1,
+      "corretor": 1,
+      "anuncio": "Cobertura com 2 dormitórios para alugar",
+      "tipoImovel": 3,
+      "tipoDeVenda": "ambos",
+      "valores": {
+        "compra": 574000,
+        "aluguel": 2000,
+        "condominio": 230,
+        "iptu": 24.25
+      },
+      "estado": "SP",
+      "cidade": "Santo André",
+      "bairro": "Vila Teresinha",
+      "cep": "02853-000",
+      "metragem": 110,
+      "quartos": 2,
+      "banheiros": 3,
+      "vagas": 1,
+      "caracteristicas": [
+        "Área de serviço",
+        "Cozinha",
+        "Interfone",
+        "Portão eletrônico",
+        "Quintal",
+        "Sem condomínio"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://img.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu3hr9%2Bhg5Cg8meZGZpijliKix7zK-OWJqBi1pIn9mZP40vPyQJrn4qwe3a7QMGe%2Bg-9lX9p-aXpGYN58W0TnTqO%2BICcJijWCuWHJbpBEeFRajgY0oC1Z7XKAb6KS9Vp19x2qV87-thPUUqLmK0xELLMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5%2BhxzlXFx5k9oa%2BSqu619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8%2B5wEDqv3JFhXchgzWgPAoc9j0Qd9Am6AckV7KG7QfvBayztbCjPGsZ0jXYFQ09Lib--CxP-r7H6DseGerj5YM%2BZKWP8RcZ8bkHWlWECw1I3BfqR-k%2BKGd8F8%3D.jpg",
+          "lugar": "Cobertura"
+        },
+        {
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu2Fk-OA1yUwur9BIBaKPiy689ZTEwsqw9Faox5rsrbjG8OivY8PYz40QyanTI3iClKpYA9F6b21+NsNjHULNULiyEiZg8xq+mkHmEbQYSHhl5CY8mSlRnVzgd6H30VcO1h70Ft7IhXGKEo-nLRlGMLMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5+hxzlXFx5k9oa+Squ619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8+5wEDqv3JFhXchgzWgPAoc9j0Qd9Am6AckV7KG7QfvBayztbCjPGsZ0jXYFQ09Lib--CxP-r7H6DseGerj5YM+ZKWP8RcZ8bkHWlWECw1I3BfqR-k+KGd8F8=.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu0o5y9w+4BskgtsdBOWBrie3gKO-7MyhsF-G15TanKHejPPCXuTXjZ841vXVCWChlrFnZYMMDH9LX8ZQXyyyctyuYSlxnCSWqmicbZVranJtzhppkBNN72ucYYCc-nQR3CCKBqPWry6qUZqjHkFTQPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX9ZPn7wFxgbDHeMY4hezlIHP0KWkahzVNFo89byY+vKyOPf1EbSte2+jj5YM+dPIIc0Zaci2AnUHCDR0Yn5R5AC24K+ZvQ==.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu2Fk-OA1yUwur9BIBaKPiy689ZTEwsqw9Faox5rsrbjG8OivY8PYz40QyanTI3iClKpYA9F6b21+NsNjHULNULiyEiZg8xq+mkHmEbQYSHhl5CY8mSlRnVzgd6H30VcO1h70Ft7IhXGKEo-nLRlGMLMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5+hxzlXFx5k9oa+Squ619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8+5wEDqv3JFhXchgzWgPAoc9j0Qd9Am6AckV7KG7QfvBayztbCjPGsZ0jXYFQ09Lib--CxP-r7H6DseGerj5YM+ZKWP8RcZ8bkHWlWECw1I3BfqR-k+KGd8F8=.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu0o5y9w+4BskgtsdBOWBrie3gKO-7MyhsF-G15TanKHejPPCXuTXjZ841vXVCWChlrFnZYMMDH9LX8ZQXyyyctyuYSlxnCSWqmicbZVranJtzhppkBNN72ucYYCc-nQR3CCKBqPWry6qUZqjHkFTQPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX9ZPn7wFxgbDHeMY4hezlIHP0KWkahzVNFo89byY+vKyOPf1EbSte2+jj5YM+dPIIc0Zaci2AnUHCDR0Yn5R5AC24K+ZvQ==.jpg",
+          "lugar": "Sala"
+        }
+      ],
+      "sobre": "Possui 02 dormitórios, 01 sala, 01 cozinha, 01 área de serviço, 03 banheiros, cobertura parcialmente coberta. interfone, portão automático e 01 vaga de garagem."
+    }
+  ],
+  "tipos": [
+    {
+      "id": 1,
+      "tipo": "Apartamento"
+    },
+    {
+      "id": 2,
+      "tipo": "Casa"
+    },
+    {
+      "id": 3,
+      "tipo": "Cobertura"
+    }
+  ],
+  "cidades": [
+    {
+      "id":1,
+      "cidade":"Santo André"
+    }
+  ],
+  "bairros": [
+    {
+      "id":1,
+      "bairro":"Vila Teresinha"
+    }
+  ],
+  "corretores": [
+    {
+      "id": 1,
+      "nome": "Fulano de Tal",
+      "codigo": "ABC123",
+      "telefone": "(11) 99009-9090"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "Matheus M. Pinheiro",
+      "username": "matheusmp",
+      "senha": "123abc",
+      "favoritos": [1],
+      "tipo": "cliente"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Anderson Dias",
+      "username": "andersonDias",
+      "senha": "123abc",
+      "favoritos": [],
+      "tipo": "admin"
+    }
+  ],
+  "conteudoSite": {
+    "home": {
+      "textoBusca": "Encontre o seu novo lar",
+      "textoDestaque": "Destaques",
+      "imoveisDestaque": [1]
+    }
+  }
+}
