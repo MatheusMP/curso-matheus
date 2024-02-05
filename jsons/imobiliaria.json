@@ -2,7 +2,7 @@
   "imoveis": [
     {
       "id": 1,
-      "corretor": 1,
+      "corretor": 5,
       "anuncio": "Cobertura com 2 dormitórios para alugar",
       "tipoImovel": 3,
       "tipoDeVenda": "ambos",
@@ -30,12 +30,12 @@
       ],
       "imagens": [
         {
-          "caminho": "https://img.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu3hr9%2Bhg5Cg8meZGZpijliKix7zK-OWJqBi1pIn9mZP40vPyQJrn4qwe3a7QMGe%2Bg-9lX9p-aXpGYN58W0TnTqO%2BICcJijWCuWHJbpBEeFRajgY0oC1Z7XKAb6KS9Vp19x2qV87-thPUUqLmK0xELLMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5%2BhxzlXFx5k9oa%2BSqu619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8%2B5wEDqv3JFhXchgzWgPAoc9j0Qd9Am6AckV7KG7QfvBayztbCjPGsZ0jXYFQ09Lib--CxP-r7H6DseGerj5YM%2BZKWP8RcZ8bkHWlWECw1I3BfqR-k%2BKGd8F8%3D.jpg",
+          "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu0o5y9w+4BskgtsdBOWBrie3gKO-7MyhsF-G15TanKHejPPCXuTXjZ841vXVCWChlrFnZYMMDH9LX8ZQXyyyctyuYSlxnCSWqmicbZVranJtzhppkBNN72ucYYCc-nQR3CCKBqPWry6qUZqjHkFTQPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX9ZPn7wFxgbDHeMY4hezlIHP0KWkahzVNFo89byY+vKyOPf1EbSte2+jj5YM+dPIIc0Zaci2AnUHCDR0Yn5R5AC24K+ZvQ==.jpg",
           "lugar": "Cobertura"
         },
         {
           "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu2Fk-OA1yUwur9BIBaKPiy689ZTEwsqw9Faox5rsrbjG8OivY8PYz40QyanTI3iClKpYA9F6b21+NsNjHULNULiyEiZg8xq+mkHmEbQYSHhl5CY8mSlRnVzgd6H30VcO1h70Ft7IhXGKEo-nLRlGMLMNAdsz6EIJ9xa9SUxy8h8d55m-oS7TO7S-K5+hxzlXFx5k9oa+Squ619jCLJU4Vr0lNm4L5VMZWe0S2-TJT-8+5wEDqv3JFhXchgzWgPAoc9j0Qd9Am6AckV7KG7QfvBayztbCjPGsZ0jXYFQ09Lib--CxP-r7H6DseGerj5YM+ZKWP8RcZ8bkHWlWECw1I3BfqR-k+KGd8F8=.jpg",
-          "lugar": "Sala"
+          "lugar": "Piscina"
         },
         {
           "caminho": "https://imgs.kenlo.io/VWRCUkQ2Tnp3d1BJRDBJVe1szkhnWr9UfpZS9ftWwjXgr7v5Znen3XVcMHllDVRJJeIbi3YwVYEtu0o5y9w+4BskgtsdBOWBrie3gKO-7MyhsF-G15TanKHejPPCXuTXjZ841vXVCWChlrFnZYMMDH9LX8ZQXyyyctyuYSlxnCSWqmicbZVranJtzhppkBNN72ucYYCc-nQR3CCKBqPWry6qUZqjHkFTQPlLANk18QdW9hinR0InpwcW5JO3vSCAaKyyLIOvkiMYDwYu6oa6SeKv15TFJsonDqooL34J41sRFqAe2beFX6J24QkLuOfUB1+EkBnHl+8kYMGwX9ZPn7wFxgbDHeMY4hezlIHP0KWkahzVNFo89byY+vKyOPf1EbSte2+jj5YM+dPIIc0Zaci2AnUHCDR0Yn5R5AC24K+ZvQ==.jpg",
@@ -50,7 +50,1510 @@
           "lugar": "Sala"
         }
       ],
-      "sobre": "Possui 02 dormitórios, 01 sala, 01 cozinha, 01 área de serviço, 03 banheiros, cobertura parcialmente coberta. interfone, portão automático e 01 vaga de garagem."
+      "sobre": "Possui 02 dormitórios, 01 sala, 01 cozinha, 01 área de serviço, 03 banheiros, cobertura parcialmente coberta. interfone, portão automático."
+    },
+    {
+      "id": 2,
+      "corretor": 2,
+      "anuncio": "Apartamento à venda com 28m², 1 quarto e sem vaga",
+      "tipoImovel": 2,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 328000,
+        "aluguel": 2000,
+        "condominio": 230,
+        "iptu": 24.25
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Butantã",
+      "cep": "02853-000",
+      "metragem": 110,
+      "quartos": 2,
+      "banheiros": 3,
+      "vagas": 1,
+      "caracteristicas": [
+        "Área de serviço",
+        "Cozinha",
+        "Interfone",
+        "Portão eletrônico",
+        "Quintal",
+        "Sem condomínio"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894018278-765.0040929034567a8bd8b05-cdcc-418b-a247-8ab5db4820c2-LEAD3P-4b05243a-f5f3-4dd2-8160-7e6c10a23a05.PNG",
+          "lugar": "Lavanderia"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894018278-322.15111424955467a8bd8b05-cdcc-418b-a247-8ab5db4820c2-LEAD3P-d73edc44-104c-42f2-b64b-d747f9e302a2.PNG",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894018278-938.3982546458553a8bd8b05-cdcc-418b-a247-8ab5db4820c2-LEAD3P-685155aa-b17c-4b15-b2b9-46d6446420a4.PNG",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894018278-575.0249966314358a8bd8b05-cdcc-418b-a247-8ab5db4820c2-LEAD3P-79a36c6b-eb0f-4a2d-a798-4d54e69d782d.PNG",
+          "lugar": "Área externa"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894018278-66.80486588393786a8bd8b05-cdcc-418b-a247-8ab5db4820c2-LEAD3P-aca2ab92-6a91-471c-bd11-2e5e95649f3f.PNG",
+          "lugar": "Quadra"
+        }
+      ],
+      "sobre": "Possui 01 dormitórios, 01 sala, 01 cozinha, 01 área de serviço, 01 banheiros, cobertura parcial. Interfone, portão automático e 01 vaga de garagem."
+    },
+    {
+      "id": 3,
+      "corretor": 2,
+      "anuncio": "Casa à venda com 350m², 3 quartos e 5 vagas",
+      "tipoImovel": 2,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 950000,
+        "aluguel": 6000,
+        "condominio": 0,
+        "iptu": 3600
+      },
+      "estado": "SP",
+      "cidade": "Guarulhos",
+      "bairro": "Jardim Palmira",
+      "cep": "07076-130",
+      "metragem": 350,
+      "quartos": 3,
+      "banheiros": 5,
+      "vagas": 5,
+      "caracteristicas": [
+        "Área de serviço",
+        "Armários embutidos",
+        "Piscina privativa",
+        "Ar-condiconado",
+        "Quintal",
+        "Sem condomínio",
+        "Closet",
+        "Cozinha Americana",
+        "Varanda"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893815263-0.5520360369493105DSC0885141122.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893815263-912.3234522578794DSC0882141122.jpg",
+          "lugar": "Escada"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893815263-324.7290816816916DSC0823141122.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893815263-49.260952804709326DSC0824141122.jpg",
+          "lugar": "Sala de Estar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893815263-536.0528824944797DSC0829141122.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893815263-293.0452611692124DSC0840141122.jpg",
+          "lugar": "Closet"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893815263-459.17917296316614DSC0844141122.jpg",
+          "lugar": "Banheira Hidromassagem"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893815263-959.9123823913702DSC0854141122.jpg",
+          "lugar": "Suíte"
+        }
+      ],
+      "sobre": "Imóvel espaçoso à venda com 3 quartos, sendo 3 suítes, e 6 banheiros no total. Este imóvel está bem equipado, é ideal para quem procura conforto e comodidade. O imóvel fica localizado em Rua Gabriela Teixeira no bairro Jardim Palmira em Guarulhos. Está bem localizado, próximo a pontos de interesse de Jardim Palmira, tais como Palmyra Tagliari Externato, E.P.G. João Guimarães Rosa, Praça Sílvio Pereira dos Santos, E.P.G Antonio Gonçalves Dias, Escola Estadual Profª. Genoefa D Aquino Pacitti e Mirante de Guarulhos."
+    },
+    {
+      "id": 4,
+      "corretor": 1,
+      "anuncio": "Apartamento à venda com 140m², 4 quartos e 3 vagas",
+      "tipoImovel": 1,
+      "tipoDeVenda": "aluguel",
+      "valores": {
+        "compra": 1500000,
+        "aluguel": 7000,
+        "condominio": 2300,
+        "iptu": 6000
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Butantã",
+      "cep": "02853-000",
+      "metragem": 140,
+      "quartos": 4,
+      "banheiros": 5,
+      "vagas": 3,
+      "caracteristicas": [
+        "Área de serviço",
+        "Cozinha",
+        "Interfone",
+        "Portão eletrônico",
+        "Quintal"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894107252-785.1944470106657521fd44d-bbb5-497b-9094-46b3202f480a-LEAD3P-7cb8493c-9d84-4a09-ae7d-b0d992254bc9.",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894107252-165.7776062001961521fd44d-bbb5-497b-9094-46b3202f480a-LEAD3P-cef953bd-c65a-49bd-8ef1-3bdf19821013.",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894107252-566.0121817031095521fd44d-bbb5-497b-9094-46b3202f480a-LEAD3P-d225d7d1-7d52-4efa-9df0-842b36325e69.",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894107252-842.0615997360785521fd44d-bbb5-497b-9094-46b3202f480a-LEAD3P-6c7b7160-e77e-4a88-9b8c-d5b68251238e.",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894107252-429.4274380488444521fd44d-bbb5-497b-9094-46b3202f480a-LEAD3P-4004cf19-48d2-4660-a951-05ffca1bac55.",
+          "lugar": "Banheira Hidromassagem"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894107252-344.5541979647233521fd44d-bbb5-497b-9094-46b3202f480a-LEAD3P-5bed1d4b-a14a-4eef-903f-028920b32b11.",
+          "lugar": "Corredor"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894107252-853.6998834498646521fd44d-bbb5-497b-9094-46b3202f480a-LEAD3P-31a90e4e-8f1d-4414-83a3-d635144d6251.",
+          "lugar": "Churrasqueira"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894107252-758.8697610102771521fd44d-bbb5-497b-9094-46b3202f480a-LEAD3P-a8016319-e8b0-4b51-8037-fb7e6dcc4b99.",
+          "lugar": "Varanda"
+        }
+      ],
+      "sobre": "Imóvel aconchegante à venda com 4 quartos, sendo 2 suítes, e 5 banheiros no total. O condomínio fica localizado em Rua Leonardo Mota no bairro Butantã em São Paulo. Está bem localizado, próximo a pontos de interesse de Butantã, tais como Centro Cultural Iskcon Prasadam, USP, Colégio Davina Gasparini, Museu do Crime, Butantã Shopping e IW inglês sem enrolação."
+    },
+    {
+      "id": 5,
+      "corretor": 1,
+      "anuncio": "Cobertura à venda com 96m², 2 quartos e 1 vaga",
+      "tipoImovel": 3,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 425000,
+        "aluguel": 2450,
+        "condominio": 100,
+        "iptu": 180
+      },
+      "estado": "SP",
+      "cidade": "Santo André",
+      "bairro": "Vila Teresinha",
+      "cep": "02853-000",
+      "metragem": 96,
+      "quartos": 2,
+      "banheiros": 2,
+      "vagas": 1,
+      "caracteristicas": [
+        "Área de serviço",
+        "Cozinha",
+        "Interfone",
+        "Portão eletrônico",
+        "Quintal",
+        "Apartamento Cobertura"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-80.65240447958088REN0337.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-600.8866182202883REN0340.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-32.649121840714116REN0345.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-313.74032668374895REN0350.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-156.2155764346912REN0354.jpg",
+          "lugar": "Varanda"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-372.9008210955473REN0358.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-706.7542684199041REN0362.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-783.7743347252288REN0366.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893914884-192.8990088666147REN0375.jpg",
+          "lugar": "Lavanderia"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 2 quartos, sendo 1 suíte, e 2 banheiros no total. O condomínio fica localizado em Rua Odilon Braga no bairro Vila Scarpelli em Santo André. Está bem localizado, próximo a pontos de interesse de Vila Scarpelli, tais como Veleiro Azul, Museu Escola de História e Cultura Cigana, Escola Estadual Deputado Valentim Amaral, Materna, Sunny Side e Magistral."
+    },
+    {
+      "id": 6,
+      "corretor": 3,
+      "anuncio": "Apartamento com 2 dormitórios disponível para venda",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 398000,
+        "aluguel": 3000,
+        "condominio": 300,
+        "iptu": 94.95
+      },
+      "estado": "SC",
+      "cidade": "Florianópolis",
+      "bairro": "Vila Mascote",
+      "cep": "88061-233",
+      "metragem": 75,
+      "quartos": 2,
+      "banheiros": 2,
+      "vagas": 1,
+      "caracteristicas": [
+        "Área de serviço",
+        "Cozinha",
+        "Interfone",
+        "Quintal",
+        "Uma suíte"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893127324-802.6721138612899avsantacatarina1.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893127324-445.61454525705255avsantacatarina2.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893127324-357.9390955305962avsantacatarina5.jpg",
+          "lugar": "Mesa de Jantar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893127324-803.4178931307059avsantacatarina8.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893127324-477.56583154353916avsantacatarina12.jpg",
+          "lugar": "Banheiro"
+        }
+      ],
+      "sobre": "Possui 04 dormitórios, 03 sala, 02 cozinha, 01 área de serviço, 04 banheiros, apartamento um por andar. Interfone, portão automático e 02 vaga de garagem."
+    },
+    {
+      "id": 7,
+      "corretor": 3,
+      "anuncio": "Casa à venda com 160m², 3 quartos e sem vaga",
+      "tipoImovel": 4,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 370000,
+        "aluguel": 2000,
+        "condominio": 0,
+        "iptu": 125
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Liberdade",
+      "cep": "01517-020",
+      "metragem": 160,
+      "quartos": 3,
+      "banheiros": 2,
+      "vagas": 1,
+      "caracteristicas": [
+        "Área de serviço",
+        "Até o 3º andar",
+        "Prox ao metrô",
+        "Quintal",
+        "Uma suíte"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894058484-628.4757151309525foto1.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894058484-640.5278746438487foto5.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894058484-248.32697703029638foto15.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894058484-403.789224355299foto19.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894058484-993.5418758483837foto26.jpg",
+          "lugar": "Banheiro"
+        }
+      ],
+      "sobre": "Possui 03 dormitórios, 01 sala, 01 cozinha, 01 área de serviço, 02 banheiros, casa próximo ao metrô liberdade. Portão automático e sem vagas de garagem."
+    },
+    {
+      "id": 8,
+      "corretor": 2,
+      "anuncio": "Casa à venda com 600m², 5 quartos e 4 vagas",
+      "tipoImovel": 2,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 12000000,
+        "aluguel": 8000,
+        "condominio": 0,
+        "iptu": 2500
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Pacaembu",
+      "cep": "01246-000",
+      "metragem": 600,
+      "quartos": 5,
+      "banheiros": 5,
+      "vagas": 4,
+      "caracteristicas": [
+        "Área de serviço",
+        "Quartos e corredores com áreas amplas",
+        "Quintal",
+        "Quatro suítes",
+        "Ar-condiconado",
+        "Chuveiro á gas",
+        "Mesas de escritório",
+        "Varanda",
+        "Closet",
+        "Jardim"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-33.25395350990501IMG7760.jpg",
+          "lugar": "Entrada"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-892.259374417314IMG7765.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-440.82386463004764IMG7767.jpg",
+          "lugar": "Sala de Estar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-29.790202441037806IMG7770.jpg",
+          "lugar": "Sala de Jantar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-219.51638807395125IMG7858.jpg",
+          "lugar": "Segunda sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-424.03699670039254IMG7859.jpg",
+          "lugar": "Sala de reunião"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-881.2589772539362IMG7808.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-425.41239234840964IMG7836.jpg",
+          "lugar": "Escritório"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-35.876633664721716IMG7840.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-255.83934869099977IMG7846.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-251.30956602757215IMG7866.jpg",
+          "lugar": "Segunda suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-936.6005270714164IMG7884.jpg",
+          "lugar": "Banheiro da suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-248.07748769476524IMG7878.jpg",
+          "lugar": "Suíte principal"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-936.6005270714164IMG7884.jpg",
+          "lugar": "Banheira Hidro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-24.687381508674445IMG7890.jpg",
+          "lugar": "Closet"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-796.4635912901772IMG7802.jpg",
+          "lugar": "Quarto ou escritório"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-649.4186654476208IMG7779.jpg",
+          "lugar": "Mesa de café"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-406.58277246685805IMG7813.jpg",
+          "lugar": "Lavanderia"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-14.613167430383655IMG7825.jpg",
+          "lugar": "Escritório principal"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-320.00983098276834IMG7783.jpg",
+          "lugar": "Piscina"
+        }
+      ],
+      "sobre": "Imóvel espaçoso à venda com 5 quartos, sendo 4 suítes, e 6 banheiros no total. Este imóvel está bem equipado, é ideal para quem procura conforto e comodidade. O imóvel fica localizado em Rua Morro Verde no bairro Pacaembu em São Paulo. Está bem localizado, próximo a pontos de interesse de Pacaembu, tais como Casa Sérgio Buarque de Holanda, Estação Paulista, DeROSE Method Jardins - Sede Central, Ibmec, Casa Modernista e Damásio."
+    },
+    {
+      "id": 9,
+      "corretor": 1,
+      "anuncio": "Apartamento à venda com 347m², 3 quartos e 5 vagas",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 7800000,
+        "aluguel": 7000,
+        "condominio": 12,
+        "iptu": 5282
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Higienópolis",
+      "cep": "01244-070",
+      "metragem": 347,
+      "quartos": 3,
+      "banheiros": 5,
+      "vagas": 3,
+      "caracteristicas": [
+        "Área de serviço",
+        "Portaria 24h",
+        "Prox ao metrô",
+        "Uma suíte"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-821.57377400667541187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-9fc52a10-5adc-40f0-ad5b-16296b42198d.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-643.36609597178521187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-a87879d3-e19d-45df-9bf0-b39324c829f6.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-81.615176501704031187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-ed59856c-e0d7-47ab-a749-58deeee02bb4.jpg",
+          "lugar": "Sala de Estar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-705.56470565883971187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-509c53ba-a110-44e5-bbed-20230b87a9d3.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893574825-219.51638807395125IMG7858.jpg",
+          "lugar": "Segunda sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-796.23184811638531187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-a9a956c0-1f86-44d1-aad8-d7005f6ef0e8.jpg",
+          "lugar": "Corredor"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-866.37572044849831187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-b7229595-c890-49e5-b4be-390137b6b1e4.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-338.90454575330341187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-f20aa24f-63aa-48ad-89a5-39faff96b630.jpg",
+          "lugar": "Banheiro da suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-501.722889301571061187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-3b022bb0-2cbc-4fc8-afc2-b542f9981ad0.jpg",
+          "lugar": "Saguão segundo andar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-485.918356582925361187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-08d83590-d3ae-44bb-a0a3-d77442227b66.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894189207-565.94146549298911187348f-e5f8-4617-b235-60a69dc19dc0-LEAD3P-eb76e3a8-7eae-42fe-9e0b-3f38cabd3ec4.jpg",
+          "lugar": "Varanda"
+        }
+      ],
+      "sobre": "Imóvel espaçoso à venda com 3 quartos, sendo 3 suítes, e 5 banheiros no total. O condomínio fica localizado em Rua Minas Gerais no bairro Higienópolis em São Paulo. Está bem localizado, próximo a pontos de interesse de Higienópolis, tais como Estação Paulista, Casa Sérgio Buarque de Holanda, DeROSE Method Jardins - Sede Central, Colégio São Luís, Ibmec e Damásio."
+    },
+    {
+      "id": 10,
+      "corretor": 5,
+      "anuncio": "Apartamento à venda com 124m², 3 quartos e uma vaga",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 480000,
+        "aluguel": 2000,
+        "condominio": 750,
+        "iptu": 117
+      },
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro",
+      "bairro": "Tijuca",
+      "cep": "20510-310",
+      "metragem": 124,
+      "quartos": 3,
+      "banheiros": 3,
+      "vagas": 1,
+      "caracteristicas": [
+        "Área de serviço",
+        "Chuveiro á gas",
+        "Prox ao metrô",
+        "Uma suíte"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/892838102-540.5339993348862MVF1958.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/892838102-477.79181861725317MVF1975.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/892838102-30.39077824008263MVF1982.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/892838102-436.5098863137684MVF1996.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/892838102-836.2242110801692MVF2005.jpg",
+          "lugar": "Lavanderia"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/892838102-83.96598570020974MVF2016.jpg",
+          "lugar": "Quarto"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 3 quartos e 3 banheiros no total. O condomínio fica localizado em Rua dos Araújos no bairro Tijuca em Rio de Janeiro. Está bem localizado, próximo a pontos de interesse de Tijuca, tais como Santa Terezinha, Panamericano, Tijucor, UPA 24h Tijuca, Ciep Samuel Wainer e Creche Municipal dos Sonhos."
+    },
+    {
+      "id": 11,
+      "corretor": 3,
+      "anuncio": "Casa de condomínio à venda com 180m², 3 quartos e 3 vagas",
+      "tipoImovel": 2,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 370000,
+        "aluguel": 2400,
+        "condominio": 0,
+        "iptu": 101
+      },
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro",
+      "bairro": "Olaria",
+      "cep": "21073-140",
+      "metragem": 180,
+      "quartos": 3,
+      "banheiros": 2,
+      "vagas": 3,
+      "caracteristicas": [
+        "Área de serviço",
+        "Armários de cozinha e banheiro",
+        "Corredores e quartos com áreas amplas",
+        "Varanda",
+        "Box"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-307.327068936789301.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-34.626750208415106.jpg",
+          "lugar": "Quintal"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-939.422930359811907.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-540.559267360721711.jpg",
+          "lugar": "Garagem"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-990.904196563845113.jpg",
+          "lugar": "Escritório"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-344.175688034961920.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-690.086526239035826.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-876.546942882571630.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-670.006244431375939.jpg",
+          "lugar": "Lavanderia"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 3 quartos e 2 banheiros no total. O condomínio fica localizado em Rua André Azevedo no bairro Olaria em Rio de Janeiro. Está bem localizado, próximo a pontos de interesse de Olaria, tais como Escola Municipal Brasil, Canal da Penha, CIAGA, Escola Municipal Miguel Couto, Escola Municipal Berlim e Escola Municipal Nerval de Gouveia."
+    },
+    {
+      "id": 12,
+      "corretor": 1,
+      "anuncio": "Apartamento à venda com 130m², 2 quartos e 2 vagas",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 380000,
+        "aluguel": 2700,
+        "condominio": 0,
+        "iptu": 101
+      },
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro",
+      "bairro": "Riachuelo",
+      "cep": "20230-010",
+      "metragem": 180,
+      "quartos": 3,
+      "banheiros": 2,
+      "vagas": 3,
+      "caracteristicas": [
+        "Área de serviço",
+        "Armários de cozinha e banheiro",
+        "Corredores e quartos com áreas amplas",
+        "Varanda",
+        "Box"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-623.546994268649120230816124455.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-483.7834841809759620230816124513.jpg",
+          "lugar": "Corredor"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-103.3530199778444120230816124543.jpg",
+          "lugar": "Varanda"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-119.0552593677238820230816124909.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-117.1237351982542520230816125003.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-575.424033173462620230816125104.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-947.993526541643520230816125156.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894010672-876.546942882571630.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-635.783259041031220230816124720.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-165.070115318348720230816124730.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893121017-88.0092055854322420230816131416.jpg",
+          "lugar": "Lavanderia"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 3 quartos e 2 banheiros no total. O condomínio fica localizado em Rua André Azevedo no bairro Olaria em Rio de Janeiro. Está bem localizado, próximo a pontos de interesse de Olaria, tais como Escola Municipal Brasil, Canal da Penha, CIAGA, Escola Municipal Miguel Couto, Escola Municipal Berlim e Escola Municipal Nerval de Gouveia."
+    },
+    {
+      "id": 13,
+      "corretor": 4,
+      "anuncio": "Studio para alugar com 30m², 1 quarto e uma vaga",
+      "tipoImovel": 5,
+      "tipoDeVenda": "aluguel",
+      "valores": {
+        "compra": 250000,
+        "aluguel": 1600,
+        "condominio": 100,
+        "iptu": 17
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Mooca",
+      "cep": "01515-000",
+      "metragem": 30,
+      "quartos": 1,
+      "banheiros": 1,
+      "vagas": 1,
+      "caracteristicas": [
+        "Box",
+        "Armários embutidos",
+        "Geladeira inclusa",
+        "Prox ao metrô"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893409192-444.9420491540086IMG4147.JPG",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893409192-659.4387906233222IMG4149.JPG",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893409192-909.0481567801725IMG4162.JPG",
+          "lugar": "Corredor"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893409192-229.66886028016432IMG4170.JPG",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893409192-515.2264134838055IMG4179.JPG",
+          "lugar": "Banheiro"
+        }
+      ],
+      "sobre": "Imóvel aconchegante para alugar com 1 quarto, sendo 1 suíte, e 1 banheiro no total. O condomínio fica localizado em Rua Maria Luísa de Pinho no bairro Parque da Mooca em São Paulo. Está bem localizado, próximo a pontos de interesse de Parque da Mooca, tais como Yazigi, Centro Cultural Vrinda, Demônios Garoa Produções Artísticas Representações, DeRose Method Alto da Mooca, Praça da Enta e Teatro Municipal da Mooca Arthur Azevedo."
+    },
+    {
+      "id": 14,
+      "corretor": 4,
+      "anuncio": "Apartamento à venda com 151m², 3 quartos e 3 vagas",
+      "tipoImovel": 1,
+      "tipoDeVenda": "ambos",
+      "valores": {
+        "compra": 4000000,
+        "aluguel": 5300,
+        "condominio": 1450,
+        "iptu": 829
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Jardins",
+      "cep": "01431-020",
+      "metragem": 151,
+      "quartos": 3,
+      "banheiros": 5,
+      "vagas": 3,
+      "caracteristicas": [
+        "Banheira Hidromassagem",
+        "Varanda",
+        "Ar-condiconado",
+        "Chuveiro á gas",
+        "Quartos e corredores com áreas amplas",
+        "Mesas de escritório",
+        "Churrasqueira",
+        "Três suítes"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-89.127767428378021sala01.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-618.10682800378651sala08.jpg",
+          "lugar": "Sala de Estar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-118.598306902222281sala11.jpg",
+          "lugar": "Churrasqueira"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-590.23506452462042suite11.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-214.77944675472162suite21.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-368.12568611785212suite31.jpg",
+          "lugar": "Escritório"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-187.078913753224733banheirolavabo1.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-452.2080554359033banheirosuite11.jpg",
+          "lugar": "Banheiro-Hidro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894209184-790.68323672662044cozinha3.jpg",
+          "lugar": "Cozinha"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 3 quartos, sendo 3 suítes, e 5 banheiros no total. Este imóvel está bem equipado, é ideal para quem procura conforto e comodidade. O condomínio é bem equipado com diversas instalações, apropriado para quem busca lazer sem sair de casa e fica localizado em Alameda Jaú no bairro Jardins em São Paulo. Está bem localizado, próximo a pontos de interesse de Jardins, tais como Centro Cultural Fiesp, Colégio Dante Alighieri, Estação Trianon - Masp, Museu de Arte de São Paulo (MASP), Docas Carga e Descarga e Colégio Winnicott."
+    },
+    {
+      "id": 15,
+      "corretor": 3,
+      "anuncio": "Apartamento à venda com 167m², 2 quartos e 3 vagas",
+      "tipoImovel": 4,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 4800000,
+        "aluguel": 6200,
+        "condominio": 4576,
+        "iptu": 1079
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Moema",
+      "cep": "04077-021",
+      "metragem": 151,
+      "quartos": 2,
+      "banheiros": 4,
+      "vagas": 3,
+      "caracteristicas": [
+        "Banheira Hidromassagem",
+        "Varanda",
+        "Ar-condiconado",
+        "Chuveiro á gas",
+        "Quartos e corredores com áreas amplas",
+        "Geladeira inclusa",
+        "Fogão incluso"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-528.1894069242869IMG3146.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-950.0579056700038IMG3168.jpg",
+          "lugar": "Cozinha Americana"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-576.0058236823983IMG31842.jpg",
+          "lugar": "Bar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-160.7357236581136IMG3197.jpg",
+          "lugar": "Varanda"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-251.21939604714206IMG32092.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-539.2139144017835IMG3295.jpg",
+          "lugar": "Piso superior"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-28.662154923620452IMG3316.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-239.22914648378068IMG3364.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894207035-363.01547802492394IMG3346.jpg",
+          "lugar": "Banheira Hidromassagem"
+        }
+      ],
+      "sobre": "Imóvel espaçoso à venda com 2 quartos, sendo 2 suítes, e 4 banheiros no total. Este imóvel está bem equipado, é ideal para quem procura conforto e comodidade. O condomínio é bem equipado com diversas instalações e fica localizado em Rua Diogo Jácome no bairro Moema em São Paulo. Está bem localizado, próximo a pontos de interesse de Moema, tais como Praça Pereira Coutinho, Colégio da Companhia de Maria, DeRose Method Vila Nova Conceição, FMU, CONSA - Colégio Franciscano N. S. Aparecida e Grupo Escolar Martim Francisco."
+    },
+    {
+      "id": 16,
+      "corretor": 2,
+      "anuncio": "Casa de condomínio à venda com 136m², 3 quartos e 4 vagas",
+      "tipoImovel": 4,
+      "tipoDeVenda": "ambos",
+      "valores": {
+        "compra": 450000,
+        "aluguel": 2200,
+        "condominio": 660,
+        "iptu": 120
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Jardim Maria Duarte",
+      "cep": "05752-350",
+      "metragem": 136,
+      "quartos": 3,
+      "banheiros": 3,
+      "vagas": 4,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Box",
+        "Quartos e corredores com áreas amplas",
+        "Fogão incluso"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893373910-252.56976746960035IMG20210720091455.jpg",
+          "lugar": "Entrada"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893373910-386.1208624327738IMG20210720091545.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893373910-251.07946995043696IMG20210720091803.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893373910-818.5828539740869IMG20210720091945.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893373910-547.4734147781894IMG20210720092017.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893373910-414.2835519292307IMG20210720092219.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893373910-682.0224086144902IMG20210720092258.jpg",
+          "lugar": "Lavanderia"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 3 quartos, sendo 1 suíte, e 3 banheiros no total. é ideal para quem procura conforto e comodidade. O condomínio é bem equipado com diversas instalações, apropriado para quem busca lazer sem sair de casa e fica localizado em Estrada dos Mirandas no bairro Jardim Maria Duarte em São Paulo. Está bem localizado, próximo a pontos de interesse de Jardim Maria Duarte, tais como Colégio Anglo Morumbi, EMEI Antônio Carlos Pacheco, Lar Jesus Maria e José (CCA), Vargas Colégio de Educação Infantil, Intermédica Centro Clínico Taboão da Serra e Fisioterapia Ortoclimed."
+    },
+    {
+      "id": 17,
+      "corretor": 4,
+      "anuncio": "Apartamento à venda com 164m², 3 quartos e 2 vagas",
+      "tipoImovel": 3,
+      "tipoDeVenda": "ambos",
+      "valores": {
+        "compra": 765000,
+        "aluguel": 3500,
+        "condominio": 1300,
+        "iptu": 2650
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Mooca",
+      "cep": "03110-030",
+      "metragem": 164,
+      "quartos": 3,
+      "banheiros": 2,
+      "vagas": 2,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Box",
+        "Quartos e corredores com áreas amplas",
+        "Fogão incluso",
+        "Apartamento Cobertura",
+        "Prox ao metrô"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893219202-639.1191432697672MG1270.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893219202-656.757872822574MG1272.jpg",
+          "lugar": "Mesa de jantar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893219202-234.26488052448303MG1277.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893219202-255.46653077189342MG1287.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893219202-749.9266196754654MG1293.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893219202-27.182433912714355MG1299.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893219202-262.33230669633843MG1305.jpg",
+          "lugar": "Cozinha"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 3 quartos, sendo 1 suíte, e 2 banheiros no total. é ideal para quem procura conforto e comodidade. O condomínio fica localizado em Rua Jumana no bairro Mooca em São Paulo. Está bem localizado, próximo a pontos de interesse de Mooca, tais como Teatro Municipal da Mooca Arthur Azevedo, Yazigi, Hospital Alemão Oswald Cruz, Centro Cultural Vrinda, Escola de Idiomas e Shopping Mooca Plaza."
+    },
+    {
+      "id": 18,
+      "corretor": 1,
+      "anuncio": "Studio à venda com 52m², 1 quarto e 2 vagas",
+      "tipoImovel": 5,
+      "tipoDeVenda": "aluguel",
+      "valores": {
+        "compra": 1700000,
+        "aluguel": 4000,
+        "condominio": 2500,
+        "iptu": 3350
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Vila Olímpia",
+      "cep": "04547-130",
+      "metragem": 52,
+      "quartos": 1,
+      "banheiros": 1,
+      "vagas": 2,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Chuveiro á gas",
+        "Quartos e corredores com áreas amplas",
+        "Fogão incluso",
+        "Geladeira inclusa",
+        "Ar-condiconado",
+        "Cozinha Americana",
+        "Mesas de escritório"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894210989-761.9919723633336Sala3.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894210989-283.317188716521SalaB2.jpg",
+          "lugar": "Vista ampla"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894210989-885.8795846608155Quarto2.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894210989-36.421301142646854VarandaC.jpg",
+          "lugar": "Varanda"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894210989-740.3687506513261Cozinha.jpg",
+          "lugar": "Cozinha"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 1 quarto, sendo 1 suíte, e 1 banheiro no total. Este imóvel está bem equipado, é ideal para quem procura conforto e comodidade. O condomínio é bem equipado com diversas instalações e fica localizado em Rua Fiandeiras no bairro Vila Olímpia em São Paulo. Está bem localizado, próximo a pontos de interesse de Vila Olímpia, tais como DeRose Method Vila Olímpia, Insper, Shopping Vila Olímpia, Universidade Anhembi-Morumbi, FMU e Colégio da Companhia de Maria."
+    },
+    {
+      "id": 19,
+      "corretor": 2,
+      "anuncio": "Apartamento à venda com 120m², 3 quartos e 1 vaga",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 1700000,
+        "aluguel": 4000,
+        "condominio": 1730,
+        "iptu": 3602
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Itaim Bibi",
+      "cep": "01453-000",
+      "metragem": 120,
+      "quartos": 3,
+      "banheiros": 2,
+      "vagas": 1,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Chuveiro á gas",
+        "Quartos e corredores com áreas amplas",
+        "Piscina privativa",
+        "Banheira Hidromassagem",
+        "Mesas de escritório"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893304591-31.50147478938925IMG1943.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893304591-89.12993609281905IMG1949.jpg",
+          "lugar": "Corredor"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893304591-890.5965323275831IMG1951.jpg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893304591-529.8846730588365IMG1955.jpg",
+          "lugar": "Banheira Hidromassagem"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893304591-631.4765772205785IMG1962.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893304591-562.5224492245629IMG1966.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893304591-135.04304187433047IMG1969.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893304591-516.5385483624946IMG1974.jpg",
+          "lugar": "Lavanderia"
+        }
+      ],
+      "sobre": "Imóvel aconchegante à venda com 3 quartos, sendo 1 suíte, e 2 banheiros no total. Este imóvel está bem equipado, é ideal para quem procura conforto e comodidade. O condomínio é bem equipado com diversas instalações e fica localizado em Rua Manuel Guedes no bairro Itaim Bibi em São Paulo. Está bem localizado, próximo a pontos de interesse de Itaim Bibi, tais como Let's Code, Hospital do Coração, DeRose Method Itaim, Museu da Casa Brasileira (MCB), Escola Estadual Ludovina Credidio Peixoto e Teatro Vento Forte."
+    },
+    {
+      "id": 20,
+      "corretor": 4,
+      "anuncio": "Apartamento à venda com 189m², 4 quartos e 3 vagas",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 800000,
+        "aluguel": 4000,
+        "condominio": 2939,
+        "iptu": 650
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Liberdade",
+      "cep": "01517-020",
+      "metragem": 189,
+      "quartos": 4,
+      "banheiros": 4,
+      "vagas": 3,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Chuveiro á gas",
+        "Quartos e corredores com áreas amplas",
+        "Mesas de escritório",
+        "Box"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213442-26.70801269700140494a62006-c8c1-4ec1-87bc-0d0efa995335-LEAD3P-71a59097-3276-440d-a063-240d4dff3ade.jpg",
+          "lugar": "Entrada"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213442-967.54934012138694a62006-c8c1-4ec1-87bc-0d0efa995335-LEAD3P-7b44d8df-8045-415a-9fdf-83c94c4fd28e.jpg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213442-401.400309030575994a62006-c8c1-4ec1-87bc-0d0efa995335-LEAD3P-055adf32-4779-4c60-b663-31afe06c9d2e.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213442-886.342234331670294a62006-c8c1-4ec1-87bc-0d0efa995335-LEAD3P-a203b7fd-5030-4734-8e93-fb6969710ef0.jpg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/642x642/894213442-196.0727857423707494a62006-c8c1-4ec1-87bc-0d0efa995335-LEAD3P-f389a8ba-4bd7-4e60-986b-f5c95b1413a3.jpg",
+          "lugar": "Lavanderia"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/428x428/894213442-92.4576777828094494a62006-c8c1-4ec1-87bc-0d0efa995335-LEAD3P-4f6f68f3-ed42-46b4-8e3e-785c7950b997.jpg",
+          "lugar": "Cozinha"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 4 quartos, sendo 1 suíte, e 4 banheiros no total. O condomínio fica localizado em Rua Rodrigo Cláudio no bairro Liberdade em São Paulo. Está bem localizado, próximo a pontos de interesse de Liberdade, tais como Colégio Nova Geração, Hospital AC Camargo, Estação Vergueiro, Gastroclínica, Centro Cultural São Paulo e Hospedaria de Cuidados Palhat."
+    },
+    {
+      "id": 21,
+      "corretor": 1,
+      "anuncio": "Studio à venda com 18m², 1 quarto e uma vaga",
+      "tipoImovel": 5,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 280000,
+        "aluguel": 1300,
+        "condominio": 350,
+        "iptu": 44
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Vila Mariana",
+      "cep": "04139-020",
+      "metragem": 18,
+      "quartos": 1,
+      "banheiros": 1,
+      "vagas": 1,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Varanda",
+        "Closet",
+        "Mesas de escritório",
+        "Box",
+        "Geladeira inclusa"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893638323-108.36737164096122SITE4919.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893638323-94.31782270759382SITE4924.jpg",
+          "lugar": "Vista ampla"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893638323-603.3579355800183SITE4927.jpg",
+          "lugar": "Varanda"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/893638323-123.67631757583264SITE4936.jpg",
+          "lugar": "Banheiro"
+        }
+      ],
+      "sobre": "Imóvel aconchegante à venda com 1 quarto, sendo 1 suíte, e 1 banheiro no total. Este imóvel está bem equipado O condomínio é bem equipado com diversas instalações, apropriado para quem busca lazer sem sair de casa e fica localizado em Rua Francisca Miquelina no bairro Bela Vista em São Paulo. Está bem localizado, próximo a pontos de interesse de Bela Vista, tais como Teatro Imprensa, Teatro dos Arcos, Teatro Oficina, Teatro Brasileiro de Comédia, Praça Paulo Kobayashi e Teatro Brigadeiro."
+    },
+    {
+      "id": 22,
+      "corretor": 3,
+      "anuncio": "Apartamento à venda com 90m², 2 quartos e 1 vaga",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 636000,
+        "aluguel": 2700,
+        "condominio": 900,
+        "iptu": 840
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Vila Mariana",
+      "cep": "04139-020",
+      "metragem": 90,
+      "quartos": 2,
+      "banheiros": 2,
+      "vagas": 1,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Portaria 24h",
+        "Mesas de escritório",
+        "Box",
+        "Geladeira inclusa",
+        "Closet"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894211951-585.1273620984489a38fdf5b-09ab-43d4-9ff2-1ea9ef78a7ae-LEAD3P-3d34de8b-0a41-4f09-b0ee-9339d8c82e53.jpeg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894211951-878.095867939316a38fdf5b-09ab-43d4-9ff2-1ea9ef78a7ae-LEAD3P-604e7eaa-dbc6-41e0-a7e3-fbeefd3b2223.jpeg",
+          "lugar": "Mesa de jantar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894211951-761.8485124457349a38fdf5b-09ab-43d4-9ff2-1ea9ef78a7ae-LEAD3P-ecd51654-5165-48bb-99f1-1ba5f0d08a8a.jpeg",
+          "lugar": "Suíte"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894211951-402.6296447472992a38fdf5b-09ab-43d4-9ff2-1ea9ef78a7ae-LEAD3P-7dae4c03-05c8-4292-8ad8-b7211163e18a.jpeg",
+          "lugar": "Closet"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894211951-295.5522481914803a38fdf5b-09ab-43d4-9ff2-1ea9ef78a7ae-LEAD3P-4a408e2a-2baf-4d3c-9e65-0151786d056d.jpeg",
+          "lugar": "Cozinha"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 2 quartos, sendo 1 suíte, e 2 banheiros no total. O condomínio fica localizado em Rua Santa Cruz no bairro Vila Mariana em São Paulo. Está bem localizado, próximo a pontos de interesse de Vila Mariana, tais como Instituto de Medicina Física e de Reabilitação, Estação Santos - Imigrantes, Estação Chácara Klabin, Lycee Pasteur, Hospital Santa Cruz e EEPG Lazar Segall."
+    },
+    {
+      "id": 23,
+      "corretor": 4,
+      "anuncio": "Apartamento à venda com 145m², 3 quartos e 3 vagas",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 1149000,
+        "aluguel": 4000,
+        "condominio": 1300,
+        "iptu": 790
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Cambuci",
+      "cep": "01515-000 ",
+      "metragem": 145,
+      "quartos": 3,
+      "banheiros": 3,
+      "vagas": 3,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Portaria 24h",
+        "Mesas de escritório",
+        "Box",
+        "Geladeira inclusa"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894211680-171.86386965942282a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-6a5f1b11-91ce-4a4a-ace1-22341b36e840.jpeg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894211680-855.59714142411132a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-41d85f87-9732-4130-b2d8-6218d560253f.jpeg",
+          "lugar": "Escada"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/642x642/894211680-629.50686057805942a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-1f84db35-494c-4601-ab65-d9e23b0d9daf.jpeg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/642x642/894211680-405.83523414613042a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-ecb138fb-057d-44a0-8eeb-4fcc4ede8978.jpeg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/642x642/894211680-813.66867036196162a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-1ee7c5bf-f0f5-4bbb-afe9-6ee31e8c453d.jpeg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/428x428/894211680-535.84930656387852a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-fc1277ef-1106-4e31-a512-ac3b6021a55c.jpeg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/428x428/894211680-531.76147662167752a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-58f5b27c-7cc9-4239-836e-3a09b56146fd.jpeg",
+          "lugar": "Varanda"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 3 quartos, sendo 1 suíte, e 3 banheiros no total. O condomínio fica localizado em Rua da Independência no bairro Cambuci em São Paulo. Está bem localizado, próximo a pontos de interesse de Cambuci, tais como Hospital Militar de Área de São Paulo, Escola Técnica Walter Belian, Escola SENAI, Hospedaria de Cuidados Palhat, Parque da Aclimação e Escola Estadual Caetano de Campos."
+    },
+    {
+      "id": 24,
+      "corretor": 3,
+      "anuncio": "Apartamento à venda com 99m², 3 quartos e 1 vaga",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 630000,
+        "aluguel": 2500,
+        "condominio": 1000,
+        "iptu": 250
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Mooca",
+      "cep": "01515-000 ",
+      "metragem": 99,
+      "quartos": 3,
+      "banheiros": 2,
+      "vagas": 1,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Portaria 24h",
+        "Mesas de escritório",
+        "Box",
+        "Geladeira inclusa"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894215210-215.74094162538248IMG7110.jpg",
+          "lugar": "Entrada"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894215210-160.72456580035677IMG7116.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/642x642/894211680-629.50686057805942a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-1f84db35-494c-4601-ab65-d9e23b0d9daf.jpeg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/642x642/894211680-405.83523414613042a7596ed-6f37-4c0c-98e2-be0f20d197ac-LEAD3P-ecb138fb-057d-44a0-8eeb-4fcc4ede8978.jpeg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894215210-839.8256609619003IMG7122.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894215210-583.503932217778IMG7124.jpg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894215210-421.25741175404187IMG7128.jpg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894215210-978.2769246532582IMG7134.jpg",
+          "lugar": "Lavanderia"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894215210-798.511676231196IMG7137.jpg",
+          "lugar": "Banheiro"
+        }
+      ],
+      "sobre": "Imóvel aconchegante à venda com 3 quartos e 2 banheiros no total. Este imóvel está bem equipado, é ideal para quem procura conforto e comodidade. O condomínio fica localizado em Rua do Oratório no bairro Mooca em São Paulo. Está bem localizado, próximo a pontos de interesse de Mooca, tais como Teatro Municipal da Mooca Arthur Azevedo, Hospital Alemão Oswald Cruz, Yazigi, Escola de Idiomas, Teatro Anhembi Morumbi e Faculdade Teológica de Ciências Humanas e Sociais Logos (FAETEL)."
+    },
+    {
+      "id": 25,
+      "corretor": 1,
+      "anuncio": "Apartamento à venda com 121m², 2 quartos e uma vaga",
+      "tipoImovel": 1,
+      "tipoDeVenda": "compra",
+      "valores": {
+        "compra": 790000,
+        "aluguel": 3100,
+        "condominio": 1310,
+        "iptu": 180
+      },
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Pinheiros",
+      "cep": "05412-970",
+      "metragem": 121,
+      "quartos": 2,
+      "banheiros": 3,
+      "vagas": 1,
+      "caracteristicas": [
+        "Armários embutidos",
+        "Portaria 24h",
+        "Varanda",
+        "Box",
+        "Prox ao metrô"
+      ],
+      "imagens": [
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213040-553.7832439532855e4854a4c-8c19-48fc-a782-23b2017c022a-LEAD3P-b6f9f91f-867a-422e-8e98-85c4e0c0fea0.jpeg",
+          "lugar": "Sala"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213040-647.0167476259201e4854a4c-8c19-48fc-a782-23b2017c022a-LEAD3P-029c8024-af6a-48d6-babb-81073b23a372.jpeg",
+          "lugar": "Mesa de jantar"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213040-205.08453491661905e4854a4c-8c19-48fc-a782-23b2017c022a-LEAD3P-6b5b1804-39ad-4c5a-a931-a03548dcd7a2.jpeg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213040-194.5992865078209e4854a4c-8c19-48fc-a782-23b2017c022a-LEAD3P-a2919ea1-21f4-418e-8768-6a15e3c5f6d0.jpeg",
+          "lugar": "Quarto"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213040-462.129301875962e4854a4c-8c19-48fc-a782-23b2017c022a-LEAD3P-4e3fe202-f8c3-4960-985f-4496c0ae0d24.jpeg",
+          "lugar": "Banheiro"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213040-347.72386648851085e4854a4c-8c19-48fc-a782-23b2017c022a-LEAD3P-3225a694-b546-4e86-8e2b-5bd6ba5c03b9.jpeg",
+          "lugar": "Cozinha"
+        },
+        {
+          "caminho": "https://www.quintoandar.com.br/img/xxl/894213040-297.16050221487353e4854a4c-8c19-48fc-a782-23b2017c022a-LEAD3P-f47cf546-ff15-4ad1-bb74-1c063b6d2b99.jpeg",
+          "lugar": "Varanda"
+        }
+      ],
+      "sobre": "Imóvel amplo à venda com 2 quartos, sendo 1 suíte, e 3 banheiros no total. O condomínio fica localizado em Rua Oscar Freire no bairro Pinheiros em São Paulo. Está bem localizado, próximo a pontos de interesse de Pinheiros, tais como Nilton Travesso Oficina de Atores, Faculdade Sumaré Matriz, Estação Santuário Nossa Senhora de Fátima - Sumaré, Unibes Centro Cultural, E.E Godofredo Furtado e Estação Clínicas."
     }
   ],
   "tipos": [
@@ -65,26 +1568,170 @@
     {
       "id": 3,
       "tipo": "Cobertura"
+    },
+    {
+      "id": 4,
+      "tipo": "Duplex"
+    },
+    {
+      "id": 5,
+      "tipo": "Studio"
     }
   ],
   "cidades": [
     {
-      "id":1,
-      "cidade":"Santo André"
+      "id": 1,
+      "cidade": "Florianópolis "
+    },
+    {
+      "id": 2,
+      "cidade": "São Paulo"
+    },
+    {
+      "id": 3,
+      "cidade": "Guarulhos"
+    },
+    {
+      "id": 4,
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": 5,
+      "cidade": "Santo André"
     }
   ],
   "bairros": [
     {
-      "id":1,
-      "bairro":"Vila Teresinha"
+      "id": 1,
+      "bairro": "Vila Teresinha"
+    },
+    {
+      "id": 2,
+      "bairro": "Butantã"
+    },
+    {
+      "id": 3,
+      "bairro": "Jardim Palmira"
+    },
+    {
+      "id": 4,
+      "bairro": "Jardim D'abril"
+    },
+    {
+      "id": 5,
+      "bairro": "Jardins"
+    },
+    {
+      "id": 6,
+      "bairro": "Continental"
+    },
+    {
+      "id": 7,
+      "bairro": "Jardim Maria Duarte"
+    },
+    {
+      "id": 8,
+      "bairro": "Jardim"
+    },
+    {
+      "id": 9,
+      "bairro": "Pacaembu"
+    },
+    {
+      "id": 10,
+      "bairro": "Moema"
+    },
+    {
+      "id": 11,
+      "bairro": "Tijuca"
+    },
+    {
+      "id": 12,
+      "bairro": "Olaria"
+    },
+    {
+      "id": 13,
+      "bairro": "Riachuelo"
+    },
+    {
+      "id": 14,
+      "bairro": "Higienópolis"
+    },
+    {
+      "id": 15,
+      "bairro": "Liberdade"
+    },
+    {
+      "id": 16,
+      "bairro": "Vila Mascote"
+    },
+    {
+      "id": 17,
+      "bairro": "Mooca"
+    },
+    {
+      "id": 18,
+      "bairro": "Vila Olímpia"
+    },
+    {
+      "id": 19,
+      "bairro": "Itaim Bibi"
+    },
+    {
+      "id": 20,
+      "bairro": "Vila Mariana"
+    },
+    {
+      "id": 21,
+      "bairro": "Cambuci"
+    },
+    {
+      "id": 22,
+      "bairro": "Pinheiros"
     }
   ],
   "corretores": [
     {
       "id": 1,
-      "nome": "Fulano de Tal",
+      "nome": "Renato Augusto",
       "codigo": "ABC123",
       "telefone": "(11) 99009-9090"
+    },
+    {
+      "id": 2,
+      "nome": "Anderson Dias",
+      "codigo": "QWEASD",
+      "telefone": "(11) 99777-8090"
+    },
+    {
+      "id": 3,
+      "nome": "Rafael Regis",
+      "codigo": "1808RRM",
+      "telefone": "(11)95827-5485"
+    },
+    {
+      "id": 4,
+      "nome": "Matheus Martins",
+      "codigo": "92187120",
+      "telefone": "(11) 5570-0987"
+    },
+    {
+      "id": 5,
+      "nome": "Luiz Carlos ",
+      "codigo": "DDHIT1875",
+      "telefone": "(11) 94848-4690"
+    },
+    {
+      "id": 6,
+      "nome": "Carolina Lopes",
+      "codigo": "98521VCT",
+      "telefone": "(11) 97072-9041"
+    },
+    {
+      "id": 7,
+      "nome": "Milena Souza",
+      "codigo": "3658MRS",
+      "telefone": "(11) 97469-2133"
     }
   ],
   "usuarios": [
@@ -92,24 +1739,31 @@
       "id": 1,
       "nomeCompleto": "Matheus M. Pinheiro",
       "username": "matheusmp",
-      "senha": "123abc",
-      "favoritos": [1],
+      "senha": "1234ab",
+      "favoritos": [],
       "tipo": "cliente"
     },
     {
       "id": 2,
       "nomeCompleto": "Anderson Dias",
-      "username": "andersonDias",
-      "senha": "123abc",
+      "username": "andersonDias01",
+      "senha": "1234ab",
       "favoritos": [],
       "tipo": "admin"
     }
   ],
   "conteudoSite": {
     "home": {
-      "textoBusca": "Encontre o seu novo lar",
-      "textoDestaque": "Destaques",
-      "imoveisDestaque": [1]
+      "imoveisDestaque": [
+        4,
+        8,
+        9,
+        14,
+        15,
+        19
+      ],
+      "textoBusca": "Encontre seu novo lar",
+      "textoDestaque": "Imóveis em Destaque"
     }
   }
 }
