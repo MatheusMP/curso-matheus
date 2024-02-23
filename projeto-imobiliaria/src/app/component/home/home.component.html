@@ -1,0 +1,71 @@
+<div class="banner"></div>
+
+<h2>
+  Encontre o seu novo lar
+</h2>
+
+<div class="busca">
+  <form [formGroup]="busca">
+
+    <select formControlName="comprarAlugar">
+      <option value="">Alugar ou Comprar</option>
+      <option value="aluguel">Alugar</option>
+      <option value="comprar">Comprar</option>
+    </select>
+
+    <select formControlName="quartos">
+      <option value="">Quartos</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+
+    <select formControlName="banheiros">
+      <option value="">Banheiros</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+
+    <select formControlName="vagas">
+      <option value="">Vagas</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+
+    <select formControlName="tipo">
+      <option value="">Tipo do imóvel</option>
+      <ng-container *ngFor="let tipo of tiposDeImovel">
+        <option [value]="tipo.id">
+          {{ tipo.tipo }}
+        </option>
+      </ng-container>
+    </select>
+
+    <input type="text" formControlName="localizacao">
+
+    <select formControlName="tipoDaBusca">
+      <option value="">Tipo da busca</option>
+      <option value="cidade">Cidade</option>
+      <option value="bairro">Bairro</option>
+    </select>
+
+  </form>
+
+  <button type="button" (click)="pesquisarImovel()">
+    Pesquisar
+  </button>
+
+  <ng-container *ngFor="let imovel of imoveis">
+    <p>
+      {{ imovel.anuncio }}
+    </p>
+  </ng-container>
+</div>
