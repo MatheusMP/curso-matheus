@@ -1,0 +1,114 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "vaga": "Gerente de TI",
+      "empresa": 1,
+      "salario": {
+        "min": 15000,
+        "max": 20000
+      },
+      "quantidade": 1,
+      "local": {
+        "estado": "PR",
+        "cidade": "Londrina"
+      },
+      "publicacao": "2023-07-17T12:35:50.523Z",
+      "descricao": "Atividades: Gestão de todo TIME de IT Services (SOC/Service Desk / Especialistas / Projetos); Elaborar o planejamento estratégico de TI; Planejar e administrar os processos de TI garantindo que nossos clientes sejam atendidos de forma rápida e eficiente; Assegurar que a área de IT Services apoie os processos de negócio; Passar feedback para o clientes sobres atendimentos, problemas e melhorias; Conduzir a execução dos projetos dentro do prazo garantindo a satisfação do cliente; Medir, controlar e apresentar para nossos clientes os KPI's; Garantir a segurança da informação e a proteção de dados da nossa empresa e de nossos clientes; Apresentar para a diretoria indicadores de performance da equipe e planos de ação para melhoria contínua; Garantir treinamento e certificações da equipe.Graduação - Tecnologia da Informação ou áreas correlatas Experiências e qualificações: Inglês avançado será um diferencial Experiência em gestão de pessoas Ter experiência na área Ter atuado diretamento com feedback a clientes Treinamento/Certificação: ITIL e CoBIT",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": ["-2 anos","2 a 4 anos","5+ anos"]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": ["Desenvolvedor", "Gerente", "Comercial", "Executivo"]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Administrativo",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    },
+    {
+      "id": 2,
+      "categoria": "Vendas",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    },
+    {
+      "id": 3,
+      "categoria": "Tecnologia",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    }
+  ],
+  "empresa": [
+    {
+      "id": 1,
+      "nome": "Empresa de TI",
+      "logo": "https://static.catho.com.br/images/emp/logotipos/609143.gif"
+    }
+  ],
+  "respostasQuestionario": [
+    {
+      "id": 1,
+      "idDaVaga": 1,
+      "idDoUsuario": 1,
+      "respostas": [
+        ["5+ anos"],
+        ["Gerente", "Comercial"],
+        ["Empresa de TI"]
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "Matheus M. Pinheiro",
+      "username": "matheusmp",
+      "tipo": "cliente"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Anderson Dias",
+      "username": "andersonDias",
+      "tipo": "admin"
+    }
+  ],
+  "fazerLogin": [
+    {
+      "id": 1,
+      "username": "matheusmp",
+      "senha": "123abc",
+      "idUsuario": 1
+    },
+    {
+      "id": 2,
+      "username": "andersonDias",
+      "senha": "123abc",
+      "idUsuario": 2
+    }
+  ],
+  "conteudoSite": {
+    "home": {
+      "categorias": "Vagas por categorias",
+      "empresas": "Vagas por empresas"
+    }
+  }
+}
