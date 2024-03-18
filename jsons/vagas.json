@@ -4,6 +4,130 @@
       "id": 1,
       "vaga": "Gerente de TI",
       "empresa": 1,
+      "categoria": 1,
+      "salario": {
+        "min": 15000,
+        "max": 20000
+      },
+      "quantidade": 1,
+      "local": {
+        "estado": "PR",
+        "cidade": "Londrina"
+      },
+      "publicacao": "2023-07-17T12:35:50.523Z",
+      "descricao": "Atividades: Gestão de todo TIME de IT Services (SOC/Service Desk / Especialistas / Projetos); Elaborar o planejamento estratégico de TI; Planejar e administrar os processos de TI garantindo que nossos clientes sejam atendidos de forma rápida e eficiente; Assegurar que a área de IT Services apoie os processos de negócio; Passar feedback para o clientes sobres atendimentos, problemas e melhorias; Conduzir a execução dos projetos dentro do prazo garantindo a satisfação do cliente; Medir, controlar e apresentar para nossos clientes os KPI's; Garantir a segurança da informação e a proteção de dados da nossa empresa e de nossos clientes; Apresentar para a diretoria indicadores de performance da equipe e planos de ação para melhoria contínua; Garantir treinamento e certificações da equipe.Graduação - Tecnologia da Informação ou áreas correlatas Experiências e qualificações: Inglês avançado será um diferencial Experiência em gestão de pessoas Ter experiência na área Ter atuado diretamento com feedback a clientes Treinamento/Certificação: ITIL e CoBIT",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": ["-2 anos","2 a 4 anos","5+ anos"]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": ["Desenvolvedor", "Gerente", "Comercial", "Executivo"]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "vaga": "Comercial de TI",
+      "empresa": 1,
+      "categoria": 2,
+      "salario": {
+        "min": 10000,
+        "max": 7500
+      },
+      "quantidade": 3,
+      "local": {
+        "estado": "SP",
+        "cidade": "São Paulo"
+      },
+      "publicacao": "2024-03-18T12:35:50.523Z",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum, ipsum sed lobortis pellentesque, justo nisl dictum dolor, nec pretium massa mauris vel tellus. Curabitur semper lorem nec tortor feugiat aliquet. Sed non porta dui, et aliquam est. Cras non nulla a orci mollis euismod eget in justo. Integer vestibulum laoreet facilisis. Nunc eget semper felis. Mauris risus ligula, rutrum id mi nec, egestas lobortis leo. Maecenas quis lacus cursus, vestibulum nibh at, varius est. Fusce iaculis at nunc sit amet aliquam. Ut dui ipsum, rhoncus sollicitudin diam eget, eleifend feugiat nulla. Vestibulum quis molestie elit, vitae aliquam sapien. Pellentesque justo justo, semper sed dolor quis, finibus vehicula ligula. Curabitur efficitur diam quis urna convallis fringilla.Vivamus posuere ligula sit amet odio tempus, id tempor tortor mattis. Etiam lacus purus, mattis quis ligula vel, efficitur porttitor augue. Integer sagittis pellentesque ante, a congue ante accumsan quis. Suspendisse nisi diam, ultrices blandit enim ac, ornare posuere dolor. Fusce vitae suscipit turpis, et tincidunt dolor. Nam non fermentum nisl. Aenean auctor vitae massa eget euismod. Curabitur et libero quam. Quisque tincidunt, metus in mattis lobortis, odio magna fermentum tortor, eu convallis ipsum odio vel lacus. In hac habitasse platea dictumst. Proin malesuada sem vel pretium eleifend. Nam maximus dolor in turpis dictum mollis quis quis ex.",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": ["-2 anos","2 a 4 anos","5+ anos"]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": ["Desenvolvedor", "Gerente", "Comercial", "Executivo"]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "vaga": "Gerente de TI",
+      "empresa": 1,
+      "categoria": 1,
+      "salario": {
+        "min": 15000,
+        "max": 20000
+      },
+      "quantidade": 1,
+      "local": {
+        "estado": "PR",
+        "cidade": "Londrina"
+      },
+      "publicacao": "2023-07-17T12:35:50.523Z",
+      "descricao": "Atividades: Gestão de todo TIME de IT Services (SOC/Service Desk / Especialistas / Projetos); Elaborar o planejamento estratégico de TI; Planejar e administrar os processos de TI garantindo que nossos clientes sejam atendidos de forma rápida e eficiente; Assegurar que a área de IT Services apoie os processos de negócio; Passar feedback para o clientes sobres atendimentos, problemas e melhorias; Conduzir a execução dos projetos dentro do prazo garantindo a satisfação do cliente; Medir, controlar e apresentar para nossos clientes os KPI's; Garantir a segurança da informação e a proteção de dados da nossa empresa e de nossos clientes; Apresentar para a diretoria indicadores de performance da equipe e planos de ação para melhoria contínua; Garantir treinamento e certificações da equipe.Graduação - Tecnologia da Informação ou áreas correlatas Experiências e qualificações: Inglês avançado será um diferencial Experiência em gestão de pessoas Ter experiência na área Ter atuado diretamento com feedback a clientes Treinamento/Certificação: ITIL e CoBIT",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": ["-2 anos","2 a 4 anos","5+ anos"]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": ["Desenvolvedor", "Gerente", "Comercial", "Executivo"]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "vaga": "Desenvolvedor Frontend (Angular)",
+      "empresa": 1,
+      "categoria": 3,
       "salario": {
         "min": 15000,
         "max": 20000
