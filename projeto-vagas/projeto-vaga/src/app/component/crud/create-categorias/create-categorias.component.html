@@ -1,0 +1,55 @@
+<h1>
+    Todas categorias
+   </h1>
+   
+   <hr style="margin: 10px;">
+   
+   <table>
+     
+     <tbody>
+       <tr *ngFor="let cat of categoria">
+         <td>
+           {{ cat.categoria }}
+         </td>
+        
+         
+           <button type="button" > <!--(click)="editaCategoria()"-->
+             EDITAR
+           </button>
+        
+         <td>
+           <button type="button" > <!--(click)="deletarCategoria(categoria.id)"-->
+             DELETAR
+           </button>
+         </td>
+       </tr>
+     </tbody> 
+   </table>
+
+<br><br>
+<h1>
+    Criar Categorias
+</h1>
+<hr style="margin: 10px;">
+
+<form [formGroup]="formularioCategoria">
+
+    <div>
+        <label>
+            Categoria
+            <input type="text" formControlName="categoria">
+        </label>
+    </div>
+
+    <div>
+        <label>
+            icone
+            <input type="text" formControlName="icone">
+        </label>
+    </div>
+
+   
+</form>
+<button type="button" (click)="criaCategoria()">
+    Finalizar
+</button>

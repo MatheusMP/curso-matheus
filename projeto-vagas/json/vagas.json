@@ -1,0 +1,510 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "vaga": "Gerente de TI",
+      "empresa": 1,
+      "categoria": 1,
+      "salario": {
+        "min": 15000,
+        "max": 20000
+      },
+      "quantidade": 1,
+      "local": {
+        "estado": "PR",
+        "cidade": "Londrina"
+      },
+      "publicacao": "2023-07-17T12:35:50.523Z",
+      "descricao": "Atividades: Gestão de todo TIME de IT Services (SOC/Service Desk / Especialistas / Projetos); Elaborar o planejamento estratégico de TI; Planejar e administrar os processos de TI garantindo que nossos clientes sejam atendidos de forma rápida e eficiente; Assegurar que a área de IT Services apoie os processos de negócio; Passar feedback para o clientes sobres atendimentos, problemas e melhorias; Conduzir a execução dos projetos dentro do prazo garantindo a satisfação do cliente; Medir, controlar e apresentar para nossos clientes os KPI's; Garantir a segurança da informação e a proteção de dados da nossa empresa e de nossos clientes; Apresentar para a diretoria indicadores de performance da equipe e planos de ação para melhoria contínua; Garantir treinamento e certificações da equipe.Graduação - Tecnologia da Informação ou áreas correlatas Experiências e qualificações: Inglês avançado será um diferencial Experiência em gestão de pessoas Ter experiência na área Ter atuado diretamento com feedback a clientes Treinamento/Certificação: ITIL e CoBIT",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": [
+            "-2 anos",
+            "2 a 4 anos",
+            "5+ anos"
+          ]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": [
+            "Desenvolvedor",
+            "Gerente",
+            "Comercial",
+            "Executivo"
+          ]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "vaga": "Comercial de TI",
+      "empresa": 1,
+      "categoria": 2,
+      "salario": {
+        "min": 10000,
+        "max": 7500
+      },
+      "quantidade": 3,
+      "local": {
+        "estado": "SP",
+        "cidade": "São Paulo"
+      },
+      "publicacao": "2024-03-18T12:35:50.523Z",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum, ipsum sed lobortis pellentesque, justo nisl dictum dolor, nec pretium massa mauris vel tellus. Curabitur semper lorem nec tortor feugiat aliquet. Sed non porta dui, et aliquam est. Cras non nulla a orci mollis euismod eget in justo. Integer vestibulum laoreet facilisis. Nunc eget semper felis. Mauris risus ligula, rutrum id mi nec, egestas lobortis leo. Maecenas quis lacus cursus, vestibulum nibh at, varius est. Fusce iaculis at nunc sit amet aliquam. Ut dui ipsum, rhoncus sollicitudin diam eget, eleifend feugiat nulla. Vestibulum quis molestie elit, vitae aliquam sapien. Pellentesque justo justo, semper sed dolor quis, finibus vehicula ligula. Curabitur efficitur diam quis urna convallis fringilla.Vivamus posuere ligula sit amet odio tempus, id tempor tortor mattis. Etiam lacus purus, mattis quis ligula vel, efficitur porttitor augue. Integer sagittis pellentesque ante, a congue ante accumsan quis. Suspendisse nisi diam, ultrices blandit enim ac, ornare posuere dolor. Fusce vitae suscipit turpis, et tincidunt dolor. Nam non fermentum nisl. Aenean auctor vitae massa eget euismod. Curabitur et libero quam. Quisque tincidunt, metus in mattis lobortis, odio magna fermentum tortor, eu convallis ipsum odio vel lacus. In hac habitasse platea dictumst. Proin malesuada sem vel pretium eleifend. Nam maximus dolor in turpis dictum mollis quis quis ex.",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": [
+            "-2 anos",
+            "2 a 4 anos",
+            "5+ anos"
+          ]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": [
+            "Desenvolvedor",
+            "Gerente",
+            "Comercial",
+            "Executivo"
+          ]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "vaga": "Gerente de TI",
+      "empresa": 1,
+      "categoria": 1,
+      "salario": {
+        "min": 15000,
+        "max": 20000
+      },
+      "quantidade": 1,
+      "local": {
+        "estado": "PR",
+        "cidade": "Londrina"
+      },
+      "publicacao": "2023-07-17T12:35:50.523Z",
+      "descricao": "Atividades: Gestão de todo TIME de IT Services (SOC/Service Desk / Especialistas / Projetos); Elaborar o planejamento estratégico de TI; Planejar e administrar os processos de TI garantindo que nossos clientes sejam atendidos de forma rápida e eficiente; Assegurar que a área de IT Services apoie os processos de negócio; Passar feedback para o clientes sobres atendimentos, problemas e melhorias; Conduzir a execução dos projetos dentro do prazo garantindo a satisfação do cliente; Medir, controlar e apresentar para nossos clientes os KPI's; Garantir a segurança da informação e a proteção de dados da nossa empresa e de nossos clientes; Apresentar para a diretoria indicadores de performance da equipe e planos de ação para melhoria contínua; Garantir treinamento e certificações da equipe.Graduação - Tecnologia da Informação ou áreas correlatas Experiências e qualificações: Inglês avançado será um diferencial Experiência em gestão de pessoas Ter experiência na área Ter atuado diretamento com feedback a clientes Treinamento/Certificação: ITIL e CoBIT",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": [
+            "-2 anos",
+            "2 a 4 anos",
+            "5+ anos"
+          ]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": [
+            "Desenvolvedor",
+            "Gerente",
+            "Comercial",
+            "Executivo"
+          ]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "vaga": "Desenvolvedor Frontend (Angular)",
+      "empresa": 1,
+      "categoria": 3,
+      "salario": {
+        "min": 15000,
+        "max": 20000
+      },
+      "quantidade": 1,
+      "local": {
+        "estado": "PR",
+        "cidade": "Londrina"
+      },
+      "publicacao": "2023-07-17T12:35:50.523Z",
+      "descricao": "Atividades: Gestão de todo TIME de IT Services (SOC/Service Desk / Especialistas / Projetos); Elaborar o planejamento estratégico de TI; Planejar e administrar os processos de TI garantindo que nossos clientes sejam atendidos de forma rápida e eficiente; Assegurar que a área de IT Services apoie os processos de negócio; Passar feedback para o clientes sobres atendimentos, problemas e melhorias; Conduzir a execução dos projetos dentro do prazo garantindo a satisfação do cliente; Medir, controlar e apresentar para nossos clientes os KPI's; Garantir a segurança da informação e a proteção de dados da nossa empresa e de nossos clientes; Apresentar para a diretoria indicadores de performance da equipe e planos de ação para melhoria contínua; Garantir treinamento e certificações da equipe.Graduação - Tecnologia da Informação ou áreas correlatas Experiências e qualificações: Inglês avançado será um diferencial Experiência em gestão de pessoas Ter experiência na área Ter atuado diretamento com feedback a clientes Treinamento/Certificação: ITIL e CoBIT",
+      "expediente": {
+        "dias": "De segunda a sexta-feira",
+        "inicio": "09:00",
+        "fim": "18:00"
+      },
+      "contratacao": "Prestador de serviços (PJ)",
+      "infosAdicionais": "Nosso cliente é uma empresa especializada em soluções para infraestrutura de TI corporativa, consultoria de TI, Cyber Security, LGPD e Full Outsourcing de TI, localizada em São José dos Pinhais com projeto de expansão para o Sudeste, filiais em operação no Canadá e Perú busca um GERENTE DE TI",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Quantos anos tem de experiência em TI?",
+          "alternativas": [
+            "-2 anos",
+            "2 a 4 anos",
+            "5+ anos"
+          ]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Quais destes cargos você já trabalhou?",
+          "alternativas": [
+            "Desenvolvedor",
+            "Gerente",
+            "Comercial",
+            "Executivo"
+          ]
+        },
+        {
+          "tipoPergunta": "texto",
+          "pergunta": "Quais empresas você já trabalhou na área de TI?",
+          "alternativas": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "vaga": "Nova vaga",
+      "categoria": "3",
+      "empresa": 2,
+      "salario": {
+        "min": 12345,
+        "max": 56789
+      },
+      "quantidade": "3",
+      "local": {
+        "estado": "SP",
+        "cidade": "Santo André"
+      },
+      "publicacao": "2024-04-01T23:27:27.509Z",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo tellus non quam interdum, viverra fermentum justo imperdiet. Ut suscipit, tortor vel rhoncus pulvinar, massa nibh imperdiet lectus, eu bibendum quam quam a orci. Fusce convallis congue odio sed cursus. Fusce eu velit eu quam dignissim condimentum et eu lorem. Vestibulum congue, leo a fringilla venenatis, eros mi pretium nulla, vel venenatis turpis odio id diam. Nunc malesuada molestie vehicula. Quisque malesuada blandit lorem a ultrices. In hac habitasse platea dictumst. Donec a purus eget metus blandit tristique. In hac habitasse platea dictumst.  Ut imperdiet eleifend sodales. Duis in cursus justo. Nunc varius sapien ac consequat molestie. Cras pellentesque non neque at cursus. In ac ipsum sollicitudin, facilisis dolor ac, molestie libero. Aliquam placerat purus et ante hendrerit ornare. Maecenas in volutpat lectus. Cras maximus vitae lorem in rhoncus. Donec tristique finibus neque. Morbi aliquam sit amet sem eu tincidunt. Maecenas orci arcu, pretium vel pharetra in, semper nec nibh.  Mauris lacinia commodo efficitur. Donec lobortis sapien ac massa egestas convallis. Nunc ultricies orci ligula, eu imperdiet ligula dapibus accumsan. Curabitur tellus diam, gravida id aliquet eget, maximus vitae nibh. Nullam vitae leo metus. Proin id massa elit. Curabitur at libero feugiat, egestas turpis sed, aliquam tortor. In eleifend, neque in varius imperdiet, risus sapien faucibus ex, non tempus lacus elit vitae metus. Fusce ac elit ut metus cursus porta. Suspendisse potenti. Maecenas et rutrum eros. Quisque faucibus tempus elit id tristique. Quisque varius sollicitudin neque sed volutpat. Nam accumsan dapibus consequat. In nibh augue, placerat suscipit tortor vel, dignissim interdum ante.",
+      "expediente": {
+        "dias": "Seg a Sexta",
+        "inicio": "9",
+        "fim": "10"
+      },
+      "contratacao": "CLT",
+      "infosAdicionais": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo tellus non quam interdum, viverra fermentum justo imperdiet. Ut suscipit, tortor vel rhoncus pulvinar, massa nibh imperdiet lectus, eu bibendum quam quam a orci. Fusce convallis congue odio sed cursus. Fusce eu velit eu quam dignissim condimentum et eu lorem. Vestibulum congue, leo a fringilla venenatis, eros mi pretium nulla, vel venenatis turpis odio id diam. Nunc malesuada molestie vehicula. Quisque malesuada blandit lorem a ultrices. In hac habitasse platea dictumst. Donec a purus eget metus blandit tristique. In hac habitasse platea dictumst.  Ut imperdiet eleifend sodales. Duis in cursus justo. Nunc varius sapien ac consequat molestie. Cras pellentesque non neque at cursus. In ac ipsum sollicitudin, facilisis dolor ac, molestie libero. Aliquam placerat purus et ante hendrerit ornare. Maecenas in volutpat lectus. Cras maximus vitae lorem in rhoncus. Donec tristique finibus neque. Morbi aliquam sit amet sem eu tincidunt. Maecenas orci arcu, pretium vel pharetra in, semper nec nibh.  Mauris lacinia commodo efficitur. Donec lobortis sapien ac massa egestas convallis. Nunc ultricies orci ligula, eu imperdiet ligula dapibus accumsan. Curabitur tellus diam, gravida id aliquet eget, maximus vitae nibh. Nullam vitae leo metus. Proin id massa elit. Curabitur at libero feugiat, egestas turpis sed, aliquam tortor. In eleifend, neque in varius imperdiet, risus sapien faucibus ex, non tempus lacus elit vitae metus. Fusce ac elit ut metus cursus porta. Suspendisse potenti. Maecenas et rutrum eros. Quisque faucibus tempus elit id tristique. Quisque varius sollicitudin neque sed volutpat. Nam accumsan dapibus consequat. In nibh augue, placerat suscipit tortor vel, dignissim interdum ante.",
+      "questionario": [],
+      "vagas": 0,
+      "caracteristicas": [],
+      "sobre": ""
+    },
+    {
+      "id": 6,
+      "vaga": "Vaga Nova",
+      "categoria": "1",
+      "empresa": 1,
+      "salario": {
+        "min": 3000,
+        "max": 5000
+      },
+      "quantidade": "1",
+      "local": {
+        "estado": "SP",
+        "cidade": "SP"
+      },
+      "publicacao": "2024-04-01T23:52:30.210Z",
+      "descricao": "Lorem",
+      "expediente": {
+        "dias": "Dom a Dom",
+        "inicio": "9",
+        "fim": "10"
+      },
+      "contratacao": "CLT",
+      "infosAdicionais": "Lorem",
+      "questionario": [
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Pergunta 1",
+          "alternativas": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "tipoPergunta": "alternativaMultipla",
+          "pergunta": "Pergunta 2",
+          "alternativas": [
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ]
+        },
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Pergunta 3",
+          "alternativas": [
+            "P",
+            "O",
+            "I",
+            "U",
+            "Y"
+          ]
+        },
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Pergunta 4",
+          "alternativas": [
+            "A",
+            "S",
+            "D",
+            "F"
+          ]
+        },
+        {
+          "tipoPergunta": "alternativaUnica",
+          "pergunta": "Pergunta 5",
+          "alternativas": [
+            "Z",
+            "XC",
+            "V",
+            "B",
+            "N"
+          ]
+        }
+      ],
+      "vagas": 0,
+      "caracteristicas": [],
+      "sobre": ""
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Administrativo",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    },
+    {
+      "id": 2,
+      "categoria": "Vendas",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    },
+    {
+      "id": 3,
+      "categoria": "Tecnologia",
+      "icone": "https://assets.catho.com.br/app-front-home-prod/public/_next/static/images/icon-a50d8f8149e3678001a945907e23f9b0.png"
+    },
+    {
+      "id": 4,
+      "categoria": "DCJADOSJC",
+      "icone": "aklHDCOLASDVN"
+    }
+  ],
+  "empresa": [
+    {
+      "id": 1,
+      "nome": "Empresa de TI",
+      "logo": "https://static.catho.com.br/images/emp/logotipos/609143.gif"
+    },
+    {
+      "id": 2,
+      "nome": "ascnlcn",
+      "logo": "ihoh"
+    }
+  ],
+  "respostasQuestionario": [
+    {
+      "id": 1,
+      "idDaVaga": 1,
+      "idDoUsuario": 1,
+      "respostas": [
+        [
+          "5+ anos"
+        ],
+        [
+          "Gerente",
+          "Comercial"
+        ],
+        [
+          "Empresa de TI"
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "idDaVaga": 0,
+      "idDoUsuario": 0,
+      "respostas": []
+    },
+    {
+      "id": 3,
+      "idDaVaga": 0,
+      "idDoUsuario": 0,
+      "respostas": [
+        "",
+        [
+          "Gerente",
+          "Comercial",
+          "Executivo"
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "idDaVaga": 0,
+      "idDoUsuario": 0,
+      "respostas": [
+        "",
+        [
+          "Comercial",
+          "Executivo"
+        ],
+        []
+      ]
+    },
+    {
+      "id": 5,
+      "idDaVaga": 0,
+      "idDoUsuario": 0,
+      "respostas": [
+        [
+          ""
+        ],
+        [
+          "Desenvolvedor",
+          "Gerente"
+        ],
+        []
+      ]
+    },
+    {
+      "id": 6,
+      "idDaVaga": 0,
+      "idDoUsuario": 0,
+      "respostas": [
+        [
+          "2 a 4 anos"
+        ],
+        [
+          "Gerente",
+          "Desenvolvedor"
+        ],
+        [
+          "fdfdf"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "idDaVaga": 1,
+      "idDoUsuario": 1,
+      "respostas": [
+        [
+          "2 a 4 anos"
+        ],
+        [
+          "Desenvolvedor",
+          "Gerente"
+        ],
+        [
+          "wdwd"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "idDaVaga": 3,
+      "idDoUsuario": 1,
+      "respostas": [
+        [
+          "2 a 4 anos"
+        ],
+        [
+          "Gerente"
+        ],
+        [
+          "sdd"
+        ]
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nomeCompleto": "Matheus M. Pinheiro",
+      "username": "matheusmp",
+      "tipo": "cliente"
+    },
+    {
+      "id": 2,
+      "nomeCompleto": "Anderson Dias",
+      "username": "andersonDias",
+      "tipo": "admin"
+    },
+    {
+      "id": 3,
+      "nomeCompleto": "anderson dias",
+      "username": "anderson12",
+      "tipo": "cliente"
+    }
+  ],
+  "fazerLogin": [
+    {
+      "id": 1,
+      "username": "matheusmp",
+      "senha": "123abc",
+      "idUsuario": 1
+    },
+    {
+      "id": 2,
+      "username": "andersonDias",
+      "senha": "123abc",
+      "idUsuario": 2
+    },
+    {
+      "id": 3,
+      "username": "anderson12",
+      "senha": "123abc",
+      "idUsuario": 3
+    }
+  ],
+  "conteudoSite": {
+    "home": {
+      "categorias": "Vagas por categorias",
+      "empresas": "Vagas por empresas"
+    }
+  }
+}
